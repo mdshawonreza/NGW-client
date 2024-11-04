@@ -19,9 +19,12 @@ const Tokenomics = () => {
 
                     </div>
                 </div>
-                <div className='pl-2 md:pl-5'>
+                <div className='pl-2 '>
                     <h3 className='text-xl md:text-[34px] font-bold text-[#fff] pb-4 md:pb-7'>
-                        Total Supply: <br /> 00 billion $BLUEY Token
+                        Total Supply: 
+                    </h3>
+                    <h3 className='text-xl md:text-[34px] font-bold text-[#fff] pb-4 md:pb-7'>
+                         00 billion $BLUEY Token
                     </h3>
                     <div className='pb-3 md:pb-7'>
                         <h4 className='text-base md:text-[24px] font-medium text-[#fff] pb-2 md:pb-4'>
