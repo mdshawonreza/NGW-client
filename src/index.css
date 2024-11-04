@@ -1,0 +1,24 @@
+*{
+    scroll-behavior: smooth
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.border-curve{
+    border-radius: 41% 0% 25% 25% / 62% 100% 0% 38%;
+    
+    border-left: 3px solid #22f1d2 ;
+    /* writing-mode: vertical-rl; */
+    /* text-orientation: unset; */
+   
+}
+
+.border-small{
+    border-bottom: 3px solid #22f1d2;
+}

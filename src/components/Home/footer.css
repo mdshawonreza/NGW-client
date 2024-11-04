@@ -1,0 +1,15 @@
+.footer-image{
+    background-size:1100px 14px ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width:576px) {
+    .footer-image{
+        background-size:380px 10px ;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+}
