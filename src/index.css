@@ -10,15 +10,11 @@
 
 
 
-.border-curve{
-    border-radius: 41% 0% 25% 25% / 62% 100% 0% 38%;
-    
-    border-left: 3px solid #22f1d2 ;
-    /* writing-mode: vertical-rl; */
-    /* text-orientation: unset; */
-   
-}
 
-.border-small{
-    border-bottom: 3px solid #22f1d2;
+
+.bg-color {
+    background: #352782;
+    background: -moz-linear-gradient(top, #352782 0%, #040978 50%, #352782 100%);
+    background: -webkit-linear-gradient(top, #352782 0%, #040978 50%, #352782 100%);
+    background: linear-gradient(to bottom, #352782 0%, #040978 50%, #352782 100%);
 }

@@ -1,0 +1,37 @@
+
+.border-curve{
+    border-radius: 41% 0% 25% 25% / 62% 100% 0% 38%;
+    
+    border-left: 3px solid #22f1d2 ;
+    
+    
+   
+}
+
+
+.curveImage{
+    
+        background-size:560px 560px ;
+         background-repeat: no-repeat;
+        background-position: center;
+                             
+    
+}
+
+.curve-p{
+    writing-mode: vertical-rl;
+    transform: rotate(190deg);
+}
+
+.border-small{
+    border-bottom: 3px solid #22f1d2;
+    
+
+}
+.border-extra-small{
+    border-bottom: 3px solid #22f1d2;
+    border-left: 3px solid #22f1d2;
+    border-right: 3px solid #22f1d2;
+    
+
+}

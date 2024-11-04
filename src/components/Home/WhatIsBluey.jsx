@@ -78,10 +78,15 @@ const WhatIsBluey = () => {
 
 
             </div>
-            <div className='flex justify-center'>
-                <div className='circle2 -mt-16 md:-mt-24 rounded-full     mx-[43px] w-[150px] md:w-[600px] h-[150px] md:h-[600px]'>
-                    <div className='big-circle rounded-full     mx-[43px] w-[150px] md:w-[462px] h-[150px] md:h-[462px]'>
-                        <img className='' src={image5} alt="" />
+            <div className='flex justify-center pb-28'>
+                <div className='bg-cover curveImage -mt-32' style={{ backgroundImage: `url(${image5})`,
+                        
+                    }}>
+                    <div className='circle2 -mt-16 md:-mt-24 rounded-full     mx-[43px] w-[150px] md:w-[600px] h-[150px] md:h-[600px]'>
+
+                    </div>
+                    <div className='big-circle rounded-full  absolute ml-28 -mt-[530px]  mx-[43px] w-[150px] md:w-[462px] h-[150px] md:h-[462px]'>
+                        {/* <img className='' src={image5} alt="" /> */}
                     </div>
                 </div>
             </div>

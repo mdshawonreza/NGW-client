@@ -4,10 +4,11 @@ import Headroom from 'react-headroom';
 
 
 
+
 const Root = () => {
     return (
         <div  >
-            <div className='bg-blue-900'>
+            <div className='bg-color'>
                 <Headroom>
                     <Navbar ></Navbar>
                 </Headroom>

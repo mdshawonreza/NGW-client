@@ -1,4 +1,4 @@
-
+import './navbar.css'
 
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
     </>
     return (
 
-        <div className="navbar bg-gradient-to-b from-custom-white to-custom-blue text-white  max-w-[580px] md:max-w-full lg:max-w-full mx-auto px-2 md:px-5  lg:px-24  h-[103px]" >
+        <div className="navbar bg-color text-white  max-w-[580px] md:max-w-full lg:max-w-full mx-auto px-2 md:px-5  lg:px-24  h-[103px]" >
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-end">
-                <button className='h-[48px] w-[161px] rounded-2xl bg-[#003084] text-white text-base font-semibold hover:shadow-2xl'>
+                <button className='h-[48px] w-[161px] rounded-2xl bg-[#003084] text-white text-base font-semibold navbar-button'>
                     Buy Bluey
                 </button>
             </div>
