@@ -9,7 +9,7 @@ const Root = () => {
     return (
         <div className='lg:max-w-[1440px] mx-auto'>
             <div>
-                <div className='bg-color'>
+                <div className=''>
                     <Headroom>
                         <Navbar ></Navbar>
                     </Headroom>

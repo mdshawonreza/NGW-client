@@ -6,7 +6,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div className="mt-2 md:mt-8 footer-image max-w-[1100px] mx-auto" style={{
+        <div className="mt-2 md:mt-[82px] footer-image max-w-[1100px] mx-auto" style={{
             backgroundImage: `url(${image5})`,
 
         }}>

@@ -2,12 +2,12 @@
  import './roadmap.css'
 const Roadmap = () => {
     return (
-        <section id="roadmap" className='py-10 md:py-28 max-w-[1022px] mx-auto'>
+        <section id="roadmap" className='pt-10 md:pt-[82px]  max-w-[1022px] mx-auto'>
             <div className='roadmap-image ' style={{
                 backgroundImage: `url(${image3})`,
                 
             }}>
-                <h1 className='text-center mb-8px md:mb-24  font-normal text-xl md:text-[57px] rubik-font text-white '>
+                <h1 className='text-center mb-8 md:mb-24  font-normal text-xl md:text-[57px] rubik-font text-white '>
                     Roadmap
                 </h1>
                 <div className='max-w-[300px] md:max-w-[680px] mx-auto'>

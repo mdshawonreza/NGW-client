@@ -8,11 +8,11 @@ const Banner = () => {
     return (
         <section id="home" className="bg-cover  bg-center bg-banner " style={{ backgroundImage: `url(${banner})` }} >
             <div className="max-w-[500px] lg:max-w-[1100px] mx-auto flex items-center  min-h-[320px]  md:min-h-[850px]">
-                <div className="ml-10  ">
+                <div className="ml-20  ">
 
                     <div className="max-w-[300px] md:max-w-[653px]  mx-auto">
-                        <h1 className="text-2xl leading-none rubik-font  text-white md:text-[57px] font-normal">Welcome to Bluey </h1>
-                        <h1 className="text-2xl  rubik-font  text-white md:text-[57px] leading-none font-normal ">The Future of Meme <br /> Coins!</h1>
+                        <h1 className="text-2xl leading-[66px] rubik-font  text-white md:text-[57px] font-normal">Welcome to Bluey <br />The Future of Meme <br /> Coins!</h1>
+                        
                         <div className="py-1 md:py-3 my-1 md:my-3 ">
                             <p className=" text-sm poppins-font font-normal text-[#fff]">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed  diam <br /> nonummy nibh euismod tincidunt ut laoreet dolore magna!

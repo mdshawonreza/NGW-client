@@ -4,13 +4,15 @@ import { motion } from 'framer-motion';
 import image5 from '../../assets/web image two-01.png'
 // import image6 from '../../assets/bg light.png'
 import { RiWechat2Fill } from 'react-icons/ri';
+import circleBorder1 from '../../assets/Ellipse 9.png'
+import circleBorder2 from '../../assets/Ellipse 7.png'
 import './whatisbluey.css'
 
 const WhatIsBluey = () => {
     return (
-        <div className='mb-10 pt-10 bg-cover   bg-light'
+        <div className=' pt-[82px] bg-cover   bg-light'
         //  style={{ backgroundImage: `url(${image6})`, }} 
-         >
+        >
             <motion.div
                 variants={fadeIn('up', 0.2)}
                 initial="hidden"
@@ -18,13 +20,13 @@ const WhatIsBluey = () => {
                 viewport={{ once: false, amount: 0.7 }}
 
                 id='bluey'
-                className='max-w-[300px] md:max-w-[950px] mx-auto py-3 md:py-10 '>
+                className='max-w-[300px] md:max-w-[970px] lg:max-w-[970px] mx-auto py-3 md:py-10 '>
                 <div className='space-y-5 '>
-                    <h1 className='text-center font-bold text-xl md:text-[56px] text-white'>
+                    <h1 className='text-center font-normal text-xl md:text-[57px] text-white rubik-font'>
                         What is <span className='text-[#003084]'> BLUEY?</span>
                     </h1>
-                    <div className='max-w-[290px] md:max-w-3xl mx-auto'>
-                        <p className='text-center text-sm md:text-base font-normal text-[#fff]'>
+                    <div className='max-w-[290px] md:max-w-3xl mx-auto pt-6'>
+                        <p className='text-center text-sm md:text-base font-normal text-[#fff] poppins-font '>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
                         </p>
                     </div>
@@ -82,15 +84,16 @@ const WhatIsBluey = () => {
 
             </div>
             <div className='flex justify-center pb-28'>
-                <div className='bg-cover curveImage -mt-32' style={{ backgroundImage: `url(${image5})`,
-                        
-                    }}>
-                    <div className='circle2 -mt-16 md:-mt-24 rounded-full     mx-[43px] w-[150px] md:w-[600px] h-[150px] md:h-[600px]'>
+                <div className='bg-cover curve-image -mt-24 md:-mt-32' style={{
+                    backgroundImage: `url(${image5})`,
 
-                    </div>
-                    <div className='big-circle rounded-full  absolute ml-28 -mt-[530px]  mx-[43px] w-[150px] md:w-[462px] h-[150px] md:h-[462px]'>
-                        {/* <img className='' src={image5} alt="" /> */}
-                    </div>
+                }}>
+
+                    <img className='circle2 -mt-16 md:-mt-20 rounded-full     mx-[43px] w-[150px] md:w-[600px] h-[150px] md:h-[600px]' src={circleBorder1} alt="" />
+                  
+                        <img className='big-circle rounded-full  absolute ml-28 -mt-[530px]  mx-[43px] w-[150px] md:w-[462px] h-[150px] md:h-[462px]' src={circleBorder2} alt="" />
+                
+
                 </div>
             </div>
         </div>

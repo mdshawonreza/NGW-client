@@ -1,7 +1,7 @@
 .big-circle {
     
     position: relative;
-    border: 3px dashed #22f1d2;
+    
     border-radius: 50%;
     display: flex;
     display: -webkit-flex;
@@ -15,7 +15,7 @@
 .circle2 {
     
     position: relative;
-    border: 3px dashed #22f1d2;
+    
     border-radius: 50%;
     display: flex;
     display: -webkit-flex;
@@ -28,11 +28,33 @@
   }
 
   .big-circle {
-    animation: Rotate 20s linear infinite;
+    animation: Rotate 30s linear infinite;
   }
   .circle2{
-    animation: Rotated-reverse 20s linear infinite;
+    animation: Rotated-reverse 30s linear infinite;
   }
+
+
+  .curve-image{
+    
+    background-size:560px 560px ;
+     background-repeat: no-repeat;
+    background-position: center;
+                         
+
+}
+
+@media screen and (max-width:576px) {
+  .curve-image{
+    
+    background-size:180px 180px ;
+     background-repeat: no-repeat;
+    background-position: center;
+                         
+
+}
+    
+}
 
   /* .bg-light{
     background-size:1300px 450px ;
