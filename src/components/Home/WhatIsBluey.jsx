@@ -2,12 +2,15 @@ import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 import { fadeIn } from '../variants';
 import { motion } from 'framer-motion';
 import image5 from '../../assets/web image two-01.png'
+// import image6 from '../../assets/bg light.png'
 import { RiWechat2Fill } from 'react-icons/ri';
 import './whatisbluey.css'
 
 const WhatIsBluey = () => {
     return (
-        <div className='mb-10'>
+        <div className='mb-10 pt-10 bg-cover   bg-light'
+        //  style={{ backgroundImage: `url(${image6})`, }} 
+         >
             <motion.div
                 variants={fadeIn('up', 0.2)}
                 initial="hidden"

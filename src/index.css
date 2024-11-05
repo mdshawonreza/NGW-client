@@ -9,7 +9,13 @@
 @tailwind utilities;
 
 
+.rubik-font{
+    font-family: "Rubik Wet Paint", system-ui;
+}
 
+.poppins-font{
+    font-family: "Poppins", sans-serif;
+}
 
 
 .bg-color {

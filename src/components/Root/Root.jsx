@@ -7,13 +7,17 @@ import Headroom from 'react-headroom';
 
 const Root = () => {
     return (
-        <div  >
-            <div className='bg-color'>
-                <Headroom>
-                    <Navbar ></Navbar>
-                </Headroom>
+        <div className='lg:max-w-[1440px] mx-auto'>
+            <div>
+                <div className='bg-color'>
+                    <Headroom>
+                        <Navbar ></Navbar>
+                    </Headroom>
+
+                    {/* <Navbar ></Navbar> */}
+                </div>
+                <Outlet></Outlet>
             </div>
-            <Outlet></Outlet>
 
 
         </div>

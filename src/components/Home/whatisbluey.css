@@ -34,6 +34,12 @@
     animation: Rotated-reverse 20s linear infinite;
   }
 
+  /* .bg-light{
+    background-size:1300px 450px ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  } */
+
   @keyframes Rotate {
     from {
       transform: rotate(0deg);
