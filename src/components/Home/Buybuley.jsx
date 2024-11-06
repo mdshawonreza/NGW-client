@@ -3,9 +3,9 @@ import './buybluey.css'
 
 const Buybuley = () => {
     return (
-        <section id='joinUs' className="max-w-[400px] lg:max-w-[1100px] mx-auto py-3 md:py-20 flex flex-col md:flex-row justify-center items-end gap-12 md:gap-0 min-h-screen">
+        <section id='joinUs' className="max-w-[400px] lg:max-w-[1100px] mx-auto   flex flex-col md:flex-row justify-center items-end gap-12 md:gap-0 min-h-screen  pt-5 md:pt-[82px] ">
 
-            <div className="flex  justify-center items-end ml-0 md:ml-[102px]">
+            <div className="flex  justify-center items-end ml-0 md:ml-[77px]">
                 <div className="w-20 md:w-56 h-96 border-curve ">
 
                     <div className='h-80 border-small flex justify-center flex-col  mr-12 items-center'>
@@ -82,11 +82,11 @@ const Buybuley = () => {
 
 
             </div>
-            <div className='flex flex-col -ml-1   max-w-xl mx-auto'>
-                <h1 className=' absolute rubik-font  -ml-60 -mt-28 text-xl md:text-[57px] text-[#fff] font-normal'>
+            <div className='flex flex-col -ml-5   max-w-xl mx-auto'>
+                <h1 className=' absolute rubik-font  -ml-60 -mt-36 text-xl md:text-[57px] text-[#fff] font-normal'>
                     How to buy $BLUEY
                 </h1>
-                <img className='w-[250px] md:w-[270px] h-[250px] md:h-[270px] ' src={image6} alt="" />
+                <img className='w-[250px] md:w-[370px] h-[250px] md:h-[370px] ' src={image6} alt="" />
             </div>
 
         </section>
