@@ -1,7 +1,27 @@
+import { useEffect, useState } from 'react';
 import './navbar.css'
 
 
 const Navbar = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    // Event listener to detect scrolling
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) { // Adjust this value based on when you want to change color
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Cleanup the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const navLinks = <>
         <li><a href="#home">Home</a></li>
@@ -13,8 +33,11 @@ const Navbar = () => {
     </>
     return (
 
-        <div className=" bg-color bg-black text-white fixed z-10 bg-opacity-25 
-        w-full  mx-auto   md:h-[103px] flex items-center  " >
+        <div
+            className={`  text-white fixed w-full  z-10 mx-auto   md:h-[103px] flex items-center   ${isScrolled ? 'bg-blue-900  ' : 'bg-black bg-opacity-25 bg-color'}`}
+        >
+            {/* className=" bg-color bg-black text-white fixed z-10 bg-opacity-25 
+        w-full  mx-auto   md:h-[103px] flex items-center  " > */}
             <div className='  lg:max-w-[1100px] mx-auto'>
                 <div className='flex  justify-between gap-16 md:gap-[107px] items-center'>
                     <div className="flex justify-between items-center ">

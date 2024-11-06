@@ -21,7 +21,7 @@ const Tokenomics = () => {
                         </div>
                     </div>
                     <div className=' '>
-                        <button className='w-[101px] md:w-[161px] mt-8 md:mt-1 h-[32px] md:h-[48px] rounded-2xl bg-[#003084] text-white text-base font-semibold rubik-font tokenomics-button'>
+                        <button className='w-[101px] md:w-[161px] mt-8 md:mt-1 h-[32px] md:h-[48px] rounded-2xl bg-[#003084] text-white text-base font-semibold rubik-font tokenomics-button '>
                             Buy Bluey
                         </button>
                     </div>

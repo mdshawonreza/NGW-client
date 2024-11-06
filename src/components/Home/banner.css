@@ -3,7 +3,6 @@
     background: #fff;
 }
 
-/* .banner-rounded-button{
-    mix-blend-mode: overlay;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
-} */
+.banner-stroke-button{
+  -webkit-text-stroke: 0.5px black;
+}

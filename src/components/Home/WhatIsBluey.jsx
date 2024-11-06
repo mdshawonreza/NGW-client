@@ -89,9 +89,9 @@ const WhatIsBluey = () => {
 
                 }}>
 
-                    <img className='circle2 -mt-16 md:-mt-20 rounded-full     mx-[43px] w-[150px] md:w-[600px] h-[150px] md:h-[600px]' src={circleBorder1} alt="" />
+                    <img className='circle2 -mt-16 md:-mt-20 rounded-full     mx-[43px] w-[150px] md:w-[600px] h-[150px] md:h-[600px]' src={circleBorder2} alt="" />
                   
-                        <img className='big-circle rounded-full  absolute ml-28 -mt-[530px]  mx-[43px] w-[150px] md:w-[462px] h-[150px] md:h-[462px]' src={circleBorder2} alt="" />
+                        <img className='big-circle rounded-full  absolute ml-28 -mt-[530px]  mx-[43px] w-[150px] md:w-[462px] h-[150px] md:h-[462px]' src={circleBorder1} alt="" />
                 
 
                 </div>

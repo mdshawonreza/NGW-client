@@ -5,17 +5,21 @@ import Tokenomics from "./Tokenomics";
 import WhatIsBluey from "./WhatIsBluey";
 import Footer from "./Footer";
 import Buybuley from "./Buybuley";
+import banner from "../../assets/landing page 2-01.jpg"
+import './banner.css'
 
 const Home = () => {
     return (
         <div >
 
-            <Banner></Banner>
+            <div className="bg-cover  bg-center bg-banner " style={{ backgroundImage: `url(${banner})` }}>
+                <Banner></Banner>
+            </div>
             <div className="bg-[#030B18]  " >
                 <div className="max-w-[1100px] mx-auto">
                     <WhatIsBluey></WhatIsBluey>
-                <Buybuley></Buybuley>
-                <Tokenomics></Tokenomics>
+                    <Buybuley></Buybuley>
+                    <Tokenomics></Tokenomics>
                     <Roadmap></Roadmap>
                     <Footer></Footer>
                 </div>

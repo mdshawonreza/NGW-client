@@ -19,14 +19,14 @@ const Footer = () => {
 
                     </div>
                     <div className="space-x-2 md:space-x-6">
-                        <button className="btn btn-sm md:btn-md  btn-circle">
-                            <FaTelegramPlane className="text-sm md:text-2xl font-bold"></FaTelegramPlane>
+                        <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
+                            <FaTelegramPlane className="text-sm md:text-xl font-bold"></FaTelegramPlane>
                         </button>
-                        <button className="btn btn-sm md:btn-md  btn-circle">
-                            <FaTwitter className="text-sm md:text-2xl font-bold"></FaTwitter>
+                        <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
+                            <FaTwitter className="text-sm md:text-xl font-bold"></FaTwitter>
                         </button>
-                        <button className="btn btn-sm md:btn-md  btn-circle">
-                            <RiWechat2Fill className="text-sm md:text-2xl font-bold"></RiWechat2Fill>
+                        <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
+                            <RiWechat2Fill className="text-sm md:text-xl font-bold"></RiWechat2Fill>
                         </button>
                     </div>
                     <div>

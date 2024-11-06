@@ -10,8 +10,24 @@ const Buybuley = () => {
 
                     <div className='h-80 border-small flex justify-center flex-col  mr-12 items-center'>
                         <p className='curve-p poppins-font text-white font-semibold'>Create a Wallet</p>
+                        
+
 
                     </div>
+
+                    {/* <div className="relative h-80 border-small flex justify-center flex-col  mr-12 items-center ">
+                        <svg width="80" height="80" className="absolute inset-0">
+                            <path id="path" d="M 150,150 m -100, 0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0" fill="transparent" stroke="transparent" />
+                        </svg>
+
+                        <div className="text-2xl font-semibold absolute inset-0">
+                            <text className="text-2xl font-semibold curve-p poppins-font">
+                                <textPath href="#path">
+                                    Curved Text Example
+                                </textPath>
+                            </text>
+                        </div>
+                    </div> */}
                     <div className='h-32 flex justify-center -ml-16 -mt-[3px]'>
                         <div className='w-14 h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
 
@@ -56,7 +72,7 @@ const Buybuley = () => {
                     </div>
                     <div className='flex justify-center -ml-16 -mt-[3px] '>
                         <div className='w-14 h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
-                            
+
 
 
                         </div>
