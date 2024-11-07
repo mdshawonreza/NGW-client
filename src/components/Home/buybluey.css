@@ -1,8 +1,35 @@
 
-.border-curve{
+.border-curve-div4{
     border-radius: 40% 0% 25% 25% / 60% 100% 0% 38%;
     
-    border-left: 3px solid #22f1d2 ;
+    border-left: 5px solid #22f1d2 ;
+    
+    
+   
+}
+.border-curve-div1{
+    border-radius: 80% 0% 0% 30% / 70% 50% 0% 38%;
+   
+    
+    border-left: 5px solid #22f1d2 ;
+    
+    
+   
+}
+.border-curve-div2{
+    border-radius: 70% 0% 0% 30% / 60% 50% 0% 38%;
+   
+    
+    border-left: 5px solid #22f1d2 ;
+    
+    
+   
+}
+.border-curve-div3{
+    border-radius: 50% 0% 0% 30% / 60% 50% 0% 38%;
+   
+    
+    border-left: 5px solid #22f1d2 ;
     
     
    
@@ -24,14 +51,14 @@
 }
 
 .border-small{
-    border-bottom: 3px solid #22f1d2;
+    border-bottom: 5px solid #22f1d2;
     
 
 }
 .border-extra-small{
-    border-bottom: 3px solid #22f1d2;
-    border-left: 3px solid #22f1d2;
-    border-right: 3px solid #22f1d2;
+    border-bottom: 5px solid #22f1d2;
+    border-left: 5px solid #22f1d2;
+    border-right: 5px solid #22f1d2;
     
 
 }

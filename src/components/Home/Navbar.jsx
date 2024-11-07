@@ -34,7 +34,7 @@ const Navbar = () => {
     return (
 
         <div
-            className={`  text-white fixed w-full  z-10 mx-auto   md:h-[103px] flex items-center   ${isScrolled ? 'bg-blue-900  ' : 'bg-black bg-opacity-25 bg-color'}`}
+            className={`  text-white fixed w-full  z-10 mx-auto   md:h-[103px] flex items-center   ${isScrolled ? 'bg-[#01296e]  ' : 'bg-black bg-opacity-25 bg-color'}`}
         >
             {/* className=" bg-color bg-black text-white fixed z-10 bg-opacity-25 
         w-full  mx-auto   md:h-[103px] flex items-center  " > */}
@@ -63,7 +63,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className=" ">
-                        <button className=' h-[26px] md:h-[48px] w-[100px] md:w-[161px] rubik-font rounded-2xl bg-[#003084] text-white text-sm md:text-base font-normal navbar-button'>
+                        <button className=' h-[26px] md:h-[48px] w-[100px] md:w-[161px] rubik-font rounded-2xl bg-[#003084] text-white text-xs md:text-base font-normal navbar-button'>
                             Buy Bluey
                         </button>
                     </div>

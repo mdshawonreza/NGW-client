@@ -16,7 +16,7 @@ const Home = () => {
                 <Banner></Banner>
             </div>
             <div className="bg-[#030B18]  " >
-                <div className="max-w-[1100px] mx-auto">
+                <div className="max-w-[500px] lg:max-w-[1100px] mx-auto">
                     <WhatIsBluey></WhatIsBluey>
                     <Buybuley></Buybuley>
                     <Tokenomics></Tokenomics>

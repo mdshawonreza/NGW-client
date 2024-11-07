@@ -3,8 +3,8 @@ import image2 from '../../assets/web image 4.png'
 import './tokenomics.css'
 const Tokenomics = () => {
     return (
-        <section id='tokenomics' className=" pt-3 md:pt-[82px]  ">
-            <div className='max-w-[500px] lg:max-w-[1100px] mx-auto flex flex-col md:flex-row justify-center items-center gap-6'>
+        <section id='tokenomics' className=" pt-10 md:pt-[82px]  ">
+            <div className='max-w-[500px] lg:max-w-[1100px] mx-auto flex flex-col md:flex-col lg:flex-row justify-center items-center gap-6'>
                 <div className='flex flex-col justify-center items-center gap-2 '>
                     <h3 className=" text-xl md:text-[57px] text-[#fff] font-normal rubik-font">
                         Tokenomics
@@ -21,7 +21,7 @@ const Tokenomics = () => {
                         </div>
                     </div>
                     <div className=' '>
-                        <button className='w-[101px] md:w-[161px] mt-8 md:mt-1 h-[32px] md:h-[48px] rounded-2xl bg-[#003084] text-white text-base font-semibold rubik-font tokenomics-button '>
+                        <button className='w-[101px] md:w-[161px] mt-1 md:mt-1 h-[32px] md:h-[48px] rounded-2xl bg-[#003084] text-white text-base font-semibold rubik-font tokenomics-button '>
                             Buy Bluey
                         </button>
                     </div>
