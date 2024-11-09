@@ -27,7 +27,7 @@ const WhatIsBluey = () => {
                             What is <span className='text-[#003084]'> BLUEY?</span>
                         </h1>
                         <div className='max-w-[290px] md:max-w-3xl mx-auto pt-2 md:pt-6'>
-                            <p className='text-center text-xs md:text-base font-normal text-[#fff] poppins-font '>
+                            <p className='text-center text-sm md:text-base font-normal text-[#fff] poppins-font '>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
                             </p>
                         </div>
@@ -44,7 +44,7 @@ const WhatIsBluey = () => {
                         </button></a>
                     </div>
                     <div>
-                        <div className=' h-16 md:h-32'> </div>
+                        <div className=' h-16 md:h-32 '> </div>
                         <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
                             <FaTelegramPlane className=" text-sm md:text-2xl font-bold"></FaTelegramPlane>
                         </button></a>

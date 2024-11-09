@@ -8,18 +8,18 @@ const Banner = () => {
     return (
         <section id="home"  >
             <div className="max-w-[500px] lg:max-w-[1100px] mx-auto flex items-center  min-h-[320px]  md:min-h-[850px]">
-                <div className="ml-20  ">
+                <div className="ml-10 md:ml-[70px] mt-10 md:mt-0   ">
 
                     <div className="max-w-[250px] md:max-w-[653px]  mx-auto">
                         <h1 className="text-xl leading-6 md:leading-[66px] rubik-font  text-white md:text-[57px] font-normal">Welcome to Bluey <br />The Future of Meme <br /> Coins!</h1>
                         
-                        <div className=" mt-1 md:mt-2 mb-1 md:mb-6  ">
-                            <p className=" text-xs poppins-font font-normal text-[#fff] leading-1 md:leading-5">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed  diam <br /> nonummy nibh euismod tincidunt ut laoreet dolore magna!
+                        <div className="max-w-[200px] pl-0 md:pl-1 md:max-w-[520px] mt-1 md:mt-2 mb-1 md:mb-6  ">
+                            <p className=" text-sm poppins-font font-normal text-[#fff] leading-1 md:leading-5">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed  diam  nonummy nibh euismod tincidunt ut laoreet dolore magna!
                             </p>
                         </div>
                         <div className="flex gap-1 md:gap-8">
-                            <button className="w-[101px] md:w-[161px] h-[32px] md:h-[61px] bg-[#fff] rounded-2xl text-xs md:text-base rubik-font font-semibold text-[#003084] banner-buy-button banner-stroke-button">Buy Turbo</button>
+                            <button className="w-[101px] md:w-[161px] h-[32px] md:h-[61px] bg-[#fff] rounded-2xl text-sm md:text-base rubik-font font-semibold text-[#003084] banner-buy-button banner-stroke-button">Buy Turbo</button>
                             <div className="space-x-1 md:space-x-7">
                                 
                                 

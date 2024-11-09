@@ -3,7 +3,7 @@ import './buybluey.css'
 
 const Buybuley = () => {
     return (
-        <section id='joinUs' className="max-w-[400px] lg:max-w-[1100px] mx-auto   flex flex-col md:flex-row justify-center items-center md:items-end gap-12 md:gap-0   pt-5 md:pt-[82px] ">
+        <section id='joinUs' className="max-w-[400px] lg:max-w-[1100px] mx-auto   flex  md:flex-row flex-col-reverse justify-center items-center md:items-end gap-12 md:gap-0   pt-5 md:pt-[82px] ">
 
             <div className="flex  justify-center mb-5 md:mb-10 items-end ml-0 md:ml-[40px]">
                 <div className="w-28 md:w-60 h-[600px] border-curve-div1 ">
