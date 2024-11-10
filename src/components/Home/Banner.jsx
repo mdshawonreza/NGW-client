@@ -23,13 +23,13 @@ const Banner = () => {
                             <div className="space-x-1 md:space-x-7">
                                 
                                 
-                                <button className=" btn btn-sm md:btn-lg  btn-circle  border-[2px] border-black">
+                                <button className=" btn btn-sm md:btn-md  btn-circle  border-[1px] md:border-[2px] border-black">
                                     <FaTelegramPlane className="text-sm md:text-xl font-bold banner-rounded-button text-[#0f2c69]"></FaTelegramPlane>
                                 </button>
-                                <button className="btn btn-sm md:btn-lg  btn-circle border-[2px] border-black">
+                                <button className="btn btn-sm md:btn-md  btn-circle border-[1px] md:border-[2px] border-black">
                                     <FaTwitter className="text-sm md:text-xl font-bold text-[#0f2c69]"></FaTwitter>
                                 </button>
-                                <button className="btn btn-sm md:btn-lg  btn-circle border-[2px] border-black">
+                                <button className="btn btn-sm md:btn-md  btn-circle border-[1px] md:border-[2px] border-black">
                                     <RiWechat2Fill className="text-sm md:text-xl text-[#0f2c69] font-bold"></RiWechat2Fill>
                                 </button>
                             </div>

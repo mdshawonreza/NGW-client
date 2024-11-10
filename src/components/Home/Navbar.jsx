@@ -34,7 +34,7 @@ const Navbar = () => {
     return (
 
         <div
-            className={`  text-white fixed w-full  z-10 mx-auto   md:h-[103px] flex items-center   ${isScrolled ? 'bg-[#01296e]  ' : 'bg-black bg-opacity-25 bg-color'}`}
+            className={`  text-white fixed w-full  z-20 mx-auto   md:h-[103px] flex items-center   ${isScrolled ? 'bg-[#01296e]  ' : 'bg-black bg-opacity-25 bg-color'}`}
         >
             {/* className=" bg-color bg-black text-white fixed z-10 bg-opacity-25 
         w-full  mx-auto   md:h-[103px] flex items-center  " > */}

@@ -35,50 +35,50 @@ const WhatIsBluey = () => {
 
                     </div>
                 </motion.div>
-                <div className='mt-16 md:mt-24 flex  justify-center gap-5 md:gap-16'>
+                <div className='mt-16 md:mt-24 flex  justify-center gap-5 md:gap-16  relative z-10'>
 
                     <div className=''>
                         <div className='h-10 md:h-20'> </div>
-                        <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
-                            <RiWechat2Fill className="text-sm md:text-2xl font-bold"></RiWechat2Fill>
+                        <a href=""><button className="btn btn-xs md:btn-lg btn-circle">
+                            <RiWechat2Fill className="text-sm md:text-2xl font-bold text-[#030B18]"></RiWechat2Fill>
                         </button></a>
                     </div>
                     <div>
                         <div className=' h-16 md:h-32 '> </div>
-                        <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
-                            <FaTelegramPlane className=" text-sm md:text-2xl font-bold"></FaTelegramPlane>
+                        <a href=""><button className="btn  btn-xs md:btn-lg btn-circle">
+                            <FaTelegramPlane className="  text-sm md:text-2xl font-bold text-[#030B18]"></FaTelegramPlane>
                         </button></a>
 
                     </div>
                     <div>
                         <div className='h-5 md:h-10'> </div>
-                        <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
-                            <FaTwitter className="text-base md:text-2xl font-bold"></FaTwitter>
+                        <a href=""><button className="btn  btn-xs md:btn-lg btn-circle">
+                            <FaTwitter className="text-base md:text-2xl font-bold text-[#030B18]"></FaTwitter>
                         </button></a>
 
                     </div>
                     <div className='-mt-5 md:-mt-10'>
-                        <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
-                            <FaTelegramPlane className="text-base md:text-2xl font-bold"></FaTelegramPlane>
+                        <a href=""><button className="btn  btn-xs md:btn-lg btn-circle">
+                            <FaTelegramPlane className="text-base md:text-2xl font-bold text-[#030B18]"></FaTelegramPlane>
                         </button></a>
                     </div>
                     <div>
                         <div className='h-5 md:h-10'> </div>
-                        <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
-                            <RiWechat2Fill className="text-base md:text-2xl font-bold"></RiWechat2Fill>
+                        <a href=""><button className="btn  btn-xs md:btn-lg btn-circle">
+                            <RiWechat2Fill className="text-base md:text-2xl font-bold text-[#030B18]"></RiWechat2Fill>
                         </button></a>
 
                     </div>
                     <div>
                         <div className='h-16 md:h-32'> </div>
-                        <a href=""> <button className="btn btn-sm md:btn-lg btn-circle">
-                            <FaTelegramPlane className="text-base md:text-2xl font-bold"></FaTelegramPlane>
+                        <a href=""> <button className="btn  btn-xs md:btn-lg btn-circle">
+                            <FaTelegramPlane className="text-base md:text-2xl font-bold text-[#030B18]"></FaTelegramPlane>
                         </button></a>
                     </div>
                     <div>
                         <div className='h-10 md:h-20'> </div>
-                        <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
-                            <FaTwitter className="text-base md:text-2xl font-bold"></FaTwitter>
+                        <a href=""><button className="btn  btn-xs md:btn-lg btn-circle">
+                            <FaTwitter className="text-base md:text-2xl font-bold text-[#030B18]"></FaTwitter>
                         </button></a>
                     </div>
 

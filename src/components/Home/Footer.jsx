@@ -20,13 +20,13 @@ const Footer = () => {
                     </div>
                     <div className="space-x-2 md:space-x-6">
                         <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
-                            <FaTelegramPlane className="text-sm md:text-xl font-bold"></FaTelegramPlane>
+                            <FaTelegramPlane className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane>
                         </button>
                         <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
-                            <FaTwitter className="text-sm md:text-xl font-bold"></FaTwitter>
+                            <FaTwitter className="text-sm md:text-xl font-bold text-[#030B18]"></FaTwitter>
                         </button>
                         <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
-                            <RiWechat2Fill className="text-sm md:text-xl font-bold"></RiWechat2Fill>
+                            <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill>
                         </button>
                     </div>
                     <div>

@@ -1,5 +1,7 @@
+import { RiWechat2Fill } from 'react-icons/ri';
 import image6 from '../../assets/Group 63.png'
 import './buybluey.css'
+import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 
 const Buybuley = () => {
     return (
@@ -10,26 +12,18 @@ const Buybuley = () => {
 
                     <div className='h-[500px] border-small flex justify-center flex-col  mr-4 md:mr-12 items-center'>
                         <p className='curve-p poppins-font text-white font-semibold'>Create a Wallet</p>
-                        
+
 
 
                     </div>
 
-                    {/* <div className="relative h-80 border-small flex justify-center flex-col  mr-12 items-center ">
-                        <svg width="80" height="80" className="absolute inset-0">
-                            <path id="path" d="M 150,150 m -100, 0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0" fill="transparent" stroke="transparent" />
-                        </svg>
-
-                        <div className="text-2xl font-semibold absolute inset-0">
-                            <text className="text-2xl font-semibold curve-p poppins-font">
-                                <textPath href="#path">
-                                    Curved Text Example
-                                </textPath>
-                            </text>
-                        </div>
-                    </div> */}
                     <div className='h-32 flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px]'>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
+                            <div className='-mt-3 md:-mt-6 flex justify-center items-start'>
+                                <a href=""><button className="btn btn-xs md:btn-md btn-circle">
+                                    <RiWechat2Fill className="text-sm md:text-xl text-[#030B18] font-bold"></RiWechat2Fill>
+                                </button></a>
+                            </div>
 
 
                         </div>
@@ -44,6 +38,11 @@ const Buybuley = () => {
                     </div>
                     <div className='h-1/5 flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px]'>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
+                            <div className='-mt-3 md:-mt-6 flex justify-center items-start'>
+                                <a href=""><button className="btn btn-xs md:btn-md btn-circle">
+                                    <FaTelegramPlane  className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane >
+                                </button></a>
+                            </div>
 
 
                         </div>
@@ -57,6 +56,11 @@ const Buybuley = () => {
                     </div>
                     <div className=' flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px]'>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
+                            <div className=' -mt-3 md:-mt-6 flex justify-center items-start'>
+                                <a href=""><button className="btn btn-xs md:btn-md btn-circle">
+                                    <FaTwitter className="text-sm md:text-xl font-bold text-[#030B18]"></FaTwitter>
+                                </button></a>
+                            </div>
 
 
                         </div>
@@ -72,6 +76,11 @@ const Buybuley = () => {
                     </div>
                     <div className='flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px] '>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
+                            <div className=' -mt-3 md:-mt-6 flex justify-center items-start'>
+                                <a href=""><button className="btn btn-xs md:btn-md btn-circle">
+                                    <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill>
+                                </button></a>
+                            </div>
 
 
 
