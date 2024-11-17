@@ -3,7 +3,7 @@ import image2 from '../../assets/web image 4.png'
 import './tokenomics.css'
 const Tokenomics = () => {
     return (
-        <section id='tokenomics' className=" pt-10 md:pt-[82px]  ">
+        <section id='tokenomics' className=" py-10 md:py-[82px]  ">
             <div className='max-w-[500px] lg:max-w-[1100px] mx-auto flex flex-col md:flex-col lg:flex-row justify-center items-center gap-6'>
                 <div className='flex flex-col justify-center items-center gap-2 '>
                     <h3 className=" text-xl md:text-[57px] text-[#fff] font-normal rubik-font">

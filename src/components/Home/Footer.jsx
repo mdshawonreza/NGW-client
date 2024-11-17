@@ -6,7 +6,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div className="mt-2 md:mt-[82px] footer-image max-w-[1100px] mx-auto" style={{
+        <div className="py-10 md:py-[82px] footer-image max-w-[1100px] mx-auto" style={{
             backgroundImage: `url(${image5})`,
 
         }}>
@@ -18,7 +18,7 @@ const Footer = () => {
                         <img className="w-12 md:w-[72px]" src={image4} alt="" />
 
                     </div>
-                    <div className="space-x-2 md:space-x-6">
+                    <div className="-mr-4 md:-mr-0 space-x-2 md:space-x-6">
                         <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
                             <FaTelegramPlane className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane>
                         </button>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     <div>
 
-                        <p className=" text-white test-sm md:text-base font-normal poppins-font">
+                        <p className=" text-white text-[10px] md:text-base font-normal poppins-font">
                             Privacy policy
                         </p>
 

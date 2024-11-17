@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div >
 
-            <div className="bg-cover  bg-center bg-banner " style={{ backgroundImage: `url(${banner})` }}>
+            <div className=" bg-banner " style={{ backgroundImage: `url(${banner})` }}>
                 <Banner></Banner>
             </div>
             <div className="bg-[#030B18]  " >

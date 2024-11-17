@@ -5,12 +5,12 @@ import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 
 const Buybuley = () => {
     return (
-        <section id='joinUs' className="max-w-[400px] lg:max-w-[1100px] mx-auto   flex  md:flex-row flex-col-reverse justify-center items-center md:items-end gap-12 md:gap-0   pt-5 md:pt-[82px] ">
+        <section id='joinUs' className="max-w-[400px] lg:max-w-[1100px] mx-auto   flex  md:flex-row flex-col-reverse justify-center items-center md:items-end gap-12 md:gap-0   py-10 md:py-[82px] ">
 
             <div className="flex  justify-center mb-5 md:mb-10 items-end ml-0 md:ml-[40px]">
-                <div className="w-28 md:w-60 h-[600px] border-curve-div1 ">
+                <div className="w-28 md:w-60 h-[400px] md:h-[600px] border-curve-div1 ">
 
-                    <div className='h-[500px] border-small flex justify-center flex-col  mr-4 md:mr-12 items-center'>
+                    <div className='h-[340px] md:h-[500px] border-small flex justify-center flex-col  mr-4 md:mr-12 items-center'>
                         <p className='curve-p poppins-font text-white font-semibold'>Create a Wallet</p>
 
 
@@ -30,9 +30,9 @@ const Buybuley = () => {
 
                     </div>
                 </div>
-                <div className="w-28 md:w-60 h-[510px] -mx-8 md:-mx-20 border-curve-div2 ">
+                <div className="w-28 md:w-60 h-[350px] md:h-[510px] -mx-8 md:-mx-20 border-curve-div2 ">
 
-                    <div className='h-[410px] border-small flex justify-center mr-4 md:mr-12 items-center'>
+                    <div className='h-[290px] md:h-[410px] border-small flex justify-center mr-4 md:mr-12 items-center'>
                         <p className='curve-p poppins-font text-white font-semibold'>Get Some Sol</p>
 
                     </div>
@@ -49,8 +49,8 @@ const Buybuley = () => {
 
                     </div>
                 </div>
-                <div className="w-28 md:w-60  h-[400px]  border-curve-div3 ">
-                    <div className='h-[300px] border-small flex justify-center mr-4 md:mr-12 items-center'>
+                <div className="w-28 md:w-60  h-[290px] md:h-[400px]  border-curve-div3 ">
+                    <div className='h-[230px] md:h-[300px] border-small flex justify-center mr-4 md:mr-12 items-center'>
                         <p className='curve-p poppins-font text-white font-semibold'>Go to Uniswap</p>
 
                     </div>
@@ -68,9 +68,9 @@ const Buybuley = () => {
                     </div>
 
                 </div>
-                <div className="w-28 md:w-60 -mx-8 md:-mx-20  h-[320px] border-curve-div4  ">
+                <div className="w-28 md:w-60 -mx-8 md:-mx-20 h-[240px] md:h-[320px] border-curve-div4  ">
 
-                    <div className='h-[220px] border-small flex justify-center mr-4 md:mr-12 items-center'>
+                    <div className='h-[180px] md:h-[220px] border-small flex justify-center mr-4 md:mr-12 items-center'>
                         <p className='curve-p poppins-font text-white font-semibold'>Go to BLUEY</p>
 
                     </div>
@@ -92,10 +92,10 @@ const Buybuley = () => {
 
             </div>
             <div className='flex  flex-col items-center md:items-start   max-w-xl mx-auto'>
-                <h1 className=' absolute rubik-font  -ml-0 md:-ml-60 -mt-10 md:-mt-36 text-xl md:text-[57px] text-[#fff] font-normal'>
+                <h1 className=' absolute rubik-font  -ml-0 md:-ml-60 -mt-[50px] md:-mt-36 text-xl md:text-[57px] text-[#fff] font-normal'>
                     How to buy $BLUEY
                 </h1>
-                <img className='w-[250px] md:w-[370px] h-[250px] md:h-[370px] ' src={image6} alt="" />
+                <img className='w-[300px] md:w-[370px] h-[300px] md:h-[370px] ' src={image6} alt="" />
             </div>
 
         </section>

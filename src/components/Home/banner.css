@@ -9,8 +9,23 @@
 
 .bg-banner{
  
-    background-size:100% 100% ;
+    background-size: cover;
      background-repeat: no-repeat;
+     background-position: center;
+                         
+
+}
+
+
+@media screen and (max-width:576px) {
+  .bg-banner{
+ 
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 70%;
+                         
+
+}
                          
 
 }

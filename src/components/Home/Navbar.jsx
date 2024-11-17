@@ -36,10 +36,9 @@ const Navbar = () => {
         <div
             className={`  text-white fixed w-full  z-20 mx-auto   md:h-[103px] flex items-center   ${isScrolled ? 'bg-[#01296e]  ' : 'bg-black bg-opacity-25 bg-color'}`}
         >
-            {/* className=" bg-color bg-black text-white fixed z-10 bg-opacity-25 
-        w-full  mx-auto   md:h-[103px] flex items-center  " > */}
+           
             <div className='  lg:max-w-[1100px] mx-auto'>
-                <div className='flex  justify-between gap-16 md:gap-[125px] items-center'>
+                <div className='flex  justify-between gap-32 md:gap-[125px] items-center'>
                     <div className="flex justify-between items-center ">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -62,7 +61,7 @@ const Navbar = () => {
                             <p className=" text-white  hover:text-[#8beef7]"><a href="#joinUs">Join Us</a></p>
                         </div>
                     </div>
-                    <div className=" ">
+                    <div className="mr-5 md:mr-0">
                         <button className=' h-[26px] md:h-[48px] w-[100px] md:w-[161px] rubik-font rounded-2xl bg-[#003084] text-white text-xs md:text-base font-normal navbar-button'>
                             Buy Bluey
                         </button>

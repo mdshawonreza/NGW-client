@@ -2,7 +2,7 @@
  import './roadmap.css'
 const Roadmap = () => {
     return (
-        <section id="roadmap" className='pt-10 md:pt-[82px]  max-w-[1022px] mx-auto'>
+        <section id="roadmap" className='py-10 md:py-[82px]  max-w-[1022px] mx-auto'>
             <div className='roadmap-image ' style={{
                 backgroundImage: `url(${image3})`,
                 
