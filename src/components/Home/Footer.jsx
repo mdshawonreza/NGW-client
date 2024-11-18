@@ -2,6 +2,7 @@ import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
 import { RiWechat2Fill } from "react-icons/ri";
 import image4 from '../../assets/Final pfp for rizzy-01.png'
 import image5 from '../../assets/foter Line.png'
+import icon3 from '../../assets/dextools-b.webp'
 import './footer.css'
 
 const Footer = () => {
@@ -18,16 +19,23 @@ const Footer = () => {
                         <img className="w-12 md:w-[72px]" src={image4} alt="" />
 
                     </div>
-                    <div className="-mr-4 md:-mr-0 space-x-2 md:space-x-6">
+                    <div className="-mr-4 md:-mr-0 flex justify-center items-center space-x-2 md:space-x-6">
+                        <a href="https://t.me/BlueyValley">
                         <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
                             <FaTelegramPlane className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane>
                         </button>
+                        </a>
+                        <a href="https://x.com/itsblueyonsol">
                         <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
                             <FaTwitter className="text-sm md:text-xl font-bold text-[#030B18]"></FaTwitter>
                         </button>
-                        <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
-                            <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill>
-                        </button>
+                        </a>
+                        <a href="https://www.dextools.io/app/en/solana/pair-explorer/8Vwe1bxMLy8SffPTfb3D6eLPpmTmzCiRbZayCDM51pts">
+                            <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
+                                {/* <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill> */}
+                                <img className=' h-[12px] md:h-[20px] w-[12px] md:w-[20px]' src={icon3} alt="" />
+                            </button>
+                        </a>
                     </div>
                     <div>
 

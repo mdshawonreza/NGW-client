@@ -1,4 +1,4 @@
-import { FaTwitter } from 'react-icons/fa';
+import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 import { fadeIn } from '../variants';
 import { motion } from 'framer-motion';
 import image5 from '../../assets/web image two-01.png'
@@ -12,6 +12,7 @@ import icon5 from "../../assets/solana-c.png"
 import circleBorder1 from '../../assets/Ellipse 9.png'
 import circleBorder2 from '../../assets/Ellipse 7.png'
 import './whatisbluey.css'
+// import { FaTelegram } from 'react-icons/fa6';
 
 const WhatIsBluey = () => {
     return (
@@ -48,50 +49,50 @@ const WhatIsBluey = () => {
                         <div className='h-10 md:h-20'> </div>
                         <a href=""><button className="btn btn-sm md:btn-lg btn-circle">
                             {/* <RiWechat2Fill className="text-sm md:text-2xl font-bold text-[#030B18]"></RiWechat2Fill> */}
-                            <img className='h-[30px] w-[30px] ' src={icon1} alt="" />
+                            <img className= 'h-[17px] md:h-[30px] w-[17px] md:w-[30px] ' src={icon1} alt="" />
                         </button></a>
                     </div>
                     <div>
                         <div className=' h-16 md:h-32 '> </div>
-                        <a href=""><button className="btn  btn-sm md:btn-lg btn-circle">
+                        <a href="https://dexscreener.com/solana/BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump?1731933193225"><button className="btn  btn-sm md:btn-lg btn-circle">
                             {/* <FaTelegramPlane className="  text-sm md:text-2xl font-bold text-[#030B18]"></FaTelegramPlane> */}
-                            <img className='h-[30px] w-[30px] bg-black rounded-full p-1' src={icon2} alt="" />
+                            <img className='h-[17px] md:h-[30px] w-[17px] md:w-[30px] bg-black rounded-full p-0 md:p-1' src={icon2} alt="" />
                         </button></a>
 
                     </div>
                     <div>
                         <div className='h-5 md:h-10'> </div>
-                        <a href=""><button className="btn  btn-sm md:btn-lg btn-circle">
-                            <FaTwitter className="text-base md:text-2xl font-bold text-[#030B18]"></FaTwitter>
+                        <a href="https://x.com/itsblueyonsol"><button className="btn  btn-sm md:btn-lg btn-circle">
+                            <FaTwitter className="text-base md:text-[26px] font-bold text-[#030B18]"></FaTwitter>
                         </button></a>
 
                     </div>
                     <div className='-mt-5 md:-mt-10'>
-                        <a href=""><button className="btn  btn-sm md:btn-lg btn-circle">
+                        <a href="https://raydium.io/swap/?inputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&outputMint=BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump"><button className="btn  btn-sm md:btn-lg btn-circle">
                             {/* <FaTelegramPlane className="text-base md:text-2xl font-bold text-[#030B18]"></FaTelegramPlane> */}
-                            <img className='h-[30px] w-[30px]' src={icon3} alt="" />
+                            <img className='h-[17px] md:h-[30px] w-[17px] md:w-[30px]' src={icon3} alt="" />
 
                         </button></a>
                     </div>
                     <div>
                         <div className='h-5 md:h-10'> </div>
-                        <a href=""><button className="btn  btn-sm md:btn-lg btn-circle">
-                        <FaTwitter className="text-base md:text-2xl font-bold text-[#030B18]"></FaTwitter>
+                        <a href="https://t.me/BlueyValley"><button className="btn  btn-sm md:btn-lg btn-circle">
+                        <FaTelegramPlane className="text-base md:text-[26px] font-bold text-[#030B18]"></FaTelegramPlane>
                         </button></a>
 
                     </div>
                     <div>
                         <div className='h-16 md:h-32'> </div>
-                        <a href=""> <button className="btn  btn-sm md:btn-lg btn-circle">
+                        <a href="https://www.dextools.io/app/en/solana/pair-explorer/8Vwe1bxMLy8SffPTfb3D6eLPpmTmzCiRbZayCDM51pts"> <button className="btn  btn-sm md:btn-lg btn-circle">
                             
-                            <img className='h-[30px] w-[30px]' src={icon4} alt="" />
+                            <img className='h-[17px] md:h-[25px] w-[17px] md:w-[25px]' src={icon4} alt="" />
                         </button></a>
                     </div>
                     <div>
                         <div className='h-10 md:h-20'> </div>
                         <a href=""><button className="btn  btn-sm md:btn-lg btn-circle">
                           
-                            <img className='h-[30px] w-[30px]' src={icon5} alt="" />
+                            <img className='h-[17px] md:h-[25px] w-[17px] md:w-[25px]' src={icon5} alt="" />
 
 
                         </button></a>

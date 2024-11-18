@@ -62,9 +62,11 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="mr-5 md:mr-0">
-                        <button className=' h-[26px] md:h-[48px] w-[100px] md:w-[161px] rubik-font rounded-2xl bg-[#003084] text-white text-xs md:text-base font-normal navbar-button'>
+                       <a href="https://raydium.io/swap/?inputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&outputMint=BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump">
+                       <button className=' h-[26px] md:h-[48px] w-[100px] md:w-[161px] rubik-font rounded-2xl bg-[#003084] text-white text-xs md:text-base font-normal navbar-button'>
                             Buy Bluey
                         </button>
+                       </a>
                     </div>
                 </div>
             </div>

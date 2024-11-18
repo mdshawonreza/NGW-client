@@ -26,7 +26,7 @@ const Buybuley = () => {
                             <div className='-mt-3 md:-mt-6 flex justify-center items-start'>
                                 <a href=""><button className="btn btn-xs md:btn-md btn-circle">
                                     {/* <RiWechat2Fill className="text-sm md:text-xl text-[#030B18] font-bold"></RiWechat2Fill> */}
-                                    <img className='h-[30px] w-[30px] ' src={icon1} alt="" />
+                                    <img className='h-[15px] md:h-[30px] w-[15px] md:w-[30px] ' src={icon1} alt="" />
                                 </button></a>
                             </div>
 
@@ -46,7 +46,7 @@ const Buybuley = () => {
                             <div className='-mt-3 md:-mt-6 flex justify-center items-start'>
                                 <a href=""><button className="btn btn-xs md:btn-md btn-circle">
                                     {/* <FaTelegramPlane  className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane > */}
-                                    <img className='h-[30px] w-[30px] ' src={icon5} alt="" />
+                                    <img className='h-[15px] md:h-[25px] w-[15px] md:w-[25px] ' src={icon5} alt="" />
                                 </button></a>
                             </div>
 
@@ -63,9 +63,9 @@ const Buybuley = () => {
                     <div className=' flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px]'>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
                             <div className=' -mt-3 md:-mt-6 flex justify-center items-start'>
-                                <a href=""><button className="btn btn-xs md:btn-md btn-circle">
+                                <a href="https://raydium.io/swap/?inputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&outputMint=BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump"><button className="btn btn-xs md:btn-md btn-circle">
                                     {/* <FaTwitter className="text-sm md:text-xl font-bold text-[#030B18]"></FaTwitter> */}
-                                    <img className='h-[30px] w-[30px] ' src={icon3} alt="" />
+                                    <img className='h-[15px] md:h-[30px] w-[15px] md:w-[30px] ' src={icon3} alt="" />
                                 </button></a>
                             </div>
 
@@ -84,9 +84,9 @@ const Buybuley = () => {
                     <div className='flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px] '>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
                             <div className=' -mt-3 md:-mt-6 flex justify-center items-start'>
-                                <a href=""><button className="btn btn-xs md:btn-md btn-circle">
+                                <a href="https://dexscreener.com/solana/BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump?1731933193225"><button className="btn btn-xs md:btn-md btn-circle">
                                     {/* <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill> */}
-                                    <img className='h-[30px] w-[30px] bg-black rounded-full p-[2px] md:p-1' src={icon2} alt="" />
+                                    <img className='h-[15px] md:h-[30px] w-[15px] md:w-[30px] bg-black rounded-full p-[2px] md:p-1' src={icon2} alt="" />
                                 </button></a>
                             </div>
 

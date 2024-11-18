@@ -21,9 +21,12 @@ const Tokenomics = () => {
                         </div>
                     </div>
                     <div className=' '>
-                        <button className='w-[101px] md:w-[161px] mt-1 md:mt-1 h-[32px] md:h-[48px] rounded-2xl bg-[#003084] text-white text-base font-semibold rubik-font tokenomics-button '>
-                            Buy Bluey
-                        </button>
+                        
+                        <a href="https://raydium.io/swap/?inputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&outputMint=BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump">
+                            <button className='w-[101px] md:w-[161px] mt-1 md:mt-1 h-[32px] md:h-[48px] rounded-2xl bg-[#003084] text-white text-base font-semibold rubik-font tokenomics-button '>
+                                Buy Bluey
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div className='flex flex-col md:flex-row justify-between items-center '>
@@ -33,31 +36,31 @@ const Tokenomics = () => {
                             <h3 className='text-xl md:text-[34px] font-bold text-[#fff] pb-4 md:pb-5 poppins-font'>
                                 Total Supply:
                             </h3>
-                            <h3 className='text-xl md:text-[34px] font-bold text-[#fff] pb-4 md:pb-7 poppins-font'>
-                                00 billion $BLUEY Token
+                            <h3 className='text-xl md:text-[34px] font-bold text-[#fff] pb-4 md:pb-7 leading-none md:leading-10 poppins-font'>
+                                10 million $BLUEY Token
                             </h3>
                             <div className='pb-3 md:pb-5  poppins-font'>
                                 <h4 className='text-base md:text-[24px] font-medium text-[#fff] pb-2 md:pb-4 poppins-font'>
                                     Initial Token Distribution
                                 </h4>
                                 <p className='test-sm md:text-base font-normal text-white poppins-font'>
-                                    Crowdfunded - 00 bilion
+                                    Tax - 0/0
                                 </p>
                                 <p className='test-sm md:text-base font-normal text-white poppins-font'>
-                                    Founder - 00 bilion
+                                    LP - Burnt
                                 </p>
                             </div>
-                            <div  className='pb-3 md:pb-5'>
+                            <div className='pb-3 md:pb-5'>
                                 <h4 className='text-[19px] md:text-[24px] font-medium text-[#fff] pb-2 md:pb-4 poppins-font'>
                                     Key Future
                                 </h4>
                                 <p className='text-base font-normal poppins-font text-white'>
                                     No taxes on transactions
                                 </p>
-                                <p className='text-base font-normal poppins-font text-white'>
+                                {/* <p className='text-base font-normal poppins-font text-white'>
                                     Key Features: No taxes on transactions                        </p>
                                 <p className='text-base font-normal poppins-font text-white'>
-                                    Community driven                        </p>
+                                    Community driven                        </p> */}
 
                             </div>
 
