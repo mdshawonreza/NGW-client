@@ -15,7 +15,7 @@ const Banner = () => {
                         
                         <div className="max-w-[200px] pl-0 md:pl-1 md:max-w-[520px] mt-1 md:mt-2 mb-2 md:mb-6  ">
                             <p className="text-base md:text-sm poppins-font font-normal text-[#fff] leading-5 md:leading-5">
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed  diam  nonummy nibh euismod tincidunt ut laoreet dolore magna!
+                            Just a time traveller finding his true self.
                             </p>
                         </div>
                         <div className="flex  items-center gap-1 md:gap-8">

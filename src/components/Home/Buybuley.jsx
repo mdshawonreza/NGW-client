@@ -2,6 +2,10 @@ import { RiWechat2Fill } from 'react-icons/ri';
 import image6 from '../../assets/Group 63.png'
 import './buybluey.css'
 import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
+import icon1 from "../../assets/Phantom-Icon_Circle_60x60 (1).png"
+import icon2 from "../../assets/dexscreener.png"
+import icon5 from "../../assets/solana-c.png"
+import icon3 from "../../assets/Raydium-Logo-PNG-758x473-removebg-preview.png"
 
 const Buybuley = () => {
     return (
@@ -21,7 +25,8 @@ const Buybuley = () => {
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
                             <div className='-mt-3 md:-mt-6 flex justify-center items-start'>
                                 <a href=""><button className="btn btn-xs md:btn-md btn-circle">
-                                    <RiWechat2Fill className="text-sm md:text-xl text-[#030B18] font-bold"></RiWechat2Fill>
+                                    {/* <RiWechat2Fill className="text-sm md:text-xl text-[#030B18] font-bold"></RiWechat2Fill> */}
+                                    <img className='h-[30px] w-[30px] ' src={icon1} alt="" />
                                 </button></a>
                             </div>
 
@@ -40,7 +45,8 @@ const Buybuley = () => {
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
                             <div className='-mt-3 md:-mt-6 flex justify-center items-start'>
                                 <a href=""><button className="btn btn-xs md:btn-md btn-circle">
-                                    <FaTelegramPlane  className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane >
+                                    {/* <FaTelegramPlane  className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane > */}
+                                    <img className='h-[30px] w-[30px] ' src={icon5} alt="" />
                                 </button></a>
                             </div>
 
@@ -51,14 +57,15 @@ const Buybuley = () => {
                 </div>
                 <div className="w-28 md:w-60  h-[290px] md:h-[400px]  border-curve-div3 ">
                     <div className='h-[230px] md:h-[300px] border-small flex justify-center mr-4 md:mr-12 items-center'>
-                        <p className='curve-p poppins-font text-white font-semibold'>Go to Uniswap</p>
+                        <p className='curve-p poppins-font text-white font-semibold'>Go to Raydium</p>
 
                     </div>
                     <div className=' flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px]'>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
                             <div className=' -mt-3 md:-mt-6 flex justify-center items-start'>
                                 <a href=""><button className="btn btn-xs md:btn-md btn-circle">
-                                    <FaTwitter className="text-sm md:text-xl font-bold text-[#030B18]"></FaTwitter>
+                                    {/* <FaTwitter className="text-sm md:text-xl font-bold text-[#030B18]"></FaTwitter> */}
+                                    <img className='h-[30px] w-[30px] ' src={icon3} alt="" />
                                 </button></a>
                             </div>
 
@@ -71,14 +78,15 @@ const Buybuley = () => {
                 <div className="w-28 md:w-60 -mx-8 md:-mx-20 h-[240px] md:h-[320px] border-curve-div4  ">
 
                     <div className='h-[180px] md:h-[220px] border-small flex justify-center mr-4 md:mr-12 items-center'>
-                        <p className='curve-p poppins-font text-white font-semibold'>Go to BLUEY</p>
+                        <p className='curve-p poppins-font text-white font-semibold'>Get Some $Bluey</p>
 
                     </div>
                     <div className='flex justify-center -ml-8 md:-ml-16 -mt-[6px] md:-mt-[5px] '>
                         <div className='w-10 md:w-16 h-5 md:h-8 absolute bg-[#030B18] border-extra-small rounded-b-full '>
                             <div className=' -mt-3 md:-mt-6 flex justify-center items-start'>
                                 <a href=""><button className="btn btn-xs md:btn-md btn-circle">
-                                    <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill>
+                                    {/* <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill> */}
+                                    <img className='h-[30px] w-[30px] bg-black rounded-full p-[2px] md:p-1' src={icon2} alt="" />
                                 </button></a>
                             </div>
 
