@@ -2,7 +2,7 @@ import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 import { fadeIn } from '../variants';
 import { motion } from 'framer-motion';
 import image5 from '../../assets/web image two-01.png'
-// import image6 from '../../assets/bg light.png'
+
 import { RiWechat2Fill } from 'react-icons/ri';
 import circleBorder1 from '../../assets/Ellipse 9.png'
 import circleBorder2 from '../../assets/Ellipse 7.png'
@@ -10,9 +10,11 @@ import './whatisbluey.css'
 
 const WhatIsBluey = () => {
     return (
-        <div className='max-w-[400px] md:max-w-[1100px] mx-auto'>
-            <div className='py-10 md:py-[82px] bg-cover   bg-light'
-            //  style={{ backgroundImage: `url(${image6})`, }} 
+        <div className='max-w-[400px] md:max-w-[1100px] mx-auto bg-cover   bg-light'
+         
+        >
+            <div className='py-10 md:py-[82px] '
+             
             >
                 <motion.div
                     variants={fadeIn('up', 0.2)}
@@ -23,10 +25,10 @@ const WhatIsBluey = () => {
                     id='bluey'
                     className='max-w-[300px] md:max-w-[970px] lg:max-w-[970px] mx-auto  '>
                     <div className=' '>
-                        <h1 className='text-center font-normal text-xl md:text-[57px] text-white rubik-font pb-1 md:pb-12]'>
+                        <h1 className='text-center font-normal text-xl md:text-[57px] text-white rubik-font pb-0 md:pb-12]'>
                             What is <span className='text-[#003084]'> BLUEY?</span>
                         </h1>
-                        <div className='max-w-[290px] md:max-w-3xl mx-auto pt-2 md:pt-6'>
+                        <div className='max-w-[290px] md:max-w-3xl mx-auto pt-1 md:pt-6'>
                             <p className='text-center text-base md:text-base font-normal text-[#fff] poppins-font '>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
                             </p>
@@ -89,6 +91,7 @@ const WhatIsBluey = () => {
                         backgroundImage: `url(${image5})`,
 
                     }}>
+                        
 
                         <div className='-mt-[136px] md:mt-0'>
                             <img className='circle2 border-spacing-3  mt-[116px] md:-mt-20 rounded-full     mx-[43px] w-[200px] md:w-[600px] h-[200px] md:h-[600px]' src={circleBorder2} alt="" />

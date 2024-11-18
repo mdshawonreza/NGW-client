@@ -57,9 +57,10 @@
 }
 
   /* .bg-light{
-    background-size:1300px 450px ;
+    background-size:1700px 700px ;
     background-repeat: no-repeat;
     background-position: bottom;
+    background-blend-mode: soft-light;
   } */
 
   @keyframes Rotate {

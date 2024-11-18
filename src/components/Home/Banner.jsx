@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className="ml-10 md:ml-[70px] mt-10 md:mt-0   ">
 
                     <div className="max-w-[250px] md:max-w-[653px]  mx-auto">
-                        <h1 className="text-xl leading-6 md:leading-[66px] rubik-font  text-white md:text-[57px] font-normal">Welcome to Bluey <br />The Future of Meme <br /> Coins!</h1>
+                        <h1 className="text-[22px] leading-6 md:leading-[66px] rubik-font  text-white md:text-[57px] font-normal">Welcome to Bluey <br />The Future of Meme <br /> Coins!</h1>
                         
                         <div className="max-w-[200px] pl-0 md:pl-1 md:max-w-[520px] mt-1 md:mt-2 mb-2 md:mb-6  ">
                             <p className="text-base md:text-sm poppins-font font-normal text-[#fff] leading-5 md:leading-5">

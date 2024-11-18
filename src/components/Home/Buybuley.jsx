@@ -92,10 +92,10 @@ const Buybuley = () => {
 
             </div>
             <div className='flex  flex-col items-center md:items-start   max-w-xl mx-auto'>
-                <h1 className=' absolute rubik-font  -ml-0 md:-ml-60 -mt-[50px] md:-mt-36 text-xl md:text-[57px] text-[#fff] font-normal'>
+                <h1 className=' absolute rubik-font  -ml-0 md:-ml-60 -mt-[60px] md:-mt-36 text-xl md:text-[57px] text-[#fff] font-normal'>
                     How to buy $BLUEY
                 </h1>
-                <img className='w-[300px] md:w-[370px] h-[300px] md:h-[370px] ' src={image6} alt="" />
+                <img className='w-[280px] md:w-[370px] h-[280px] md:h-[370px] ' src={image6} alt="" />
             </div>
 
         </section>
