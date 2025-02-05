@@ -56,7 +56,7 @@ const WhatIsBluey = () => {
                         <div className=' h-16 md:h-32 '> </div>
                         <a href="https://dexscreener.com/solana/BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump?1731933193225"><button className="btn  btn-sm md:btn-lg btn-circle">
                             {/* <FaTelegramPlane className="  text-sm md:text-2xl font-bold text-[#030B18]"></FaTelegramPlane> */}
-                            <img className='h-[17px] md:h-[30px] w-[17px] md:w-[30px] bg-black rounded-full p-0 md:p-1' src={icon2} alt="" />
+                            <img className='h-[17px] md:h-[30px] w-[17px] md:w-[30px] bg-[#030B18] rounded-full p-0 md:p-1' src={icon2} alt="" />
                         </button></a>
 
                     </div>

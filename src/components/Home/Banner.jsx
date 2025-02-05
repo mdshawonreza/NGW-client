@@ -39,7 +39,7 @@ const Banner = () => {
                                 <a href="https://dexscreener.com/solana/BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump?1731933193225">
                                     <button className="btn btn-sm md:btn-md  btn-circle border-[1px] md:border-[2px] border-black">
                                         {/* <RiWechat2Fill className="text-sm md:text-xl text-[#0f2c69] font-bold"></RiWechat2Fill> */}
-                                        <img className='h-[15px] md:h-[25px]  w-[15px] md:w-[25px]  bg-black rounded-full p-0 md:p-1' src={icon3} alt="" />
+                                        <img className='h-[15px] md:h-[25px]  w-[15px] md:w-[25px]  bg-[#0f2c69] rounded-full p-0 md:p-1' src={icon3} alt="" />
                                     </button>
                                 </a>
                             </div>
