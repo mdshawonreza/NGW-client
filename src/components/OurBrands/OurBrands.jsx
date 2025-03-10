@@ -9,7 +9,7 @@ const OurBrands = () => {
             .then(data => setItems(data))
     }, [])
     return (
-        <div className="  md:pt-30  py-20  inter-font">
+        <div className="  md:pt-[118px]  py-20  inter-font">
 
             <div className="relative">
                 <img
@@ -28,7 +28,7 @@ const OurBrands = () => {
                             <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
                         </svg>
                     </div>
-                    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                    <div className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
 
                             <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">

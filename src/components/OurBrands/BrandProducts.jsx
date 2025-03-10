@@ -20,7 +20,7 @@ const BrandProducts = () => {
     console.log(filteredItems)
     console.log(items)
     return (
-        <div className='pt-40'>
+        <div className='md:pt-[118px]'>
             <div className="relative ">
                 <img
                     src="https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
@@ -44,15 +44,18 @@ const BrandProducts = () => {
 
                             <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
 
-                                Our <span className='text-[#F26B24] md:leading-relaxed'> Products</span>
+                            {brandName}<span className='text-[#F26B24] md:leading-relaxed'> Brand</span>
+
                             </h2>
                             <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
                                 One-stop destination for high-quality wholesale products at unbeatable prices.
                             </p>
 
-                            <div className="form-control my-4">
+                            <div className="form-control pt-2 pb-3 my-4">
                                 <div className="join">
-                                    <input onChange={(e) => { setSearch(e.target.value) }} type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
+                                    <input 
+                                    // onChange={(e) => { setSearch(e.target.value) }}
+                                     type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
                                     <a href="#searchP">
                                         <button
                                             type="submit"

@@ -32,8 +32,10 @@ const Navbar = () => {
         <li><a className=" text-black text-lg font-medium  hover:text-[#F26B24]" href="">About Us</a></li>
         <li><NavLink to="/ourBrands" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Brands</NavLink></li>
         <li><NavLink to="/ourProducts" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Products</NavLink></li>
-        <li><a className=" text-black text-lg font-medium  hover:text-[#F26B24]" href="">Our Team</a></li>
-        <li><a className=" text-black text-lg font-medium  hover:text-[#F26B24]" href="">Contact US</a></li>
+        <li><NavLink to="/ourTeam" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Team</NavLink></li>
+        <li><NavLink to="/contactUs" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Contact US</NavLink></li>
+        
+       
 
 
     </>

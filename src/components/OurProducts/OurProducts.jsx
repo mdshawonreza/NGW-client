@@ -48,7 +48,7 @@ const OurProducts = () => {
                                 One-stop destination for high-quality wholesale products at unbeatable prices.
                             </p>
 
-                            <div className="form-control my-4">
+                            <div className="form-control pb-3 my-4">
                                 <div className="join">
                                     <input onChange={(e) => { setSearch(e.target.value) }} type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
                                     <a href="#searchP">
