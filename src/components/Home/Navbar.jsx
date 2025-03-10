@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react';
 import './navbar.css'
+import { BsTelephoneInbound } from 'react-icons/bs';
+import { FaChevronDown, FaSearch } from 'react-icons/fa';
+import { BiShoppingBag } from 'react-icons/bi';
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -24,49 +28,86 @@ const Navbar = () => {
     }, []);
 
     const navLinks = <>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#bluey">What is BLUEY</a></li>
-        <li><a href="#tokenomics">Tokenomics</a></li>
-        <li><a href="#roadmap">Roadmap</a></li>
-        <li><a href="#joinUs">Join Us</a></li>
+        <li><NavLink to="/" className=" text-black text-lg font-medium  hover:text-[#F26B24]">Home</NavLink></li>
+        <li><a className=" text-black text-lg font-medium  hover:text-[#F26B24]" href="">About Us</a></li>
+        <li><NavLink to="/ourBrands" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Brands</NavLink></li>
+        <li><NavLink to="/ourProducts" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Products</NavLink></li>
+        <li><a className=" text-black text-lg font-medium  hover:text-[#F26B24]" href="">Our Team</a></li>
+        <li><a className=" text-black text-lg font-medium  hover:text-[#F26B24]" href="">Contact US</a></li>
+
 
     </>
     return (
 
         <div
-            className={`  text-white fixed w-full  z-20 mx-auto   md:h-[103px] flex items-center   ${isScrolled ? 'bg-[#01296e]  ' : 'bg-black bg-opacity-25 bg-color'}`}
+            className={`bg-white  py-4 md:py-8 fixed w-full z-[100] shadow-sm`}
         >
-           
-            <div className='  lg:max-w-[1100px] mx-auto'>
-                <div className='flex  justify-between gap-32 md:gap-[125px] items-center'>
-                    <div className="flex justify-between items-center ">
+
+            <div className='z-[100] max-w-[380px] md:max-w-[850px]  lg:max-w-[1550px]   mx-auto '>
+                <div className='flex justify-between   items-center'>
+                    <div className="flex justify-start items-center  md:w-1/4">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </label>
-                            <ul tabIndex={0} className="menu rubik-font font-normal text-base menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-blue-950 rounded-box w-52">
+                            <ul tabIndex={0} className="menu inter-font font-normal text-base menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-blue-950 rounded-box w-52">
                                 {navLinks}
                             </ul>
                         </div>
-                        <h2 className="text-2xl md:text-[34px]  rubik-font font-normal">
-                            BLUEY
+                        <h2 className=" text-[32px]  md:text-[34px]  inter-font font-extrabold text-[#000000] ">
+                            <span className='bg-[#F26B24]  rounded-md '>N</span>GW
                         </h2>
                     </div>
-                    <div className=" hidden lg:flex ">
-                        <div className="flex justify-between font-normal text-base rubik-font gap-8  ">
-                            <p className=" text-white  hover:text-[#8beef7]"><a href="#home">Home</a></p>
-                            <p className=" text-white  hover:text-[#8beef7]"><a href="#bluey">What is BLUEY</a></p>
-                            <p className=" text-white  hover:text-[#8beef7]"><a href="#tokenomics">Tokenomics</a></p>
-                            <p className=" text-white  hover:text-[#8beef7]"><a href="#roadmap">Roadmap</a></p>
-                            <p className=" text-white  hover:text-[#8beef7]"><a href="#joinUs">Join Us</a></p>
-                        </div>
+                    <div className=" hidden md:w-2/4  lg:flex justify-center items-center ">
+                        <ul className="flex justify-between font-normal text-base inter-font gap-12 items-center ">
+                            {/* <NavLink to='/' className=" text-black text-lg font-medium  hover:text-[#F26B24]">Home</NavLink>
+                            <div className=" text-black  hover:text-[#F26B24]">
+                                <a href="">
+                                    <div className="dropdown dropdown-hover">
+                                        <div tabIndex={0} role="button" className=" m-1 flex justify-center items-center gap-2 text-lg font-medium">About Us
+                                            <FaChevronDown className='text-[#F26B24]' />
+                                        </div>
+                                        <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                                            <li><a>Item 1</a></li>
+                                            <li><a>Item 2</a></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className=" text-black  hover:text-[#F26B24]">
+                                <a href="">
+                                    <div className="dropdown dropdown-hover">
+                                        <div tabIndex={0} role="button" className=" m-1 flex justify-center items-center gap-2 text-lg font-medium">Inventory
+                                            <FaChevronDown className='text-[#F26B24]' />
+                                        </div>
+                                        <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                                            <li><a>Item 1</a></li>
+                                            <li><a>Item 2</a></li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div className=" text-black text-lg font-medium hover:text-[#F26B24]"><a href="#roadmap">Our Team </a></div> */}
+                            {navLinks}
+                            
+                        </ul>
                     </div>
-                    <div className="mr-5 md:mr-0">
-                       <a href="https://raydium.io/swap/?inputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&outputMint=BXg6mQqRvUZMcjzA2PsjxNi8wFCTrsV9FeHb5yeBpump">
-                       <button className=' h-[26px] md:h-[48px] w-[100px] md:w-[161px] rubik-font rounded-2xl bg-[#003084] text-white text-xs md:text-base font-normal navbar-button'>
-                            Buy Bluey
-                        </button>
-                       </a>
+                    <div className="mr-5 md:w-1/4   md:mr-0 flex justify-end items-center gap-3 md:gap-8">
+                        <FaSearch className='text-black text-[20px]' />
+                        <div>
+                            <p className='bg-[#F26B24] text-xs rounded-full px-[4px] absolute ml-3 inter-font'>8</p>
+                            <BiShoppingBag className='text-black text-[24px]' />
+                        </div>
+                        {/* <a href="">
+                            <button className=' h-[26px] md:h-[60px] w-[100px] md:w-[206px] inter-font rounded-full bg-[#F26B24] text-white text-xs md:text-xl font-medium  flex justify-center items-center gap-1 md:gap-3'>
+                                <BsTelephoneInbound className='text-xm md:text-[24px] font-medium' />
+                                Contact Us
+
+                            </button>
+                        </a> */}
+
                     </div>
                 </div>
             </div>

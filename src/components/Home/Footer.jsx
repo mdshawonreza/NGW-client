@@ -1,61 +1,72 @@
-import { FaTelegramPlane, FaTwitter } from "react-icons/fa";
-import { RiWechat2Fill } from "react-icons/ri";
-import image4 from '../../assets/Final pfp for rizzy-01.png'
-import image5 from '../../assets/foter Line.png'
-import icon3 from '../../assets/dextools-b.webp'
-import './footer.css'
+
+
+import { FiFacebook, FiTwitter } from 'react-icons/fi';
+import { FaInstagram } from 'react-icons/fa';
+import { AiOutlineYoutube } from 'react-icons/ai';
+
 
 const Footer = () => {
     return (
-        <div className="py-10 md:py-[82px] footer-image max-w-[1100px] mx-auto" style={{
-            backgroundImage: `url(${image5})`,
-
-        }}>
-            <div>
-                <div className="flex justify-around items-center pt-2 md:pt-4">
-
-                    <div>
-
-                        <img className="w-12 md:w-[72px]" src={image4} alt="" />
-
-                    </div>
-                    <div className="-mr-4 md:-mr-0 flex justify-center items-center space-x-2 md:space-x-6">
-                        <a href="https://t.me/BlueyValley">
-                        <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
-                            <FaTelegramPlane className="text-sm md:text-xl font-bold text-[#030B18]"></FaTelegramPlane>
-                        </button>
-                        </a>
-                        <a href="https://x.com/itsblueyonsol">
-                        <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
-                            <FaTwitter className="text-sm md:text-xl font-bold text-[#030B18]"></FaTwitter>
-                        </button>
-                        </a>
-                        <a href="https://www.dextools.io/app/en/solana/pair-explorer/8Vwe1bxMLy8SffPTfb3D6eLPpmTmzCiRbZayCDM51pts">
-                            <button className="btn btn-sm md:btn-md border-[2px] border-black btn-circle">
-                                {/* <RiWechat2Fill className="text-sm md:text-xl font-bold text-[#030B18]"></RiWechat2Fill> */}
-                                <img className=' h-[12px] md:h-[20px] w-[12px] md:w-[20px]' src={icon3} alt="" />
-                            </button>
-                        </a>
-                    </div>
-                    <div>
-
-                        <p className=" text-white text-[10px] md:text-base font-normal poppins-font">
-                            Privacy policy
+        <div className='max-w-[350px] md:max-w-[850px] lg:max-w-[1550px] mx-auto  md:mb-16'>
+            <footer className="flex flex-col md:flex-row  justify-between text-base-content  py-10">
+                <div>
+                    <aside>
+                        <h2 className=" text-[26px]  md:text-[26px]  inter-font font-extrabold text-[#000000] ">
+                            <span className='bg-[#F26B24]  rounded-md '>N</span>GW
+                        </h2>
+                        <p className='md:text-[24px] mt-3 md:mt-8 font-medium text-[#555555] leading-snug inter-font'>
+                            Savor the artistry where <br /> every dish is a culinary <br /> masterpiece
                         </p>
-
-                    </div>
-
+                    </aside>
 
                 </div>
+                <div className='flex flex-row md:flex-row gap-5 md:gap-60 justify-between mt-5 md:mt-0'>
+                    <div className='space-y-2 md:space-y-4 flex flex-col inter-font'>
+                        <h6 className="text-[#000000] md:text-[26px] font-semibold">Useful links</h6>
+                        <a className="link link-hover text-[#555555] md:text-[24px] font-medium">About us</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">Our Founders</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">Blogs</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">FAQ</a>
+                    </div>
+                    <nav className='space-y-2 md:space-y-4 flex flex-col inter-font'>
+                        <h6 className="text-[#000000] md:text-[26px] font-semibold">Main Menu</h6>
+                        <a className="link link-hover text-[#555555] md:text-[24px] font-medium">Home</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">Offers</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">Inventory</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">Testimonials</a>
+                    </nav>
+                    <nav className=' space-y-2 md:space-y-4 flex flex-col inter-font'>
+                        <h6 className="text-[#000000] md:text-[26px] font-semibold">Contact Us</h6>
+                        <a className="link link-hover text-[#555555] md:text-[24px] font-medium">example@email.com</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">+1 730 062 423</a>
+                        <a className="link link-hover  text-[#555555] md:text-[24px] font-medium">Social media</a>
 
-                <div className="footer px-3 md:px-10 pt-5 md:pt-8 pb-4 md:pb-12  text-white test-sm md:text-base font-normal flex justify-center poppins-font ">
+                    </nav>
+                </div>
+            </footer>
+            <div className='my-0 md:my-20 mb-8 -mt-4 md:mt-0 md:mb-0'>
+                <div className='flex justify-center md:justify-start gap-5'>
+                    <button className=" bg-[#F48B54] hover:bg-[#F26B24] md:w-[58px] md:h-[58px] w-[30px] h-[30px] rounded-full flex justify-center items-center  ">
+                        <FiFacebook className='text-white md:text-[30px]' />
 
-                    <p className="">2024 by BLUEY. All rights reserved!</p>
+                    </button>
+                    <button className=" bg-[#F48B54] hover:bg-[#F26B24] w-[30px] h-[30px] md:w-[58px]  md:h-[58px] rounded-full flex justify-center items-center  ">
+                        <FaInstagram className='text-white text-base md:text-[30px]' />
 
+                    </button>
+                    <button className=" bg-[#F48B54] hover:bg-[#F26B24] w-[30px] h-[30px] md:w-[58px] md:h-[58px] rounded-full flex justify-center items-center  ">
+                        <FiTwitter className='text-white md:text-[27px]' />
+
+                    </button>
+                    <button className=" bg-[#F48B54] hover:bg-[#F26B24] md:w-[58px] md:h-[58px] w-[30px] h-[30px] rounded-full flex justify-center items-center  ">
+                        <AiOutlineYoutube className='text-white md:text-[30px]' />
+
+                    </button>
+                </div>
+                <div className='text-center mt-3 inter-font md:-mt-12'>
+                    <p className='text-[#555555] md:text-[22px] font-medium'>Copyright 2025 YSA | All rights reserved</p>
                 </div>
             </div>
-
-
         </div>
     );
 };
