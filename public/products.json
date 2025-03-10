@@ -1,183 +1,104 @@
-[
+
+  [
     {
       "id": 1,
-      "productTitle": "Wireless Bluetooth Headphones",
+      "productTitle": "Elite Wireless Headphones",
       "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-      "description": "High-quality wireless headphones with noise cancellation.",
-      "price": 59.99,
-      "rating": 4.5,
-      "brandName": "EcoWave"
+      "description": "Premium over-ear headphones with deep bass and noise cancellation.",
+      "price": 79.99,
+      "rating": 4.7,
+      "brandName": "SonicWave",
+      "category": "Electronics & Gadgets"
     },
     {
       "id": 2,
-      "productTitle": "Smartwatch Pro X",
+      "productTitle": "Smart Fitness Watch",
       "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-      "description": "Feature-rich smartwatch with fitness tracking and GPS.",
-      "price": 129.99,
-      "rating": 4.7,
-      "brandName": "TechNova"
+      "description": "Track your steps, heart rate, and sleep with this smart wearable.",
+      "price": 99.99,
+      "rating": 4.5,
+      "brandName": "FitTrack",
+      "category": "Electronics & Gadgets"
     },
     {
       "id": 3,
-      "productTitle": "4K Ultra HD Smart TV",
+      "productTitle": "ErgoComfort Office Chair",
       "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-      "description": "55-inch 4K Ultra HD Smart TV with HDR and streaming apps.",
-      "price": 499.99,
+      "description": "Ergonomic chair with adjustable lumbar support and mesh backrest.",
+      "price": 189.99,
       "rating": 4.6,
-      "brandName": "CyberX"
+      "brandName": "WorkEase",
+      "category": "Home & Office"
     },
     {
       "id": 4,
-      "productTitle": "Ergonomic Office Chair",
-      "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-      "description": "Comfortable ergonomic office chair with lumbar support.",
-      "price": 149.99,
-      "rating": 4.4,
-      "brandName": "EcoWave"
+      "productTitle": "RGB Gaming Keyboard",
+      "image": "https://via.placeholder.com/150",
+      "description": "Mechanical keyboard with customizable RGB lighting and fast response keys.",
+      "price": 89.99,
+      "rating": 4.8,
+      "brandName": "GameMax",
+      "category": "Gaming & Accessories"
     },
     {
       "id": 5,
-      "productTitle": "Gaming Laptop GX500",
+      "productTitle": "UltraThin Power Bank",
       "image": "https://via.placeholder.com/150",
-      "description": "High-performance gaming laptop with RTX graphics.",
-      "price": 1299.99,
-      "rating": 4.8,
-      "brandName": "TechNova"
+      "description": "10,000mAh power bank with fast charging support.",
+      "price": 34.99,
+      "rating": 4.3,
+      "brandName": "VoltX",
+      "category": "Personal & Travel"
     },
     {
       "id": 6,
-      "productTitle": "Portable Espresso Machine",
+      "productTitle": "4K Streaming Smart TV",
       "image": "https://via.placeholder.com/150",
-      "description": "Compact espresso machine for coffee lovers on the go.",
-      "price": 79.99,
-      "rating": 4.2,
-      "brandName": "CyberX"
+      "description": "Ultra HD smart TV with built-in streaming apps and voice control.",
+      "price": 529.99,
+      "rating": 4.6,
+      "brandName": "VisionTech",
+      "category": "Electronics & Gadgets"
     },
     {
       "id": 7,
-      "productTitle": "Smart Home Security Camera",
+      "productTitle": "Adjustable Standing Desk",
       "image": "https://via.placeholder.com/150",
-      "description": "Wireless security camera with night vision and motion detection.",
-      "price": 89.99,
-      "rating": 4.6,
-      "brandName": "EcoWave"
+      "description": "Motorized height-adjustable desk for a comfortable workspace.",
+      "price": 349.99,
+      "rating": 4.7,
+      "brandName": "WorkEase",
+      "category": "Home & Office"
     },
     {
       "id": 8,
-      "productTitle": "Mechanical Gaming Keyboard",
+      "productTitle": "Gaming Laptop X1",
       "image": "https://via.placeholder.com/150",
-      "description": "RGB backlit mechanical keyboard with customizable keys.",
-      "price": 79.99,
-      "rating": 4.5,
-      "brandName": "TechNova"
+      "description": "High-performance gaming laptop with RTX graphics and 16GB RAM.",
+      "price": 1499.99,
+      "rating": 4.9,
+      "brandName": "GameMax",
+      "category": "Gaming & Accessories"
     },
     {
       "id": 9,
       "productTitle": "Smart Air Purifier",
       "image": "https://via.placeholder.com/150",
-      "description": "Advanced air purifier with HEPA filter and smart controls.",
+      "description": "HEPA-filter air purifier with smart controls and real-time air quality monitoring.",
       "price": 199.99,
       "rating": 4.7,
-      "brandName": "CyberX"
+      "brandName": "FreshAir",
+      "category": "Home & Office"
     },
     {
       "id": 10,
-      "productTitle": "Ultra Slim Power Bank",
-      "image": "https://via.placeholder.com/150",
-      "description": "10,000mAh power bank for fast charging on the go.",
-      "price": 39.99,
-      "rating": 4.3,
-      "brandName": "EcoWave"
-    },
-    {
-      "id": 11,
-      "productTitle": "Noise Cancelling Earbuds",
-      "image": "https://via.placeholder.com/150",
-      "description": "True wireless earbuds with active noise cancellation.",
-      "price": 129.99,
-      "rating": 4.5,
-      "brandName": "TechNova"
-    },
-    {
-      "id": 12,
-      "productTitle": "Professional DSLR Camera",
-      "image": "https://via.placeholder.com/150",
-      "description": "High-resolution DSLR camera with advanced autofocus.",
-      "price": 899.99,
-      "rating": 4.8,
-      "brandName": "CyberX"
-    },
-    {
-      "id": 13,
-      "productTitle": "Adjustable Standing Desk",
-      "image": "https://via.placeholder.com/150",
-      "description": "Height-adjustable desk for ergonomic working.",
-      "price": 279.99,
-      "rating": 4.6,
-      "brandName": "EcoWave"
-    },
-    {
-      "id": 14,
-      "productTitle": "Electric Toothbrush Pro",
-      "image": "https://via.placeholder.com/150",
-      "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
-      "price": 59.99,
-      "rating": 4.4,
-      "brandName": "TechNova"
-    },
-    {
-      "id": 15,
-      "productTitle": "Smart LED Light Bulb",
-      "image": "https://via.placeholder.com/150",
-      "description": "Wi-Fi enabled LED bulb with color customization.",
-      "price": 19.99,
-      "rating": 4.6,
-      "brandName": "CyberX"
-    },
-    {
-      "id": 16,
-      "productTitle": "Portable Mini Projector",
-      "image": "https://via.placeholder.com/150",
-      "description": "Compact projector for home entertainment and presentations.",
-      "price": 249.99,
-      "rating": 4.5,
-      "brandName": "EcoWave"
-    },
-    {
-      "id": 17,
-      "productTitle": "Smart Body Scale",
-      "image": "https://via.placeholder.com/150",
-      "description": "Digital smart scale with BMI and body composition analysis.",
-      "price": 49.99,
-      "rating": 4.3,
-      "brandName": "TechNova"
-    },
-    {
-      "id": 18,
-      "productTitle": "Wireless Charging Pad",
-      "image": "https://via.placeholder.com/150",
-      "description": "Fast wireless charging pad for smartphones and accessories.",
-      "price": 29.99,
-      "rating": 4.4,
-      "brandName": "CyberX"
-    },
-    {
-      "id": 19,
       "productTitle": "Compact Travel Backpack",
       "image": "https://via.placeholder.com/150",
-      "description": "Waterproof backpack with multiple compartments.",
-      "price": 69.99,
+      "description": "Lightweight waterproof backpack with multiple compartments.",
+      "price": 59.99,
       "rating": 4.5,
-      "brandName": "EcoWave"
-    },
-    {
-      "id": 20,
-      "productTitle": "Digital Drawing Tablet",
-      "image": "https://via.placeholder.com/150",
-      "description": "Graphic drawing tablet with pressure-sensitive pen.",
-      "price": 199.99,
-      "rating": 4.7,
-      "brandName": "TechNova"
+      "brandName": "PackPro",
+      "category": "Personal & Travel"
     }
   ]
   

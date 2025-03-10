@@ -3,8 +3,56 @@ import React from 'react';
 const OurTeam = () => {
     return (
         <div className=' md:pt-[98px]'>
-            
-            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1580px] md:px-24 lg:px-8 lg:py-20">
+            <div className="relative">
+                <img
+                    src="https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                    className="absolute inset-0 object-cover w-full h-full"
+                    alt=""
+                />
+                <div className="relative bg-gray-900 bg-opacity-75">
+                    <div className="absolute inset-x-0 bottom-0">
+                        <svg
+                            viewBox="0 0 224 12"
+                            fill="currentColor"
+                            className="w-full -mb-1 text-white"
+                            preserveAspectRatio="none"
+                        >
+                            <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
+                        </svg>
+                    </div>
+                    <div className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                        <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+
+                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
+
+                                Our <span className='text-[#F26B24] md:leading-relaxed'>Team </span>
+                            </h2>
+                            <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
+                                One-stop destination for high-quality wholesale products at unbeatable prices.
+                            </p>
+
+
+                            <a
+                                href="#ourt"
+                                aria-label="Scroll down"
+                                className="flex mt-7 items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-[#F26B24] rounded-full hover:text-teal-accent-400 hover:border-[#F26B24] hover:shadow hover:scale-110 hover:bg-[#F26B24]"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="12"
+                                    height="12"
+                                    viewBox="0 0 12 12"
+                                    fill="currentColor"
+                                >
+                                    <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id='ourt' className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1580px] md:px-24 lg:px-8 lg:py-20">
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-5xl md:mb-12">
                     <div>
                         <p className="text-[20px] inter-font font-bold text-[#FF6868]">
@@ -35,13 +83,13 @@ const OurTeam = () => {
                                     height="24"
                                 />
                             </svg>
-                           
+
                             <h2 className=" font-sans tracking-tight text-black sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-8 inter-font "><span className='text-[#F26B24] md:leading-tight'> Welcome</span> our <br /> talented team of professionals
 
-                            
+
 
                             </h2>
-                        </span> 
+                        </span>
                     </h2>
                     <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -344,7 +392,7 @@ const OurTeam = () => {
                     </div>
                 </div>
             </div>
-           
+
         </div>
     );
 };

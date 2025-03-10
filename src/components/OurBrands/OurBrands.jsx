@@ -63,42 +63,47 @@ const OurBrands = () => {
             <div id='brands' className="max-w-[1550px] mx-auto">
                 <div className="w-1/2 mx-auto md:my-20">
                     <div className="text-center mt-8">
-                        <h2 className=" font-sans tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Find Your <span className="text-[#F26B24]">Products</span> </h2>
-                        <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font">Book your hostel now and unlock exclusive discounts, ensuring a budget-friendly stay with exceptional comfort and service.</p>
+                        <h3 className='text-[20px] inter-font font-bold text-[#FF6868] '>wholesale & distributor</h3>
+                        <h2 className=" font-sans tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-5 inter-font ">our  <span className="text-[#F26B24]">Multi-Brand</span> </h2>
+                        <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font">We specialize in high volume wholesale of multi-brand products. Our variety includes c-store wholesale, close-out items, dollar store & party store items, and bulk restaurant supplies.</p>
                     </div>
 
                 </div>
 
 
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mt-10 justify-center  w-full max-w-[1550px] mx-auto ">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 justify-center  w-full md:max-w-[1550px] mx-auto ">
                     {items.map((item, index) => (
                         <div
                             key={index}
                             className="group flex relative flex-1 min-w-[200px]  backdrop-blur-lg  p-6 
-                           transition-all duration-[1000ms] ease-in-out cursor-pointer 
-                           hover:flex-[2] hover:bg-[#2d1457] justify-center items-center h-[600px]"
+                           transition-all duration-1000 ease-in-out cursor-pointer 
+                           hover:flex-[2] hover:bg-[#2d1457] justify-center items-center h-[550px] hover:z-10
+               text-white text-sm  transform
+             hover:shadow-none  "
                             style={{ background: item.brandColor }}
                         >
 
 
                             <Link to={`/brandProducts/${item.brandName}`}>
-                                <motion.div
-                                    className="relative w-[350px] h-[350px] flex justify-center items-center  perspective-1000  group"
-                                    whileHover={{
-                                        rotateX: 25,
-                                        translateY: -10,
-                                        boxShadow: "2px 35px 32px -8px rgba(0, 0, 0, 0.75)",
+                                <div
+                                    className="relative w-[350px] h-[350px] flex justify-center items-center  perspective-1000  group  cursor-pointer text-white text-sm "
 
-                                    }}
 
 
                                 >
 
                                     <div className=''>
-                                        <img
+                                        <motion.img
                                             src={item.brandImg}
                                             alt="Title"
-                                            className="w-full  transition-transform duration-500"
+                                            className="w-72 h-[400px] transition-transform duration-500"
+                                            whileHover={{
+                                                rotateX: 25,
+                                                translateY: -10,
+                                                boxShadow: "2px 35px 32px -8px rgba(0, 0, 0, 0.75)",
+
+                                            }}
+
 
                                         />
                                     </div>
@@ -110,10 +115,12 @@ const OurBrands = () => {
                                     <motion.img
                                         src={item.brandLogo}
                                         alt="Character"
-                                        className="absolute w-full  bg-opacity-0  opacity-0 transition-all duration-500 z-[-1] group-hover:opacity-100 group-hover:translate-y-[-30%] group-hover:z-10 "
+                                        className="absolute w-full  bg-opacity-0  opacity-0 transition-all duration-700 z-[-1] group-hover:opacity-100 group-hover:translate-y-[-30%] group-hover:z-10 group-hover:bg-black
+                                        group-hover:bg-opacity-60 group-hover:p-5
+                                        "
                                     />
 
-                                </motion.div>
+                                </div>
                             </Link>
 
 

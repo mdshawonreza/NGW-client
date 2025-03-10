@@ -95,7 +95,7 @@ const OurProducts = () => {
                         setCategory(e.target.value);
                     }} className="select select-sm select-bordered w-full max-w-xs">
                         <option disabled selected>Select by category</option>
-                        <option>EcoWave</option>
+                        <option>Electronics & Gadgets</option>
                         <option>TechNova</option>
                         <option>CyberX</option>
                     </select>
@@ -122,7 +122,7 @@ const OurProducts = () => {
 
                             const isCategoryValue = category.toLowerCase() === ""
                                 ? product
-                                : product.brandName.includes(category);
+                                : product.category.includes(category);
                             return isSearchValue && isCategoryValue
                         }).map(product => <ProductCard key={product.id} product={product}></ProductCard>)
                     }

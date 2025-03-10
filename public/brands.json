@@ -1,35 +1,35 @@
 [
     {
       "id": 1,
-      "brandName": "TechNova",
+      "brandName": "SonicWave",
       "brandImg": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
       "brandColor": "linear-gradient(45deg, #ff6b6b, #f06595)",
       "brandLogo": "https://i.ibb.co.com/XkFtpChF/image-15.png"
     },
     {
       "id": 2,
-      "brandName": "EcoWave",
+      "brandName": "FitTrack",
       "brandImg": "https://i.ibb.co.com/k2zhTF8j/71-Bi1-S3-C3-L-SX679.jpg",
       "brandColor": "linear-gradient(45deg, #56ab2f, #a8e063)",
       "brandLogo": "https://i.ibb.co.com/MkcQj3RR/image-16.png"
     },
     {
       "id": 3,
-      "brandName": "CyberX",
+      "brandName": "WorkEase",
       "brandImg": "https://i.ibb.co.com/hRZGHHmD/51-Gbo-FMI3d-L-AC-UF894-1000-QL80.jpg",
       "brandColor": "linear-gradient(45deg, #00c6ff, #0072ff)",
       "brandLogo": "https://i.ibb.co.com/XZCYMtDD/image-17.png"
     },
     {
       "id": 4,
-      "brandName": "PixelArt",
+      "brandName": "GameMax",
       "brandImg": "https://example.com/pixelart.jpg",
       "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
       "brandLogo": "https://example.com/pixelart-logo.png"
     },
     {
       "id": 5,
-      "brandName": "NeoGears",
+      "brandName": "VoltX",
       "brandImg": "https://example.com/neogears.jpg",
       "brandColor": "linear-gradient(45deg, #ff512f, #dd2476)",
       "brandLogo": "https://example.com/neogears-logo.png"

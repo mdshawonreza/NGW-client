@@ -13,7 +13,9 @@
     font-family: "Inter", sans-serif;
 }
 
-
+.active{
+    color: #F26B24 ;
+}
 
 .bg-color {
     background: #352782;

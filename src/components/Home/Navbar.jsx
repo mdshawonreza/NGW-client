@@ -29,7 +29,7 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink to="/" className=" text-black text-lg font-medium  hover:text-[#F26B24]">Home</NavLink></li>
-        <li><a className=" text-black text-lg font-medium  hover:text-[#F26B24]" href="">About Us</a></li>
+        <li><NavLink to="/aboutUs" className=" text-black text-lg font-medium  hover:text-[#F26B24]">About Us</NavLink></li>
         <li><NavLink to="/ourBrands" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Brands</NavLink></li>
         <li><NavLink to="/ourProducts" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Products</NavLink></li>
         <li><NavLink to="/ourTeam" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Team</NavLink></li>
