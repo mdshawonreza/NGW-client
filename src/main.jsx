@@ -13,6 +13,7 @@ import BrandProducts from './components/OurBrands/BrandProducts';
 import OurProducts from './components/OurProducts/OurProducts';
 import OurTeam from './components/OurTeam/OurTeam';
 import ContactForm from './components/ContactUs/ContactForm';
+import AboutUs from './components/AboutUs/AboutUs';
 
 
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: '/aboutUs',
+        element: <AboutUs></AboutUs>
       },
       {
         path: '/ourBrands',

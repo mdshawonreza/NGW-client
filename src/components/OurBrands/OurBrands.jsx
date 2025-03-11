@@ -9,7 +9,7 @@ const OurBrands = () => {
             .then(data => setItems(data))
     }, [])
     return (
-        <div className="  md:pt-[118px]  py-20  inter-font">
+        <div className="  md:pt-[118px]  pt-20  inter-font">
 
             <div className="relative">
                 <img
@@ -28,11 +28,11 @@ const OurBrands = () => {
                             <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
                         </svg>
                     </div>
-                    <div className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                        <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-                            <h3 className='text-[20px] inter-font font-bold text-[#FF6868] '>wholesale & distributor</h3>
+                    <div className="px-4 py-10 md:py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                        <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center ">
+                            <h3 className='md:text-[20px] inter-font font-bold text-[#FF6868] text-center'>wholesale & distributor</h3>
 
-                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
+                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center  inter-font my-3">
 
                                 Our <span className='text-[#F26B24] md:leading-relaxed'>Brands </span>
                             </h2>
@@ -78,7 +78,7 @@ const OurBrands = () => {
                             key={index}
                             className="group flex relative flex-1 min-w-[200px]  backdrop-blur-lg  p-6 
                            transition-all duration-1000 ease-in-out cursor-pointer 
-                           hover:flex-[2] hover:bg-[#2d1457] justify-center items-center h-[550px] hover:z-10
+                           hover:flex-[2] hover:bg-[#2d1457] justify-center items-center md:h-[550px] hover:z-10
                text-white text-sm  transform
              hover:shadow-none  "
                             style={{ background: item.brandColor }}
@@ -87,7 +87,7 @@ const OurBrands = () => {
 
                             <Link to={`/brandProducts/${item.brandName}`}>
                                 <div
-                                    className="relative w-[350px] h-[350px] flex justify-center items-center  perspective-1000  group  cursor-pointer text-white text-sm "
+                                    className="relative md:w-[350px] md:h-[350px] flex justify-center items-center  perspective-1000  group  cursor-pointer text-white text-sm "
 
 
 
@@ -97,7 +97,7 @@ const OurBrands = () => {
                                         <motion.img
                                             src={item.brandImg}
                                             alt="Title"
-                                            className="w-72 h-[400px] transition-transform duration-500"
+                                            className="w-64 md:w-72 h-[320px] md:h-[400px] transition-transform duration-500"
                                             whileHover={{
                                                 rotateX: 25,
                                                 translateY: -10,

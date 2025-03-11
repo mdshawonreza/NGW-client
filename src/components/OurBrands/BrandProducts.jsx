@@ -38,24 +38,24 @@ const BrandProducts = () => {
                             <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
                         </svg>
                     </div>
-                    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                    <div className="px-4 pb-4 md:pb-16 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
 
 
-                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
+                            <h2 className=" font-sans tracking-tight text-white  sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
 
                             {brandName}<span className='text-[#F26B24] md:leading-relaxed'> Brand</span>
 
                             </h2>
-                            <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
+                            <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 text-center mt-3 md:px-0">
                                 One-stop destination for high-quality wholesale products at unbeatable prices.
                             </p>
 
-                            <div className="form-control pt-2 pb-3 my-4">
+                            <div className="form-control  pt-2 pb-3 my-4">
                                 <div className="join">
                                     <input 
                                     // onChange={(e) => { setSearch(e.target.value) }}
-                                     type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
+                                     type="text" placeholder="Search…" className="flex-grow  w-full h-12 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
                                     <a href="#searchP">
                                         <button
                                             type="submit"
@@ -86,7 +86,7 @@ const BrandProducts = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 max-w-[380px] md:max-w-3xl lg:max-w-[1550px] mx-auto my-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 max-w-[380px] md:max-w-3xl lg:max-w-[1550px] mx-auto my-4 md:my-16">
 
 
                 {

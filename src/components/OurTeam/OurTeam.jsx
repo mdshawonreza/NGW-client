@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurTeam = () => {
     return (
-        <div className=' md:pt-[98px]'>
+        <div className='pt-[50px] md:pt-[98px]'>
             <div className="relative">
                 <img
                     src="https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
@@ -20,15 +20,15 @@ const OurTeam = () => {
                             <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
                         </svg>
                     </div>
-                    <div className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                        <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+                    <div className="px-4 pb-10 mb:pb-16 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                        <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center ">
                             <div>
-                                <p className="text-[20px] inter-font font-bold text-[#FF6868]">
+                                <p className="text-[20px] text-center inter-font font-bold text-[#FF6868]">
                                     Core Team
                                 </p>
                             </div>
 
-                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
+                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center  my-3 md:mt-0 inter-font ">
 
                                 Our <span className='text-[#F26B24] md:leading-relaxed'>Team </span>
                             </h2>
@@ -109,12 +109,12 @@ const OurTeam = () => {
                                 src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
                                 alt="Person"
                             />
-                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 ">
+                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100  ">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Oliver Aguilerra
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">Product Manager</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm text-white inter-font">Product Manager</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200 inter-font">
                                     Vincent Van Gogh’s most popular painting, The Starry Night.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
@@ -149,8 +149,8 @@ const OurTeam = () => {
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Marta Clermont
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">Design Team Lead</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm text-white inter-font">Design Team Lead</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200 inter-font">
                                     Amet I love liquorice jujubes pudding croissant I love pudding.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
@@ -185,8 +185,8 @@ const OurTeam = () => {
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Anthony Geek
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">CTO, Lorem Inc.</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm inter-font text-white">CTO, Lorem Inc.</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200 inter-font">
                                     Apple pie macaroon toffee jujubes pie tart cookie caramels.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
@@ -217,12 +217,12 @@ const OurTeam = () => {
                                 src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                                 alt="Person"
                             />
-                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Alice Melbourne
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">Human Resources</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm text-white">Human Resources</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200">
                                     Lorizzle ipsum bling bling sit amizzle, consectetuer adipiscing
                                     elit.
                                 </p>
@@ -254,12 +254,12 @@ const OurTeam = () => {
                                 src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
                                 alt="Person"
                             />
-                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Martin Garix
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">Good guy</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm text-white">Good guy</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200">
                                     Bacon ipsum dolor sit amet salami jowl corned beef, andouille
                                     flank.
                                 </p>
@@ -285,18 +285,18 @@ const OurTeam = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+                        <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
                             <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
                                 src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                                 alt="Person"
                             />
-                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Andrew Larkin
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">Backend Developer</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm text-white">Backend Developer</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200">
                                     Moonfish, steelhead, lamprey southern flounder tadpole fish
                                     bigeye.
                                 </p>
@@ -328,12 +328,12 @@ const OurTeam = () => {
                                 src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
                                 alt="Person"
                             />
-                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Sophie Denmo
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">Designer</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm text-white">Designer</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200">
                                     Veggies sunt bona vobis, proinde vos postulo esse magis grape
                                     pea.
                                 </p>
@@ -365,12 +365,12 @@ const OurTeam = () => {
                                 src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                                 alt="Person"
                             />
-                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+                            <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
                                     Benedict Caro
                                 </p>
-                                <p className="mb-4 text-xs text-gray-100">Frontend Developer</p>
-                                <p className="mb-4 text-xs tracking-wide text-gray-400">
+                                <p className="mb-4 text-sm text-white">Frontend Developer</p>
+                                <p className="mb-4 text-sm tracking-wide text-gray-200">
                                     I love cheese, especially airedale queso. Cheese and biscuits
                                     halloumi.
                                 </p>

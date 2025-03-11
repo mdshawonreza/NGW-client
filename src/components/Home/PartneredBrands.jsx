@@ -80,7 +80,7 @@ const PartneredBrands = () => {
                     }}
                     loop={true}
                     breakpoints={{
-                        480: {
+                        390: {
                             slidesPerView: 1,
                             spaceBetween: 10,
                         },
