@@ -7,7 +7,7 @@ export default function ContactForm() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="mx-auto sm:max-w-xl  lg:max-w-[1550px]   md:pt-[118px] ">
+        <div className=" inter-font md:pt-[118px] ">
             <div className="relative">
                 <img
                     src="https://images.pexels.com/photos/3747463/pexels-photo-3747463.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
@@ -29,8 +29,10 @@ export default function ContactForm() {
                         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
 
                             <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
+                                Contact
 
-                                Our <span className='text-[#F26B24] md:leading-relaxed'>Team </span>
+                                <span className='text-[#F26B24] md:leading-relaxed'> Us</span>
+
                             </h2>
                             <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
                                 One-stop destination for high-quality wholesale products at unbeatable prices.
@@ -38,7 +40,7 @@ export default function ContactForm() {
 
 
                             <a
-                                href="#ourt"
+                                href="#contactF"
                                 aria-label="Scroll down"
                                 className="flex mt-7 items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-[#F26B24] rounded-full hover:text-teal-accent-400 hover:border-[#F26B24] hover:shadow hover:scale-110 hover:bg-[#F26B24]"
                             >
@@ -56,132 +58,191 @@ export default function ContactForm() {
                     </div>
                 </div>
             </div>
+            <div id="contactF" className=" mx-auto sm:max-w-xl  lg:max-w-[1550px] ">
+                <div className="  flex justify-center items-center " >
+                    <div className=" md:w-[800px]   mx-auto p-8 md:p-12 ">
+                        <h2 className="text-center text-4xl font-bold text-[#000000] mb-4" >Request Product Portfolio and Pricing</h2>
+                        <p className="pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center">We serve our customers 24/7 and <br /> will respond more likely within 1 hour.</p>
+                        <form  >
+                            
+                            <div className="md:flex md:mb-3 ">
+                                <div className="form-control  md:w-1/2">
+                                    <label className="label">
+                                        <span className="label-text">Your Company Name *</span>
+                                    </label>
+                                    <label className="input-group">
 
-            <div className="  flex justify-center items-center " >
-                <section id="contact" className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-6 mt-8">
-                    <h1 className="bg-[#F26B24] text-white text-xl font-bold py-3 px-4 shadow-md">CONTACT</h1>
-                    <p className="mt-4 text-gray-600">
-                        Yoda soon you will call me master Governor Tarkin. A new hope Boba Fett bantha forest moon.
-                        Tusken raider Master Yoda do or do not never tell me the odds.
-                    </p>
-                    <button
-                        className="w-full bg-[#F26B24] text-white py-3 mt-4 shadow-md hover:shadow-none"
-                        onClick={() => setIsOpen(!isOpen)}
-                    >
-                        {isOpen ? "Close Form" : "Open Form"}
-                    </button>
-                    {isOpen && (
-                        <form className="mt-4 space-y-4">
-                            <div className="relative">
-                                <label className="absolute left-3 top-3 text-white bg-[#F26B24] px-2" htmlFor="contact_name">NAME</label>
-                                <input
-                                    type="text"
-                                    id="contact_name"
-                                    className="w-full border border-gray-300 p-3 mt-2 focus:outline-none focus:ring-2 focus:ring-red-300"
-                                />
+                                        <input type="text" name="mealTitle" placeholder="Enter..." className="input input-bordered w-full" />
+                                    </label>
+                                </div>
+                                <div className="form-control md:ml-4  md:w-1/2">
+                                    <label className="label">
+                                        <span className="label-text">Phone *</span>
+                                    </label>
+                                    <label className="input-group">
+
+                                        <input type="text" name="reviews" placeholder="Enter..." defaultValue={0} className="input input-bordered w-full" />
+                                    </label>
+                                </div>
                             </div>
-                            <div className="relative">
-                                <label className="absolute left-3 top-3 text-white bg-[#F26B24] px-2" htmlFor="contact_email">EMAIL</label>
-                                <input
-                                    type="email"
-                                    id="contact_email"
-                                    className="w-full border border-gray-300 p-3 mt-2 focus:outline-none focus:ring-2 focus:ring-red-300"
-                                />
+
+
+                            <div className="md:flex md:mb-3">
+                                <div className="form-control  md:w-1/2">
+                                    <label className="label">
+                                        <span className="label-text">Your Name *</span>
+                                    </label>
+                                    <label className="input-group">
+
+                                        <input type="text" name="mealTitle" placeholder="Enter..." className="input input-bordered w-full" />
+                                    </label>
+                                </div>
+                                <div className="form-control md:ml-4  md:w-1/2">
+                                    <label className="label">
+                                        <span className="label-text">Your Email *</span>
+                                    </label>
+                                    <label className="input-group">
+
+                                        <input type="text" name="reviews" placeholder="Enter..." defaultValue={0} className="input input-bordered w-full" />
+                                    </label>
+                                </div>
                             </div>
-                            <div className="relative">
-                                <label className="absolute left-3 top-3 text-white bg-[#F26B24] px-2" htmlFor="contact_subject">SUBJECT</label>
-                                <input
-                                    type="text"
-                                    id="contact_subject"
-                                    className="w-full border border-gray-300 p-3 mt-2 focus:outline-none focus:ring-2 focus:ring-red-300"
-                                />
+
+                            
+                            <div className="md:flex md:mb-3">
+
+                                <div className="form-control md:w-full">
+                                    <label className="label">
+                                        <span className="label-text">How many containers your plan to buy in 12 months *</span>
+                                    </label>
+                                    <select defaultValue={"default"} name="mealCategory" className="select select-bordered  ">
+                                        <option value="default" disabled>1-12 </option>
+                                        <option >13-60</option>
+                                        <option  >61-120</option>
+                                        <option  >120 +</option>
+
+
+                                    </select>
+                                </div>
+
+                                
                             </div>
-                            <div>
-                                <textarea
-                                    id="contact_message"
-                                    rows="4"
-                                    placeholder="Your message..."
-                                    className="w-full border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-red-300"
-                                ></textarea>
+                            <div className="md:flex md:mb-3 ">
+
+                                <div className="form-control md:w-full">
+                                    <label className="label">
+                                        <span className="label-text">Which Products are you interested in? *
+                                        </span>
+                                    </label>
+                                    <select defaultValue={"default"} name="mealCategory" className="select select-bordered  ">
+                                        <option value="default" disabled>Beverages </option>
+                                        <option >Candy</option>
+                                        <option  >Snack & Chips</option>
+                                        <option  >Coffee</option>
+
+
+                                    </select>
+                                </div>
+
+                                
                             </div>
-                            <div className="text-center">
-                                <button type="submit" className="bg-[#F26B24] text-white px-6 py-3 shadow-md hover:shadow-none">
-                                    ENVOYER
-                                </button>
+                           
+                           
+                            <div className="md:flex md:mb-3 ">
+                                <div className="form-control w-full">
+                                    <label className="label">
+                                        <span className="label-text">Additional Details</span>
+                                    </label>
+                                    <textarea placeholder="Enter..." className="textarea textarea-bordered textarea-lg w-full " ></textarea>
+
+                                </div>
+
+
+
+                            </div>
+                            
+                            <div className="flex justify-center items-center">
+                                <button type="submit" className="btn w-56 text-white text-sm md:text-lg  bg-[#F48B54] hover:bg-[#F26B24] mt-4">Submit</button>
+
                             </div>
                         </form>
-                    )}
-                </section>
-            </div>
-            <div className=" my-10">
-                {/* <h2 className='text-center text-3xl font-bold pt-16'>Feel comfort to share your problem  <span className='text-orange-500'>& get helps </span></h2>
+                        
+                    </div>
+                </div>
+                <div className=" my-10">
+                    {/* <h2 className='text-center text-3xl font-bold pt-16'>Feel comfort to share your problem  <span className='text-orange-500'>& get helps </span></h2>
                 <p className='text-center font-medium text-gray-500 mt-3'> Feel at ease to discuss your problem  and ideas with confidence,we are here to support  and <br />help you turn your dreams into reality..</p> */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-4 md:pb-14 md:gap-16">
-                    <div className="card   ">
-                        <div className="px-10 pt-10  flex justify-center items-center">
-                            <div className="bg-orange-500 p-6 rounded-full">
-                                <BsTelephoneInboundFill className="text-4xl text-white " />
-                            </div>
-
-                        </div>
-                        <div className='flex justify-center mt-6'>
-                            <div className='bg-orange-500 w-32 h-[1px]'>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-4 md:pb-14 md:gap-16">
+                        <div className="card   ">
+                            <div className="px-10 pt-10  flex justify-center items-center">
+                                <div className="bg-[#F26B24] p-6 rounded-full">
+                                    <BsTelephoneInboundFill className="text-4xl text-white " />
+                                </div>
 
                             </div>
-                        </div>
-                        <div className="card-body items-center text-center -mt-3">
-                            <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Phone</h2>
-                            <p className=' text-gray-500'>Share your vision, and together, we all shape a future filled with success and happiness</p>
-                            <div className="card-actions mt-4">
-                                <button className="btn btn-outline hover:bg-[#192a60] ">Details</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card  ">
-                    <div className="px-10 pt-10  flex justify-center items-center">
-                            <div className="bg-orange-500 p-6 rounded-full ">
-                                <FaLocationDot  className="text-4xl text-white " />
-                            </div>
+                            <div className='flex justify-center mt-6'>
+                                <div className='bg-[#F26B24] w-32 h-[1px]'>
 
-                        </div>
-                        <div className='flex justify-center mt-6'>
-                            <div className='bg-orange-500 w-32 h-[1px]'>
-
+                                </div>
+                            </div>
+                            <div className="card-body items-center text-center -mt-3">
+                                <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Phone</h2>
+                                <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Share your vision, and together, we all shape a future filled with success and happiness</p>
+                                <div className=" ">
+                                    <button className="btn btn-lg btn-outline hover:bg-[#192a60] ">DETAILS</button>
+                                </div>
                             </div>
                         </div>
-                        <div className="card-body items-center text-center -mt-3">
-                            <h2 className=" tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Address</h2>
-                            <p className=' text-gray-500'>Discover our diverse Jobs locations, where your dreams find their perfect match</p>
-                            <div className="card-actions mt-4">
-                                <button className="btn btn-outline hover:bg-[#192a60]">Details</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card  ">
-                       <div className="px-10 pt-10  flex justify-center items-center">
-                            <div className="bg-orange-500 p-6 rounded-full">
-                                <MdEmail className="text-4xl text-white " />
-                            </div>
-
-                        </div>
-                        <div className='flex justify-center mt-6'>
-                            <div className='bg-orange-500 w-32 h-[1px]'>
+                        <div className="card  ">
+                            <div className="px-10 pt-10  flex justify-center items-center">
+                                <div className="bg-[#F26B24] p-6 rounded-full ">
+                                    <FaLocationDot className="text-4xl text-white " />
+                                </div>
 
                             </div>
-                        </div>
-                        <div className="card-body items-center text-center -mt-3">
-                            <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Email
-                            </h2>
-                            <p className=' text-gray-500'>Discover diverse income strategies in our guides, ensuring financial security and success.</p>
-                            <div className="card-actions mt-4">
-                                <button className="btn btn-outline  hover:bg-[#192a60]">DETAILS</button>
+                            <div className='flex justify-center mt-6'>
+                                <div className='bg-[#F26B24] w-32 h-[1px]'>
+
+                                </div>
+                            </div>
+                            <div className="card-body items-center text-center -mt-3">
+                                <h2 className=" tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Address</h2>
+                                <p className='pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Discover our diverse Jobs locations, where your dreams find their perfect match</p>
+                                <div className="card-actions ">
+                                    <button className="btn btn-lg btn-outline hover:bg-[#192a60]">DETAILS</button>
+                                </div>
                             </div>
                         </div>
+                        <div className="card  ">
+                            <div className="px-10 pt-10  flex justify-center items-center">
+                                <div className="bg-[#F26B24] p-6 rounded-full">
+                                    <MdEmail className="text-4xl text-white " />
+                                </div>
+
+                            </div>
+                            <div className='flex justify-center mt-6'>
+                                <div className='bg-[#F26B24] w-32 h-[1px]'>
+
+                                </div>
+                            </div>
+                            <div className="card-body items-center text-center -mt-3">
+                                <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Email
+                                </h2>
+                                <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Discover diverse income strategies in our guides, ensuring financial security and success.</p>
+                                <div className="card-actions ">
+                                    <button className="btn btn-lg btn-outline  hover:bg-[#192a60]">DETAILS</button>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
 
             </div>
+
+
+
 
         </div>
     );

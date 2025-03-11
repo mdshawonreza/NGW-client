@@ -17,11 +17,11 @@ const Testimonial = () => {
                             <p className='text-sm md:text-[20px] text-[#202020] font-semibold'>Best Services 😁</p>
                         </div>
                     </div>
-                    <div className='md:w-2/6 flex items-center  '>
+                    <div className='md:w-2/6 flex items-center inter-font '>
                         <div className=' space-y-3 md:space-y-6'>
                             <h5 className='text-[20px] font-bold text-[#FF6868]'>Testimonials</h5>
                             <h1 className="text-3xl text-[#000000] md:text-[60px] font-bold leading-tight     ">Why Businesses Choose Us</h1>
-                            <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] font-Poppins">
+                            <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] ">
                                 “NGW has been our go-to supplier for premium vapes and edibles. Their pricing is unbeatable, and the quality is top-notch!"
                             </p>
                             <div className='flex justify-start items-center gap-4 md:gap-10 md:pt-8'>

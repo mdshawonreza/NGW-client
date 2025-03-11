@@ -48,19 +48,7 @@ const OurProducts = () => {
                                 One-stop destination for high-quality wholesale products at unbeatable prices.
                             </p>
 
-                            <div className="form-control pb-3 my-4">
-                                <div className="join">
-                                    <input onChange={(e) => { setSearch(e.target.value) }} type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
-                                    <a href="#searchP">
-                                        <button
-                                            type="submit"
-                                            className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-[#F26B24]"
-                                        >
-                                            Search
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
+
 
                             {/* <a
                                 href=""
@@ -82,24 +70,38 @@ const OurProducts = () => {
                 </div>
             </div>
 
-            <div>
-                <div className="w-1/2 mx-auto mb-10">
+            <div className='max-w-[380px] md:max-w-3xl lg:max-w-[1550px] mx-auto mt-7' >
+                {/* <div className="w-1/2 mx-auto mb-10">
                     <div className="text-center mt-8">
                         <h2 className=" font-sans tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Find Your <span className="text-[#F26B24]">Products</span> </h2>
                         <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font">Book your hostel now and unlock exclusive discounts, ensuring a budget-friendly stay with exceptional comfort and service.</p>
                     </div>
 
-                </div>
-                <div className="flex gap-1 md:gap-14 justify-center mx-3">
-                    <select onChange={(e) => {
-                        setCategory(e.target.value);
-                    }} className="select select-sm select-bordered w-full max-w-xs">
-                        <option disabled selected>Select by category</option>
-                        <option>Electronics & Gadgets</option>
-                        <option>TechNova</option>
-                        <option>CyberX</option>
-                    </select>
-                    {/* <div className="w-72 mb-4">
+                </div> */}
+                <div className='flex mt-16 justify-center  items-center'>
+                    <div className="form-control pb-3 my-4 w-[580px]">
+                        <div className="join">
+                            <input onChange={(e) => { setSearch(e.target.value) }} type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-Black transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-0 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
+                            <a href="#searchP">
+                                <button
+                                    type="submit"
+                                    className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-[#F26B24]"
+                                >
+                                    Search
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="flex gap-1 md:gap-14 justify-center mx-3 -mt-3">
+                        <select onChange={(e) => {
+                            setCategory(e.target.value);
+                        }} className="select select-sm md:select-md  select-bordered select-warning w-[300px] h-12 ">
+                            <option disabled selected>Select by category</option>
+                            <option>Electronics & Gadgets</option>
+                            <option>TechNova</option>
+                            <option>CyberX</option>
+                        </select>
+                        {/* <div className="w-72 mb-4">
                         <input
                             onChange={(e) => {
                               setPrice(e.target.value);
@@ -109,8 +111,11 @@ const OurProducts = () => {
                             type="number"
                         />
                     </div> */}
+                    </div>
                 </div>
-                <div id='searchP' className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 max-w-[380px] md:max-w-3xl lg:max-w-[1550px] mx-auto my-16 ">
+
+
+                <div id='searchP' className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10  mt-8 md:mb-16 ">
 
 
                     {

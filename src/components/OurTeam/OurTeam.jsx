@@ -22,6 +22,11 @@ const OurTeam = () => {
                     </div>
                     <div className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+                            <div>
+                                <p className="text-[20px] inter-font font-bold text-[#FF6868]">
+                                    Core Team
+                                </p>
+                            </div>
 
                             <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
 
@@ -53,7 +58,7 @@ const OurTeam = () => {
             </div>
 
             <div id='ourt' className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1580px] md:px-24 lg:px-8 lg:py-20">
-                <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-5xl md:mb-12">
+                {/* <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-5xl md:mb-12">
                     <div>
                         <p className="text-[20px] inter-font font-bold text-[#FF6868]">
                             Core Team
@@ -95,7 +100,7 @@ const OurTeam = () => {
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque rem aperiam, eaque ipsa quae.
                     </p>
-                </div>
+                </div> */}
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                     <div>
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">

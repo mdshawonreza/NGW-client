@@ -30,6 +30,7 @@ const OurBrands = () => {
                     </div>
                     <div className="px-4  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+                            <h3 className='text-[20px] inter-font font-bold text-[#FF6868] '>wholesale & distributor</h3>
 
                             <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
 
@@ -61,12 +62,12 @@ const OurBrands = () => {
             </div>
 
             <div id='brands' className="max-w-[1550px] mx-auto">
-                <div className="w-1/2 mx-auto md:my-20">
-                    <div className="text-center mt-8">
+                <div className="w-1/2 mx-auto md:my-6">
+                    {/* <div className="text-center mt-8">
                         <h3 className='text-[20px] inter-font font-bold text-[#FF6868] '>wholesale & distributor</h3>
-                        <h2 className=" font-sans tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-5 inter-font ">our  <span className="text-[#F26B24]">Multi-Brand</span> </h2>
+                        <h2 className=" font-sans tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-5 inter-font ">Our  <span className="text-[#F26B24]">Multi-Brand</span> </h2>
                         <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font">We specialize in high volume wholesale of multi-brand products. Our variety includes c-store wholesale, close-out items, dollar store & party store items, and bulk restaurant supplies.</p>
-                    </div>
+                    </div> */}
 
                 </div>
 
