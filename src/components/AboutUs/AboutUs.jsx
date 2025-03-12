@@ -1,5 +1,7 @@
 import React from 'react';
-
+import aboutImg2 from '../../assets/1234.png'
+import aboutImg3 from '../../assets/5678.png'
+import aboutImg1 from '../../assets/912.png'
 const AboutUs = () => {
     return (
         <div className=' md:pt-[118px]  pt-20  inter-font'>
@@ -34,7 +36,7 @@ const AboutUs = () => {
 
 
                             <a
-                                href="#brands"
+                                href="#aboutID"
                                 aria-label="Scroll down"
                                 className="flex mt-7 items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-[#F26B24] rounded-full hover:text-teal-accent-400 hover:border-[#F26B24] hover:shadow hover:scale-110 hover:bg-[#F26B24]"
                             >
@@ -54,41 +56,63 @@ const AboutUs = () => {
             </div>
 
 
-            <div className='my-16 md:my-28'>
-                <div className='max-w-[350px] md:max-w-[850px] lg:max-w-[1550px] mx-auto flex justify-center items-center  md:mb-20 '>
+            <div id='aboutID' className=''>
+                <div className='max-w-[350px] md:max-w-[850px] lg:max-w-[1550px] mx-auto flex justify-center items-center   '>
 
-                    <div className="flex w-full flex-col lg:flex-row gap-0 lg:gap-20">
+                    <div className=' flex justify-center  items-center  md:min-h-[700px]'>
 
-                        <div className='md:w-4/6 flex items-center  '>
-                            <div className=' space-y-3 md:space-y-6'>
-                                <h5 className='text-[20px] inter-font font-bold text-[#FF6868] '>Our Story & Services</h5>
-                                <h1 className="text-3xl text-[#000000] md:text-[60px] font-bold leading-tight inter-font    "> ABout US</h1>
-                                <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font ">
-                                    It began with a simple vision - to make quality wholesale products accessible and affordable.
-                                    As business owners ourselves, we saw the challenges retailers faced in finding reliable suppliers, fair pricing, and fast delivery, determined to bridge this gap, we built NGW.
-                                </p>
-                                <button className=' h-[26px] md:h-[60px] w-[100px] md:w-[206px]  rounded-full bg-[#F26B24] text-white text-xs md:text-[26px] font-semibold  flex justify-center items-center gap-3 inter-font '>
+                        <div className="flex flex-col-reverse  lg:flex-row gap-12 lg:gap-0 ">
+                            <div className='md:w-1/2  flex items-center  '>
+                                <div className=' space-y-3 md:space-y-6'>
+                                    <h5 className='text-[20px] inter-font font-bold text-[#FF6868] '>Our Story & Services</h5>
+                                    <h1 className="text-3xl text-[#000000] md:text-[60px] font-bold leading-tight inter-font    "> ABout US</h1>
+                                    <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font ">
+                                        It began with a simple vision - to make quality wholesale products accessible and affordable.
+                                        As business owners ourselves, we saw the challenges retailers faced in finding reliable suppliers, fair pricing, and fast delivery, determined to bridge this gap, we built NGW.
+                                    </p>
+                                    <button className=' h-[26px] md:h-[60px] w-[100px] md:w-[206px]  rounded-full bg-[#F26B24] text-white text-xs md:text-[26px] font-semibold  flex justify-center items-center gap-3 inter-font '>
 
-                                    Know more
+                                        Know more
 
-                                </button>
+                                    </button>
 
+                                </div>
+
+                            </div>
+                            <div className='md:w-1/2 mt-6 md:mt-0 flex justify-end '>
+                                <div className=' flex gap-3 '>
+                                    <div className='flex items-center  '>
+
+                                        <div data-aos="zoom-in-up" >
+                                            <img className='' src={aboutImg1} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='flex flex-col gap-3'>
+                                        <div data-aos="zoom-in-up">
+                                            <img className='' src={aboutImg2} alt="" />
+                                        </div>
+                                        <div data-aos="zoom-in-up">
+                                            <img className='' src={aboutImg3} alt="" />
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
-                        <div className='md:w-3/6 ml-9  mt-10 md:mt-0 md:ml-24'>
-
-                           
-                         <img src="" alt="about us" />
 
 
-                        </div>
                     </div>
 
 
                 </div>
 
             </div>
+
+
 
         </div>
     );

@@ -2,22 +2,130 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Product from './Product';
 
+
+const items=
+[
+  {
+    "id": 1,
+    "productTitle": "Elite Wireless Headphones",
+    "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
+    "description": "Premium over-ear headphones with deep bass and noise cancellation.",
+    "price": 79.99,
+    "rating": 4.7,
+    "brandName": "SonicWave",
+    "category": "Electronics & Gadgets"
+  },
+  {
+    "id": 2,
+    "productTitle": "Smart Fitness Watch",
+    "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
+    "description": "Track your steps, heart rate, and sleep with this smart wearable.",
+    "price": 99.99,
+    "rating": 4.5,
+    "brandName": "FitTrack",
+    "category": "Electronics & Gadgets"
+  },
+  {
+    "id": 3,
+    "productTitle": "ErgoComfort Office Chair",
+    "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
+    "description": "Ergonomic chair with adjustable lumbar support and mesh backrest.",
+    "price": 189.99,
+    "rating": 4.6,
+    "brandName": "WorkEase",
+    "category": "Home & Office"
+  },
+  {
+    "id": 4,
+    "productTitle": "RGB Gaming Keyboard",
+    "image": "https://via.placeholder.com/150",
+    "description": "Mechanical keyboard with customizable RGB lighting and fast response keys.",
+    "price": 89.99,
+    "rating": 4.8,
+    "brandName": "GameMax",
+    "category": "Gaming & Accessories"
+  },
+  {
+    "id": 5,
+    "productTitle": "UltraThin Power Bank",
+    "image": "https://via.placeholder.com/150",
+    "description": "10,000mAh power bank with fast charging support.",
+    "price": 34.99,
+    "rating": 4.3,
+    "brandName": "VoltX",
+    "category": "Personal & Travel"
+  },
+  {
+    "id": 6,
+    "productTitle": "4K Streaming Smart TV",
+    "image": "https://via.placeholder.com/150",
+    "description": "Ultra HD smart TV with built-in streaming apps and voice control.",
+    "price": 529.99,
+    "rating": 4.6,
+    "brandName": "VisionTech",
+    "category": "Electronics & Gadgets"
+  },
+  {
+    "id": 7,
+    "productTitle": "Adjustable Standing Desk",
+    "image": "https://via.placeholder.com/150",
+    "description": "Motorized height-adjustable desk for a comfortable workspace.",
+    "price": 349.99,
+    "rating": 4.7,
+    "brandName": "WorkEase",
+    "category": "Home & Office"
+  },
+  {
+    "id": 8,
+    "productTitle": "Gaming Laptop X1",
+    "image": "https://via.placeholder.com/150",
+    "description": "High-performance gaming laptop with RTX graphics and 16GB RAM.",
+    "price": 1499.99,
+    "rating": 4.9,
+    "brandName": "GameMax",
+    "category": "Gaming & Accessories"
+  },
+  {
+    "id": 9,
+    "productTitle": "Smart Air Purifier",
+    "image": "https://via.placeholder.com/150",
+    "description": "HEPA-filter air purifier with smart controls and real-time air quality monitoring.",
+    "price": 199.99,
+    "rating": 4.7,
+    "brandName": "FreshAir",
+    "category": "Home & Office"
+  },
+  {
+    "id": 10,
+    "productTitle": "Compact Travel Backpack",
+    "image": "https://via.placeholder.com/150",
+    "description": "Lightweight waterproof backpack with multiple compartments.",
+    "price": 59.99,
+    "rating": 4.5,
+    "brandName": "PackPro",
+    "category": "Personal & Travel"
+  }
+]
+
+
 const BrandProducts = () => {
     const { brandName } = useParams();
     // console.log(brandName)
-    const [items, setItems] = useState([])
-    const [filteredItems, setFilteredItems] = useState([]);
-    useEffect(() => {
-        fetch('/public/products.json')
-            .then((res) => res.json())
-            .then((data) => {
-                setItems(data);
-                const filtered = data.filter((item) => item.brandName === brandName);
-                setFilteredItems(filtered);
-            })
-            .catch((error) => console.error("Error fetching data:", error));
-    }, [brandName]);
-    console.log(filteredItems)
+    // const [items, setItems] = useState([])
+    // const [filteredItems, setFilteredItems] = useState([]);
+    // useEffect(() => {
+    //     fetch('/public/products.json')
+    //         .then((res) => res.json())
+    //         .then((data) => {
+    //             setItems(data);
+    //             const filtered = data.filter((item) => item.brandName === brandName);
+    //             setFilteredItems(filtered);
+    //         })
+    //         .catch((error) => console.error("Error fetching data:", error));
+    // }, [brandName]);
+
+    const filtered = items.filter((item) => item.brandName === brandName);
+    // console.log(filteredItems)
     console.log(items)
     return (
         <div className='md:pt-[118px]'>
@@ -90,7 +198,7 @@ const BrandProducts = () => {
 
 
                 {
-                    filteredItems.map(product => <Product key={product.id} product={product}></Product>)
+                    filtered.map(product => <Product key={product.id} product={product}></Product>)
                 }
             </div>
         </div>
