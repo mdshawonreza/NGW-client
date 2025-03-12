@@ -121,7 +121,7 @@ const OurProducts = () => {
     // const [allProducts, setAllProducts] = useState([])
     const [search, setSearch] = useState("")
     const [category, setCategory] = useState("");
-    console.log(allProducts)
+    // console.log(search)
 
 
 
@@ -189,7 +189,7 @@ const OurProducts = () => {
                 <div className='flex flex-col md:flex-row gap-4 md:mt-16 justify-center  items-center'>
                     <div className="form-control pb-3 my-4  md:w-[580px]">
                         <div className="join">
-                            <input onChange={(e) => { setSearch(e.target.value) }} type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-Black transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-0 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
+                            <input onChange={(e) => { setSearch(e.target.value.toLocaleLowerCase()) }} type="text" placeholder="Search…" className="flex-grow w-full h-12 px-4 mb-3 text-Black transition duration-200 bg-transparent border-2 border-gray-400 rounded appearance-none md:mr-0 md:mb-0 focus:border-deep-purple-accent-200 focus:outline-none focus:shadow-outline" />
                             <a href="#searchP">
                                 <button
                                     type="submit"
@@ -232,7 +232,7 @@ const OurProducts = () => {
                                 ? product
                                 : product.productTitle.toLowerCase().includes(search);
 
-
+// console.log(search.toLowerCase())
                             const isCategoryValue = category.toLowerCase() === ""
                                 ? product
                                 : product.category.includes(category);

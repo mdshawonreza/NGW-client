@@ -3,7 +3,7 @@ import { MdStarRate } from "react-icons/md";
 
 const ProductCard = ({product}) => {
     const { productTitle, image, description, price, rating } = product
-    console.log(product)
+    // console.log(product)
     return (
         <div>
             <div className="relative shadow-xl w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 inter-font">
