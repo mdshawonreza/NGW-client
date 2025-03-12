@@ -16,147 +16,154 @@ import 'swiper/css/autoplay';
 
 
 const items =[
-    {
-      "id": 1,
-      "brandName": "SonicWave",
-      "brandImg": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-      "brandColor": "linear-gradient(45deg, #ff6b6b, #f06595)",
-      "brandLogo": "https://i.ibb.co.com/XkFtpChF/image-15.png"
-    },
-    {
-      "id": 2,
-      "brandName": "FitTrack",
-      "brandImg": "https://i.ibb.co.com/k2zhTF8j/71-Bi1-S3-C3-L-SX679.jpg",
-      "brandColor": "linear-gradient(45deg, #56ab2f, #a8e063)",
-      "brandLogo": "https://i.ibb.co.com/MkcQj3RR/image-16.png"
-    },
-    {
-      "id": 3,
-      "brandName": "WorkEase",
-      "brandImg": "https://i.ibb.co.com/hRZGHHmD/51-Gbo-FMI3d-L-AC-UF894-1000-QL80.jpg",
-      "brandColor": "linear-gradient(45deg, #00c6ff, #0072ff)",
-      "brandLogo": "https://i.ibb.co.com/XZCYMtDD/image-17.png"
-    },
-    {
-      "id": 4,
-      "brandName": "GameMax",
-      "brandImg": "https://example.com/pixelart.jpg",
-      "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
-      "brandLogo": "https://example.com/pixelart-logo.png"
-    },
-    {
-      "id": 5,
-      "brandName": "VoltX",
-      "brandImg": "https://example.com/neogears.jpg",
-      "brandColor": "linear-gradient(45deg, #ff512f, #dd2476)",
-      "brandLogo": "https://example.com/neogears-logo.png"
-    },
-    {
-      "id": 6,
-      "brandName": "BrightSpark",
-      "brandImg": "https://example.com/brightspark.jpg",
-      "brandColor": "linear-gradient(45deg, #ff9966, #ff5e62)",
-      "brandLogo": "https://example.com/brightspark-logo.png"
-    },
-    {
-      "id": 7,
-      "brandName": "FutureScope",
-      "brandImg": "https://example.com/futurescope.jpg",
-      "brandColor": "linear-gradient(45deg, #00b09b, #96c93d)",
-      "brandLogo": "https://example.com/futurescope-logo.png"
-    },
-    {
-      "id": 8,
-      "brandName": "InnoLink",
-      "brandImg": "https://example.com/innolink.jpg",
-      "brandColor": "linear-gradient(45deg, #8e2de2, #4a00e0)",
-      "brandLogo": "https://example.com/innolink-logo.png"
-    },
-    {
-      "id": 9,
-      "brandName": "AeroTech",
-      "brandImg": "https://example.com/aerotech.jpg",
-      "brandColor": "linear-gradient(45deg, #ff7e5f, #feb47b)",
-      "brandLogo": "https://example.com/aerotech-logo.png"
-    },
-    {
-      "id": 10,
-      "brandName": "Velocity",
-      "brandImg": "https://example.com/velocity.jpg",
-      "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
-      "brandLogo": "https://example.com/velocity-logo.png"
-    },
-    {
-      "id": 11,
-      "brandName": "QuantumSoft",
-      "brandImg": "https://example.com/quantumsoft.jpg",
-      "brandColor": "linear-gradient(45deg, #1e3c72, #2a5298)",
-      "brandLogo": "https://example.com/quantumsoft-logo.png"
-    },
-    {
-      "id": 12,
-      "brandName": "CloudGen",
-      "brandImg": "https://example.com/cloudgen.jpg",
-      "brandColor": "linear-gradient(45deg, #667eea, #764ba2)",
-      "brandLogo": "https://example.com/cloudgen-logo.png"
-    },
-    {
-      "id": 13,
-      "brandName": "SolarEdge",
-      "brandImg": "https://example.com/solaredge.jpg",
-      "brandColor": "linear-gradient(45deg, #ff758c, #ff7eb3)",
-      "brandLogo": "https://example.com/solaredge-logo.png"
-    },
-    {
-      "id": 14,
-      "brandName": "GigaByteX",
-      "brandImg": "https://example.com/gigabytex.jpg",
-      "brandColor": "linear-gradient(45deg, #e100ff, #7f00ff)",
-      "brandLogo": "https://example.com/gigabytex-logo.png"
-    },
-    {
-      "id": 15,
-      "brandName": "HyperNet",
-      "brandImg": "https://example.com/hypernet.jpg",
-      "brandColor": "linear-gradient(45deg, #ff416c, #ff4b2b)",
-      "brandLogo": "https://example.com/hypernet-logo.png"
-    },
-    {
-      "id": 16,
-      "brandName": "CodeBurst",
-      "brandImg": "https://example.com/codeburst.jpg",
-      "brandColor": "linear-gradient(45deg, #00c9ff, #92fe9d)",
-      "brandLogo": "https://example.com/codeburst-logo.png"
-    },
-    {
-      "id": 17,
-      "brandName": "SkyNetics",
-      "brandImg": "https://example.com/skynetics.jpg",
-      "brandColor": "linear-gradient(45deg, #b92b27, #1565c0)",
-      "brandLogo": "https://example.com/skynetics-logo.png"
-    },
-    {
-      "id": 18,
-      "brandName": "InfinityCore",
-      "brandImg": "https://example.com/infinitycore.jpg",
-      "brandColor": "linear-gradient(45deg, #5433ff, #20bdff, #a5fecb)",
-      "brandLogo": "https://example.com/infinitycore-logo.png"
-    },
-    {
-      "id": 19,
-      "brandName": "NovaByte",
-      "brandImg": "https://example.com/novabyte.jpg",
-      "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
-      "brandLogo": "https://example.com/novabyte-logo.png"
-    },
-    {
-      "id": 20,
-      "brandName": "AlphaLink",
-      "brandImg": "https://example.com/alphalink.jpg",
-      "brandColor": "linear-gradient(45deg, #fc4a1a, #f7b733)",
-      "brandLogo": "https://example.com/alphalink-logo.png"
-    }
-  ]
+  {
+    "id": 1,
+    "brandName": "Banquet",
+    "brandImg": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
+    "brandColor": "linear-gradient(45deg, #ff512f, #dd2476)",
+    "brandLogo": "https://i.ibb.co.com/XkFtpChF/image-15.png"
+  },
+  {
+    "id": 2,
+    "brandName": "Jose Ole",
+    "brandImg": "https://i.ibb.co.com/hRZGHHmD/51-Gbo-FMI3d-L-AC-UF894-1000-QL80.jpg",
+    "brandColor": "linear-gradient(45deg, #56ab2f, #a8e063)",
+    "brandLogo": "https://i.ibb.co.com/XZCYMtDD/image-17.png"
+  },
+  {
+    "id": 3,
+    "brandName": "Tina's",
+    "brandImg": "https://i.ibb.co.com/LXb3NDRM/images-4.jpg",
+    "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
+    "brandLogo": "https://i.ibb.co.com/HTTmCg9Y/Tina-s-Logo-w-registered-trademark-fixed.jpg"
+  },
+  {
+    "id": 4,
+    "brandName": "Zatarain's",
+    "brandImg": "https://i.ibb.co.com/PZxLbCt0/7a7bb377116a6729b183cc40bead6f20962ea53dad276869807d51396796724e.jpg",
+    "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
+    "brandLogo": "https://i.ibb.co.com/JWTGNsGY/Zatarain-s-logo-1.jpg"
+  },
+  {
+    "id": 5,
+    "brandName": "Stouffer's",
+    "brandImg": "https://i.ibb.co.com/mFRx6cBn/images-5.jpg",
+    "brandColor": "linear-gradient(45deg, #ff512f, #dd2476)",
+    "brandLogo": "https://i.ibb.co.com/rG77cdTd/Stouffers-Logo-2006.png"
+  },
+  {
+    "id": 6,
+    "brandName": "Chung's",
+    "brandImg": "https://i.ibb.co.com/x8MkMnxY/vegemil-soy-drink-with-amondwalnut-190ml.jpg",
+    "brandColor": "linear-gradient(45deg, #ff9966, #ff5e62)",
+    "brandLogo": "https://i.ibb.co.com/7twVc2vz/Chungs-Logo-300x115.png"
+  },
+  {
+    "id": 7,
+    "brandName": "Digiorno",
+    "brandImg": "https://i.ibb.co.com/bTRfYCw/8104-Hc-Pn-Sf-L-SL1500.jpg",
+    "brandColor": "linear-gradient(45deg, #00b09b, #96c93d)",
+    "brandLogo": "https://i.ibb.co.com/hzNwtrV/digiorno-logo-png-transparent.png"
+  },
+  {
+    "id": 8,
+    "brandName": "Lean Cuisine",
+    "brandImg": "https://i.ibb.co.com/H6YdDgw/download-5.jpg",
+    "brandColor": "linear-gradient(45deg, #8e2de2, #4a00e0)",
+    "brandLogo": "https://i.ibb.co.com/svrV4n5v/images-1.png"
+  },
+  {
+    "id": 9,
+    "brandName": "Bibigo",
+    "brandImg": "https://i.ibb.co.com/bM5NtgXg/download-6.jpg",
+    "brandColor": "linear-gradient(45deg, #ff7e5f, #feb47b)",
+    "brandLogo": "https://i.ibb.co.com/JWC2zRR8/download-1.png"
+  },
+  {
+    "id": 10,
+    "brandName": "Night Hawk",
+    "brandImg": "https://i.ibb.co.com/8njJJGc1/download-7.jpg",
+    "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
+    "brandLogo": "https://i.ibb.co.com/8gHRY5jj/download-2.png"
+  },
+  {
+    "id": 11,
+    "brandName": "Innovasian",
+    "brandImg": "https://i.ibb.co.com/DP4210ZH/download-8.jpg",
+    "brandColor": "linear-gradient(45deg, #1e3c72, #2a5298)",
+    "brandLogo": "https://i.ibb.co.com/ZRb9tR8S/download-3.png"
+  },
+  {
+    "id": 12,
+    "brandName": "Smart Ones",
+    "brandImg": "https://i.ibb.co.com/gMXxC3sP/download-9.jpg",
+    "brandColor": "linear-gradient(45deg, #667eea, #764ba2)",
+    "brandLogo": "https://i.ibb.co.com/pj2Fjc3G/download-4.png"
+  },
+  {
+    "id": 13,
+    "brandName": "Best Yet",
+    "brandImg": "https://i.ibb.co.com/vxhXqq8y/download-11.jpg",
+    "brandColor": "linear-gradient(45deg, #ff758c, #ff7eb3)",
+    "brandLogo": "https://i.ibb.co.com/5hDj3vgh/download-5.png"
+  },
+  {
+    "id": 14,
+    "brandName": "Hefty",
+    "brandImg": "https://i.ibb.co.com/fV1DmJVB/download-12.jpg",
+    "brandColor": "linear-gradient(45deg, #e100ff, #7f00ff)",
+    "brandLogo": "https://i.ibb.co.com/7dT1m6R2/download-6.png"
+  },
+  {
+    "id": 15,
+    "brandName": "Solo",
+    "brandImg": "https://i.ibb.co.com/WpgyT4tp/00041165017397-1.jpg",
+    "brandColor": "linear-gradient(45deg, #ff416c, #ff4b2b)",
+    "brandLogo": "https://i.ibb.co.com/nsxDBhJK/download-7.png"
+  },
+  {
+    "id": 16,
+    "brandName": "Lays",
+    "brandImg": "https://i.ibb.co.com/DHJdDhp3/download-14.jpg",
+    "brandColor": "linear-gradient(45deg, #00c9ff, #92fe9d)",
+    "brandLogo": "https://i.ibb.co.com/ZRGKNx3y/download-8.png"
+  },
+  {
+    "id": 17,
+    "brandName": "Mariani",
+    "brandImg": "https://i.ibb.co.com/Y7qgV64S/images-7.jpg",
+    "brandColor": "linear-gradient(45deg, #b92b27, #1565c0)",
+    "brandLogo": "https://i.ibb.co.com/fd6VM7sF/download-15.jpg"
+  },
+  {
+    "id": 18,
+    "brandName": "Cazo De Oro",
+    "brandImg": "https://i.ibb.co.com/ZzHnyVP3/download-16.jpg",
+    "brandColor": "linear-gradient(45deg, #5433ff, #20bdff, #a5fecb)",
+    "brandLogo": "https://i.ibb.co.com/qKHBJ4s/download-9.png"
+  },
+  {
+    "id": 19,
+    "brandName": "Nabisco",
+    "brandImg": "https://i.ibb.co.com/mCGCq60M/81u-Uu5-Mqx-SL-SL1500.jpg",
+    "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
+    "brandLogo": "https://i.ibb.co.com/1f0wtVL2/download-11.png"
+  },
+  {
+    "id": 20,
+    "brandName": "Cheez It",
+    "brandImg": "https://i.ibb.co.com/G4pc1MZ2/download-17.jpg",
+    "brandColor": "linear-gradient(45deg, #fc4a1a, #f7b733)",
+    "brandLogo": "https://i.ibb.co.com/k2fQjB3x/download-12.png"
+  },
+  {
+    "id": 21,
+    "brandName": "Ensure",
+    "brandImg": "https://i.ibb.co.com/kgDzwLnL/download-18.jpg",
+    "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
+    "brandLogo": "https://i.ibb.co.com/S4FdMBJs/download-13.png"
+  }
+]
   
 
 const PartneredBrands = () => {
