@@ -6,24 +6,24 @@ const ProductCard = ({product}) => {
     // console.log(product)
     return (
         <div>
-            <div className="relative shadow-xl w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 inter-font">
-                <div className="relative m-0 overflow-hidden text-gray-700 bg-white rounded-r-none shrink-0 rounded-xl bg-clip-border">
+            <div className="relative shadow-xl w-full max-w-[48rem] flex-row rounded-xl  bg-clip-border text-gray-700 inter-font h-[380px]">
+                <div className="relative m-6 overflow-hidden  h-64   text-gray-700   shrink-0 rounded-xl bg-clip-border">
                     <img
                         src={image}
                         alt="image"
-                        className="object-cover w-full h-full"
+                        className="object-cover  w-full h-full"
                     />
                 </div>
-                <div className="px-6 pb-8">
+                <div className="m-6 ">
 
-                    <h4 className="block mb-2  text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 inter-font">
+                    <h4 className="block mb-2  text-lg antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 inter-font">
                         {productTitle}
                     </h4>
                     {/* <p className="block mb-4 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
                         {description}
 
                     </p> */}
-                    <div className="flex justify-between items-center">
+                    {/* <div className="flex justify-between items-center">
                         <h6 className="block  font-sans text-base antialiased font-semibold leading-relaxed tracking-normal uppercase inter-font">
                             Price: $ <span className=" text-[#FF6868] ">{price}</span>
                         </h6>
@@ -34,7 +34,7 @@ const ProductCard = ({product}) => {
                                 {rating}
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
 
                 </div>

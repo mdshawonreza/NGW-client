@@ -4,106 +4,288 @@ import ProductCard from './ProductCard';
 
 const allProducts=
 [
-  {
-    "id": 1,
-    "productTitle": "Elite Wireless Headphones",
-    "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-    "description": "Premium over-ear headphones with deep bass and noise cancellation.",
-    "price": 79.99,
-    "rating": 4.7,
-    "brandName": "SonicWave",
-    "category": "Electronics & Gadgets"
-  },
-  {
-    "id": 2,
-    "productTitle": "Smart Fitness Watch",
-    "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-    "description": "Track your steps, heart rate, and sleep with this smart wearable.",
-    "price": 99.99,
-    "rating": 4.5,
-    "brandName": "FitTrack",
-    "category": "Electronics & Gadgets"
-  },
-  {
-    "id": 3,
-    "productTitle": "ErgoComfort Office Chair",
-    "image": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
-    "description": "Ergonomic chair with adjustable lumbar support and mesh backrest.",
-    "price": 189.99,
-    "rating": 4.6,
-    "brandName": "WorkEase",
-    "category": "Home & Office"
-  },
-  {
-    "id": 4,
-    "productTitle": "RGB Gaming Keyboard",
-    "image": "https://via.placeholder.com/150",
-    "description": "Mechanical keyboard with customizable RGB lighting and fast response keys.",
-    "price": 89.99,
-    "rating": 4.8,
-    "brandName": "GameMax",
-    "category": "Gaming & Accessories"
-  },
-  {
-    "id": 5,
-    "productTitle": "UltraThin Power Bank",
-    "image": "https://via.placeholder.com/150",
-    "description": "10,000mAh power bank with fast charging support.",
-    "price": 34.99,
-    "rating": 4.3,
-    "brandName": "VoltX",
-    "category": "Personal & Travel"
-  },
-  {
-    "id": 6,
-    "productTitle": "4K Streaming Smart TV",
-    "image": "https://via.placeholder.com/150",
-    "description": "Ultra HD smart TV with built-in streaming apps and voice control.",
-    "price": 529.99,
-    "rating": 4.6,
-    "brandName": "VisionTech",
-    "category": "Electronics & Gadgets"
-  },
-  {
-    "id": 7,
-    "productTitle": "Adjustable Standing Desk",
-    "image": "https://via.placeholder.com/150",
-    "description": "Motorized height-adjustable desk for a comfortable workspace.",
-    "price": 349.99,
-    "rating": 4.7,
-    "brandName": "WorkEase",
-    "category": "Home & Office"
-  },
-  {
-    "id": 8,
-    "productTitle": "Gaming Laptop X1",
-    "image": "https://via.placeholder.com/150",
-    "description": "High-performance gaming laptop with RTX graphics and 16GB RAM.",
-    "price": 1499.99,
-    "rating": 4.9,
-    "brandName": "GameMax",
-    "category": "Gaming & Accessories"
-  },
-  {
-    "id": 9,
-    "productTitle": "Smart Air Purifier",
-    "image": "https://via.placeholder.com/150",
-    "description": "HEPA-filter air purifier with smart controls and real-time air quality monitoring.",
-    "price": 199.99,
-    "rating": 4.7,
-    "brandName": "FreshAir",
-    "category": "Home & Office"
-  },
-  {
-    "id": 10,
-    "productTitle": "Compact Travel Backpack",
-    "image": "https://via.placeholder.com/150",
-    "description": "Lightweight waterproof backpack with multiple compartments.",
-    "price": 59.99,
-    "rating": 4.5,
-    "brandName": "PackPro",
-    "category": "Personal & Travel"
-  }
+    {
+        "id": 1,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TOT PIZZA ROLLS PEPPERONI10953",
+        "productTitle": "Totino's Pepperoni Frozen Pizza Rolls - 24.8oz",
+        "image": "https://go-upc.s3.amazonaws.com/images/45044171.jpg"
+      },
+      {
+        "id": 2,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "HT PKT PIZZA PEPPERONI07111",
+        "productTitle": "Hot Pockets Sandwiches, Premium, Pepperoni Pizza, Garlic Buttery Crust, 2 Pack",
+        "image": "https://go-upc.s3.amazonaws.com/images/5059358.jpeg"
+      },
+      {
+        "id": 3,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "SMKR UNCRSTBLS PB/GRP 4PK02516",
+        "productTitle": "Smucker's Sandwich, Peanut Butter & Grape Jelly 4 Ea",
+        "image": "https://go-upc.s3.amazonaws.com/images/57346827.jpeg"
+      },
+      {
+        "id": 4,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "CRSNT PKT PEPPERONI PIZZA05631",
+        "productTitle": "Hot Pockets 2 Pack Crispy Crust Pepperoni Pizza 2 Ea Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/57357035.jpeg"
+      },
+      {
+        "id": 5,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "SMKR UNCRSTBLS PB/STR 4PK02517",
+        "productTitle": "Smucker's Sandwiches, Peanut Butter & Strawberry Jam 4 Ea",
+        "image": "https://go-upc.s3.amazonaws.com/images/57367758.jpeg"
+      },
+      {
+        "id": 6,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "HT PKT PEPP PIZZA 5PK62899",
+        "productTitle": "Hot Pockets Pepperoni Pizza Frozen Sandwiches 5 Ct. Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/61509275.png"
+      },
+      {
+        "id": 7,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TOT PIZZA ROLLS COMB 50CT10952",
+        "productTitle": "Totino's Combination Pizza Rolls 50 Ea Bag",
+        "image": "https://go-upc.s3.amazonaws.com/images/61510958.png"
+      },
+      {
+        "id": 8,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TGIF CKN WINGS BUFF00036",
+        "productTitle": "TGI Fridays Frozen Appetizers Buffalo Style Chicken Wings, 9 Oz. Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/57320235.jpeg"
+      },
+      {
+        "id": 9,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TOT PIZZA ROLLS TRPL MEAT10915",
+        "productTitle": "Totino's Pizza Rolls, Triple Meat, 50 Ct, 24.8 Oz Bag (frozen)",
+        "image": "https://go-upc.s3.amazonaws.com/images/57386338.jpeg"
+      },
+      {
+        "id": 10,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "HT PKT HAM AND CHEESE07112",
+        "productTitle": "Hot Pockets Sandwiches, Hickory Ham & Cheddar, Crispy Buttery Crust, 2 Pack 2 Ea",
+        "image": "https://go-upc.s3.amazonaws.com/images/57416765.jpeg"
+      },
+      {
+        "id": 11,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "HT PKT MEATBLLS W/MOZZARL07116",
+        "productTitle": "Hot Pockets Meatballs & Mozzarella Frozen Sandwiches 2 Ct Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/57387927.jpeg"
+      },
+      {
+        "id": 12,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TOT PIZZ RLS PERRRN 15CT28292",
+        "productTitle": "Totino's Pizza Rolls, Pepperoni, 15 Ct, 7.5 Oz. Bag (frozen)",
+        "image": "https://go-upc.s3.amazonaws.com/images/52787931.jpeg"
+      },
+      {
+        "id": 13,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "WHTCST CHEESEBURGERS01006",
+        "productTitle": "White Castle Classic Cheese Sliders 6 Ea",
+        "image": "https://go-upc.s3.amazonaws.com/images/57399458.jpeg"
+      },
+      {
+        "id": 14,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "BGL BT CHEESE PEPPERONI03502",
+        "productTitle": "Bagel Bites Cheese & Pepperoni Mini Pizza Snacks, 9 Ct Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/57339321.jpeg"
+      },
+      {
+        "id": 15,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TOT PZZA ROLLS PEPP 100CT11838",
+        "productTitle": "Totino's Frozen Pizza Rolls Pepperoni - 48.8oz/100ct",
+        "image": "https://go-upc.s3.amazonaws.com/images/45179300.jpg"
+      },
+      {
+        "id": 16,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "CRSNT PKT HAM& CHEDDAR05632",
+        "productTitle": "Hot Pockets Sandwiches, Hickory Ham & Cheddar, Croissant Crust, 2 Pack 2 Ea",
+        "image": "https://go-upc.s3.amazonaws.com/images/57367703.jpeg"
+      },
+      {
+        "id": 17,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TGIF MOZZ STIX06850",
+        "productTitle": "Tgi Fridays Mozzarella Sticks With Marinara Sauce 11 Oz. Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/57313586.jpeg"
+      },
+      {
+        "id": 18,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TOT PIZZA ROLLS SUPRM 50C10924",
+        "productTitle": "Totino's Supreme Pizza Rolls 50 Ea",
+        "image": "https://go-upc.s3.amazonaws.com/images/57804416.png"
+      },
+      {
+        "id": 19,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "TOT PIZZ RLS COMBO 15CT28293",
+        "productTitle": "Totino's Pizza Rolls Combination - 15 Count",
+        "image": "https://go-upc.s3.amazonaws.com/images/63320682.png"
+      },
+      {
+        "id": 20,
+        "category": "FROZEN SNACKS",
+        "productTitleShort": "HT PKT 4 CHEESE07109",
+        "productTitle": "Hot Pockets Four Cheese Pizza & Garlic Butter Crust Frozen Sandwich - 8.5oz/2pk",
+        "image": "https://go-upc.s3.amazonaws.com/images/57366157.jpeg"
+      },
+      {
+        "id": 21,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "TAMPICO FREEZER POP99946",
+        "productTitle": "Tampico Freezer Pops",
+        "image": "https://go-upc.s3.amazonaws.com/images/46061031.jpg"
+      },
+      {
+        "id": 22,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY NEOPLITAN IC PAIL01158",
+        "productTitle": "Blue Ribbon Classics Reduced Fat Friends + Family Size Neapolitan Ice Cream 1 Gal",
+        "image": "https://go-upc.s3.amazonaws.com/images/52788705.jpeg"
+      },
+      {
+        "id": 23,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BDGT SVR TWN POPS 18CT90164",
+        "productTitle": "Budget Saver Assorted Twin Pops - 18 CT",
+        "image": "https://go-upc.s3.amazonaws.com/images/61500385.png"
+      },
+      {
+        "id": 24,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BRC RFAT NEAPOLITAN02012",
+        "productTitle": "Blue Ribbon Classics Neapolitan Reduced Fat Ice Cream 48 Fl. Oz. Tub",
+        "image": "https://go-upc.s3.amazonaws.com/images/50619743.png"
+      },
+      {
+        "id": 25,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY NEOP IC SNDWICH 901929",
+        "productTitle": "Blue Bunny Frozen Premium Sandwiches Neapolitan - 9ct",
+        "image": "https://go-upc.s3.amazonaws.com/images/57588871.png"
+      },
+      {
+        "id": 26,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY ORIGNAL BOMB POPS02169",
+        "productTitle": "Bomb Pop Blue Bunny Original Pops, 12 Ct",
+        "image": "https://go-upc.s3.amazonaws.com/images/57380574.jpeg"
+      },
+      {
+        "id": 27,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY BOMP POP BAN FUDG02171",
+        "productTitle": "Bomb Pop Banana Fudge Frozen Dairy Confection 12 - 1.75 Fl Oz Pops",
+        "image": "https://go-upc.s3.amazonaws.com/images/57796727.png"
+      },
+      {
+        "id": 28,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BDGT SVR TROP TWIN POP 1810194",
+        "productTitle": "Budget Saver Twin Pops, Tropic",
+        "image": "https://go-upc.s3.amazonaws.com/images/52798690.png"
+      },
+      {
+        "id": 29,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "MYMO STRABERRY ICE CREAM 99616",
+        "productTitle": "My/Mochi Ice Cream, Ripe Strawberry, 4 Pack",
+        "image": "https://go-upc.s3.amazonaws.com/images/35209870.png"
+      },
+      {
+        "id": 30,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BRC RFAT STRAWBERRY02013",
+        "productTitle": "Blue Ribbon Classics Strawberry Reduced Fat Ice Cream 48 Fl. Oz. Tub",
+        "image": "https://go-upc.s3.amazonaws.com/images/49095307.png"
+      },
+      {
+        "id": 31,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY VANILLA SAND 16CT01473",
+        "productTitle": "Blue Ribbon Classics Vanilla Sandwiches 16 Ct Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/49703276.png"
+      },
+      {
+        "id": 32,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BRC RFAT BUTTERPECAN02006",
+        "productTitle": "Blue Ribbon Classics Butter Pecan Reduced Fat Ice Cream 48 Fl. Oz. Tub",
+        "image": "https://go-upc.s3.amazonaws.com/images/50581299.png"
+      },
+      {
+        "id": 33,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "DSTK VANILLA 8CT84811",
+        "productTitle": "Drumstick 8 Pack The Original Vanilla Dessert Cones 8 Ea",
+        "image": "https://go-upc.s3.amazonaws.com/images/57356849.jpeg"
+      },
+      {
+        "id": 34,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BRC RFAT CKIENCRM02008",
+        "productTitle": "Blue Ribbon Classics Ice Cream, Reduced Fat, Cookies N Cream",
+        "image": "https://go-upc.s3.amazonaws.com/images/50581282.png"
+      },
+      {
+        "id": 35,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY SMPLY VAN IC SNDW01930",
+        "productTitle": "Blue Bunny Sandwiches Simply Vanilla Frozen Dairy Dessert 9 - 4.25 Fl Oz Packs",
+        "image": "https://go-upc.s3.amazonaws.com/images/61537988.png"
+      },
+      {
+        "id": 36,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "LA MIC VRTY MNI IC BARS 103042",
+        "productTitle": "La Michoacana Variety Mini Ice Cream Bars",
+        "image": "https://images.freshop.com/00767778030423/7de4bf8463d5391afa6ceb6b4055e08a_large.png"
+      },
+      {
+        "id": 37,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY BRC ORANGE DREAM 30012",
+        "productTitle": "Blue Ribbon Classics Friends + Family Pack Orange Dream Frozen Dairy Dessert 20 - 2.25 Fl Oz Packs",
+        "image": "https://go-upc.s3.amazonaws.com/images/50625887.png"
+      },
+      {
+        "id": 38,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "ICEE WILD CHERRY FREEZE 403972",
+        "productTitle": "Icee Freeze Wild Cherry - 4 CT",
+        "image": "https://go-upc.s3.amazonaws.com/images/57495143.png"
+      },
+      {
+        "id": 39,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "SNKR IC BAR00051",
+        "productTitle": "Snickers Ice Cream Bars 6-Count Box",
+        "image": "https://go-upc.s3.amazonaws.com/images/2789686.jpeg"
+      },
+      {
+        "id": 40,
+        "category": "FROZEN ICE CREAM",
+        "productTitleShort": "BLU BNY CLSC VAN SUNDAE C63023",
+        "productTitle": "Blue Ribbon Classics Vanilla Sundae Frozen Dairy Dessert 8 - 4.3 Fl Oz Cones",
+        "image": "https://go-upc.s3.amazonaws.com/images/57823156.png"
+      }
+
+
 ]
 
 
@@ -205,9 +387,9 @@ const OurProducts = () => {
                             setCategory(e.target.value);
                         }} className="select select-sm md:select-md  select-bordered select-warning md:w-[300px] h-12 ">
                             <option disabled selected>Select by category</option>
-                            <option>Electronics & Gadgets</option>
-                            <option>TechNova</option>
-                            <option>CyberX</option>
+                            <option>FROZEN SNACKS</option>
+                            <option>FROZEN ICE CREAM</option>
+                            {/* <option>CyberX</option> */}
                         </select>
                         {/* <div className="w-72 mb-4">
                         <input
