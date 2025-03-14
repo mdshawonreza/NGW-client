@@ -45,7 +45,7 @@ const Navbar = () => {
             className={`bg-white  py-4 md:py-8 fixed w-full z-[100] shadow-sm`}
         >
 
-            <div className='z-[100] max-w-[380px] md:max-w-[850px]  lg:max-w-[1550px]   mx-auto '>
+            <div className='z-[100] max-w-[380px] md:max-w-[750px]  lg:max-w-[1550px]   mx-auto '>
                 <div className='flex justify-between   items-center'>
                     <div className="flex justify-start items-center  md:w-1/4">
                         <div className="dropdown">

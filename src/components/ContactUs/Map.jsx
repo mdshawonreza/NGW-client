@@ -18,7 +18,7 @@ function Map() {
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AlzaSylDj3iHQ6rje81AiQYhxgFWljFKpdpq08l' // Replace with your API key
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY // Replace with your API key
   });
 
   const onLoad = useCallback((map) => {

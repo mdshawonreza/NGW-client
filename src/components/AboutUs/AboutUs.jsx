@@ -57,9 +57,9 @@ const AboutUs = () => {
 
 
             <div id='aboutID' className=''>
-                <div className='max-w-[350px] md:max-w-[850px] lg:max-w-[1550px] mx-auto flex justify-center items-center   '>
+                <div className='max-w-[350px] md:max-w-[750px] lg:max-w-[1550px] mx-auto flex justify-center items-center   '>
 
-                    <div className=' flex justify-center  items-center  md:min-h-[700px]'>
+                    <div className=' flex justify-center  items-center  lg:min-h-[700px] '>
 
                         <div className="flex flex-col-reverse  lg:flex-row gap-12 lg:gap-0 ">
                             <div className='md:w-1/2  flex items-center  '>

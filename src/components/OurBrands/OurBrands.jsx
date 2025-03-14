@@ -19,12 +19,14 @@ const items =[
       "brandColor": "linear-gradient(45deg, #56ab2f, #a8e063)",
       "brandLogo": "https://i.ibb.co.com/XZCYMtDD/image-17.png"
     },
+   
+   
     {
-      "id": 3,
-      "brandName": "Tina's",
-      "brandImg": "https://i.ibb.co.com/LXb3NDRM/images-4.jpg",
+      "id": 21,
+      "brandName": "Ensure",
+      "brandImg": "https://i.ibb.co.com/kgDzwLnL/download-18.jpg",
       "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
-      "brandLogo": "https://i.ibb.co.com/HTTmCg9Y/Tina-s-Logo-w-registered-trademark-fixed.jpg"
+      "brandLogo": "https://i.ibb.co.com/S4FdMBJs/download-13.png"
     },
     {
       "id": 4,
@@ -40,6 +42,170 @@ const items =[
       "brandColor": "linear-gradient(45deg, #ff512f, #dd2476)",
       "brandLogo": "https://i.ibb.co.com/rG77cdTd/Stouffers-Logo-2006.png"
     },
+    
+    
+    
+    {
+      "id": 13,
+      "brandName": "Best Yet",
+      "brandImg": "https://i.ibb.co.com/vxhXqq8y/download-11.jpg",
+      "brandColor": "linear-gradient(45deg, #ff758c, #ff7eb3)",
+      "brandLogo": "https://i.ibb.co.com/5hDj3vgh/download-5.png"
+    },
+    {
+      "id": 14,
+      "brandName": "Hefty",
+      "brandImg": "https://i.ibb.co.com/fV1DmJVB/download-12.jpg",
+      "brandColor": "linear-gradient(45deg, #e100ff, #7f00ff)",
+      "brandLogo": "https://i.ibb.co.com/7dT1m6R2/download-6.png"
+    },
+    {
+      "id": 15,
+      "brandName": "Solo",
+      "brandImg": "https://i.ibb.co.com/WpgyT4tp/00041165017397-1.jpg",
+      "brandColor": "linear-gradient(45deg, #ff416c, #ff4b2b)",
+      "brandLogo": "https://i.ibb.co.com/nsxDBhJK/download-7.png"
+    },
+    {
+      "id": 16,
+      "brandName": "Lays",
+      "brandImg": "https://i.ibb.co.com/DHJdDhp3/download-14.jpg",
+      "brandColor": "linear-gradient(45deg, #00c9ff, #92fe9d)",
+      "brandLogo": "https://i.ibb.co.com/ZRGKNx3y/download-8.png"
+    },
+    {
+      "id": 17,
+      "brandName": "Mariani",
+      "brandImg": "https://i.ibb.co.com/Y7qgV64S/images-7.jpg",
+      "brandColor": "linear-gradient(45deg, #b92b27, #1565c0)",
+      "brandLogo": "https://i.ibb.co.com/fd6VM7sF/download-15.jpg"
+    },
+   
+    {
+      "id": 19,
+      "brandName": "Nabisco",
+      "brandImg": "https://i.ibb.co.com/mCGCq60M/81u-Uu5-Mqx-SL-SL1500.jpg",
+      "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
+      "brandLogo": "https://i.ibb.co.com/1f0wtVL2/download-11.png"
+    },
+    {
+      "id": 20,
+      "brandName": "Cheez It",
+      "brandImg": "https://i.ibb.co.com/G4pc1MZ2/download-17.jpg",
+      "brandColor": "linear-gradient(45deg, #fc4a1a, #f7b733)",
+      "brandLogo": "https://i.ibb.co.com/k2fQjB3x/download-12.png"
+    },
+    {
+      "id": 3,
+      "brandName": "Tina's",
+      "brandImg": "https://i.ibb.co.com/LXb3NDRM/images-4.jpg",
+      "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
+      "brandLogo": "https://i.ibb.co.com/HTTmCg9Y/Tina-s-Logo-w-registered-trademark-fixed.jpg"
+    },
+    // edit start
+
+    
+    
+    
+    // {
+    //   "id": 22,
+    //   "brandName": "Nestle",
+    //   "brandImg": "https://i.ibb.co.com/DHGFLYhn/81z-Tv9-NKQAL-SX569.jpg",
+    //   "brandColor": "linear-gradient(45deg, #ff512f, #dd2476)",
+    //   "brandLogo": "https://i.ibb.co.com/XkFtpChF/image-15.png"
+    // },
+    // {
+    //   "id": 2,
+    //   "brandName": "Jose Ole",
+    //   "brandImg": "https://i.ibb.co.com/hRZGHHmD/51-Gbo-FMI3d-L-AC-UF894-1000-QL80.jpg",
+    //   "brandColor": "linear-gradient(45deg, #56ab2f, #a8e063)",
+    //   "brandLogo": "https://i.ibb.co.com/XZCYMtDD/image-17.png"
+    // },
+    // {
+    //   "id": 3,
+    //   "brandName": "Tina's",
+    //   "brandImg": "https://i.ibb.co.com/LXb3NDRM/images-4.jpg",
+    //   "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
+    //   "brandLogo": "https://i.ibb.co.com/HTTmCg9Y/Tina-s-Logo-w-registered-trademark-fixed.jpg"
+    // },
+    // {
+    //   "id": 4,
+    //   "brandName": "Zatarain's",
+    //   "brandImg": "https://i.ibb.co.com/PZxLbCt0/7a7bb377116a6729b183cc40bead6f20962ea53dad276869807d51396796724e.jpg",
+    //   "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
+    //   "brandLogo": "https://i.ibb.co.com/JWTGNsGY/Zatarain-s-logo-1.jpg"
+    // },
+    // {
+    //   "id": 5,
+    //   "brandName": "Stouffer's",
+    //   "brandImg": "https://i.ibb.co.com/mFRx6cBn/images-5.jpg",
+    //   "brandColor": "linear-gradient(45deg, #ff512f, #dd2476)",
+    //   "brandLogo": "https://i.ibb.co.com/rG77cdTd/Stouffers-Logo-2006.png"
+    // },
+    // {
+    //   "id": 13,
+    //   "brandName": "Best Yet",
+    //   "brandImg": "https://i.ibb.co.com/vxhXqq8y/download-11.jpg",
+    //   "brandColor": "linear-gradient(45deg, #ff758c, #ff7eb3)",
+    //   "brandLogo": "https://i.ibb.co.com/5hDj3vgh/download-5.png"
+    // },
+    // {
+    //   "id": 14,
+    //   "brandName": "Hefty",
+    //   "brandImg": "https://i.ibb.co.com/fV1DmJVB/download-12.jpg",
+    //   "brandColor": "linear-gradient(45deg, #e100ff, #7f00ff)",
+    //   "brandLogo": "https://i.ibb.co.com/7dT1m6R2/download-6.png"
+    // },
+    // {
+    //   "id": 15,
+    //   "brandName": "Solo",
+    //   "brandImg": "https://i.ibb.co.com/WpgyT4tp/00041165017397-1.jpg",
+    //   "brandColor": "linear-gradient(45deg, #ff416c, #ff4b2b)",
+    //   "brandLogo": "https://i.ibb.co.com/nsxDBhJK/download-7.png"
+    // },
+    // {
+    //   "id": 16,
+    //   "brandName": "Lays",
+    //   "brandImg": "https://i.ibb.co.com/DHJdDhp3/download-14.jpg",
+    //   "brandColor": "linear-gradient(45deg, #00c9ff, #92fe9d)",
+    //   "brandLogo": "https://i.ibb.co.com/ZRGKNx3y/download-8.png"
+    // },
+    // {
+    //   "id": 17,
+    //   "brandName": "Mariani",
+    //   "brandImg": "https://i.ibb.co.com/Y7qgV64S/images-7.jpg",
+    //   "brandColor": "linear-gradient(45deg, #b92b27, #1565c0)",
+    //   "brandLogo": "https://i.ibb.co.com/fd6VM7sF/download-15.jpg"
+    // },
+   
+    // {
+    //   "id": 19,
+    //   "brandName": "Nabisco",
+    //   "brandImg": "https://i.ibb.co.com/mCGCq60M/81u-Uu5-Mqx-SL-SL1500.jpg",
+    //   "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
+    //   "brandLogo": "https://i.ibb.co.com/1f0wtVL2/download-11.png"
+    // },
+    // {
+    //   "id": 20,
+    //   "brandName": "Cheez It",
+    //   "brandImg": "https://i.ibb.co.com/G4pc1MZ2/download-17.jpg",
+    //   "brandColor": "linear-gradient(45deg, #fc4a1a, #f7b733)",
+    //   "brandLogo": "https://i.ibb.co.com/k2fQjB3x/download-12.png"
+    // },
+    // {
+    //   "id": 21,
+    //   "brandName": "Ensure",
+    //   "brandImg": "https://i.ibb.co.com/kgDzwLnL/download-18.jpg",
+    //   "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
+    //   "brandLogo": "https://i.ibb.co.com/S4FdMBJs/download-13.png"
+    // },
+
+
+
+
+
+
+
     {
       "id": 6,
       "brandName": "Chung's",
@@ -90,68 +256,12 @@ const items =[
       "brandLogo": "https://i.ibb.co.com/pj2Fjc3G/download-4.png"
     },
     {
-      "id": 13,
-      "brandName": "Best Yet",
-      "brandImg": "https://i.ibb.co.com/vxhXqq8y/download-11.jpg",
-      "brandColor": "linear-gradient(45deg, #ff758c, #ff7eb3)",
-      "brandLogo": "https://i.ibb.co.com/5hDj3vgh/download-5.png"
-    },
-    {
-      "id": 14,
-      "brandName": "Hefty",
-      "brandImg": "https://i.ibb.co.com/fV1DmJVB/download-12.jpg",
-      "brandColor": "linear-gradient(45deg, #e100ff, #7f00ff)",
-      "brandLogo": "https://i.ibb.co.com/7dT1m6R2/download-6.png"
-    },
-    {
-      "id": 15,
-      "brandName": "Solo",
-      "brandImg": "https://i.ibb.co.com/WpgyT4tp/00041165017397-1.jpg",
-      "brandColor": "linear-gradient(45deg, #ff416c, #ff4b2b)",
-      "brandLogo": "https://i.ibb.co.com/nsxDBhJK/download-7.png"
-    },
-    {
-      "id": 16,
-      "brandName": "Lays",
-      "brandImg": "https://i.ibb.co.com/DHJdDhp3/download-14.jpg",
-      "brandColor": "linear-gradient(45deg, #00c9ff, #92fe9d)",
-      "brandLogo": "https://i.ibb.co.com/ZRGKNx3y/download-8.png"
-    },
-    {
-      "id": 17,
-      "brandName": "Mariani",
-      "brandImg": "https://i.ibb.co.com/Y7qgV64S/images-7.jpg",
-      "brandColor": "linear-gradient(45deg, #b92b27, #1565c0)",
-      "brandLogo": "https://i.ibb.co.com/fd6VM7sF/download-15.jpg"
-    },
-    {
       "id": 18,
       "brandName": "Cazo De Oro",
       "brandImg": "https://i.ibb.co.com/ZzHnyVP3/download-16.jpg",
       "brandColor": "linear-gradient(45deg, #5433ff, #20bdff, #a5fecb)",
       "brandLogo": "https://i.ibb.co.com/qKHBJ4s/download-9.png"
     },
-    {
-      "id": 19,
-      "brandName": "Nabisco",
-      "brandImg": "https://i.ibb.co.com/mCGCq60M/81u-Uu5-Mqx-SL-SL1500.jpg",
-      "brandColor": "linear-gradient(45deg, #ff9a9e, #fad0c4)",
-      "brandLogo": "https://i.ibb.co.com/1f0wtVL2/download-11.png"
-    },
-    {
-      "id": 20,
-      "brandName": "Cheez It",
-      "brandImg": "https://i.ibb.co.com/G4pc1MZ2/download-17.jpg",
-      "brandColor": "linear-gradient(45deg, #fc4a1a, #f7b733)",
-      "brandLogo": "https://i.ibb.co.com/k2fQjB3x/download-12.png"
-    },
-    {
-      "id": 21,
-      "brandName": "Ensure",
-      "brandImg": "https://i.ibb.co.com/kgDzwLnL/download-18.jpg",
-      "brandColor": "linear-gradient(45deg, #4b6cb7, #182848)",
-      "brandLogo": "https://i.ibb.co.com/S4FdMBJs/download-13.png"
-    }
   ]
   
 
