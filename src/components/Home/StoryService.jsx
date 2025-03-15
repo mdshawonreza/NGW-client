@@ -6,20 +6,20 @@ import storyImg4 from "../../assets/fi-rr-time-fast.png"
 
 const StoryService = () => {
     return (
-        <div className='mb-16 md:mb-28'>
-            <div className='max-w-[350px] md:max-w-[850px] lg:max-w-[1550px] mx-auto flex justify-center items-center  md:mb-20 '>
+        <div className='mb-16 md:mb-28 mt-6 md:mt-0 '>
+            <div className='max-w-[350px] md:max-w-[750px] lg:max-w-[1550px] mx-auto flex justify-center items-center  md:mb-20 '>
 
                 <div className="flex w-full flex-col lg:flex-row gap-0 lg:gap-20">
 
-                    <div className='md:w-4/6 flex items-center  '>
-                        <div className=' space-y-3 md:space-y-6'>
+                    <div className='lg:w-4/6 flex items-center  '>
+                        <div className=' space-y-3 lg:space-y-6'>
                             <h5 className='text-[20px] inter-font font-bold text-[#FF6868] '>Our Story & Services</h5>
-                            <h1 className="text-3xl text-[#000000] md:text-[60px] font-bold leading-tight inter-font    ">Our Culinary Journey <br />And Services</h1>
-                            <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font ">
+                            <h1 className="text-3xl  md:text-[36px] lg:text-[60px] text-[#000000]  font-bold leading-tight inter-font    ">Our Culinary Journey <br />And Services</h1>
+                            <p className="pt-2 md:pt-2  md:text-[26px] font-medium text-[#4A4A4A] inter-font ">
                                 It began with a simple vision - to make quality wholesale products accessible and affordable.
                                 As business owners ourselves, we saw the challenges retailers faced in finding reliable suppliers, fair pricing, and fast delivery, determined to bridge this gap, we built NGW.
                             </p>
-                            <button className=' h-[26px] md:h-[60px] w-[100px] md:w-[206px]  rounded-full bg-[#F26B24] text-white text-xs md:text-[26px] font-semibold  flex justify-center items-center gap-3 inter-font '>
+                            <button className=' h-[26px] md:h-[45px] lg:h-[60px] w-[100px] md:w-[206px]  rounded-full bg-[#F26B24] text-white text-xs md:text-[20px] lg:text-[26px] font-semibold  flex justify-center items-center gap-3 inter-font '>
 
                                 Know more
 
@@ -28,7 +28,7 @@ const StoryService = () => {
                         </div>
 
                     </div>
-                    <div className='md:w-3/6 ml-9  mt-10 md:mt-0 md:ml-24'>
+                    <div className='lg:w-3/6 ml-9  mt-10 md:mt-16 lg:mt-0 lg:ml-24'>
 
                         <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
                             <div>

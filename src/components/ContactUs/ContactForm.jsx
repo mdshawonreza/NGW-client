@@ -38,7 +38,7 @@ export default function ContactForm() {
 
                                 </h2>
                                 <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0 mt-3 md:mt-0 text-center">
-                                    One-stop destination for high-quality wholesale products at unbeatable prices.
+                                We're Here to Assist with Orders, Inquiries, and Support for a Seamless Shopping Experience!
                                 </p>
 
 
@@ -190,7 +190,7 @@ export default function ContactForm() {
                                 </div>
                                 <div className="card-body items-center text-center -mt-3">
                                     <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4  md:mt-0 inter-font ">Phone</h2>
-                                    <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Share your vision, and together, we all shape a future filled with success and happiness</p>
+                                    <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Call or Message Us – We're Ready to Assist with Orders, Inquiries, and Customer Support!</p>
                                     <div className=" ">
                                         <button className="btn btn-lg btn-outline hover:bg-[#192a60] ">DETAILS</button>
                                     </div>
@@ -210,7 +210,7 @@ export default function ContactForm() {
                                 </div>
                                 <div className="card-body items-center text-center -mt-3">
                                     <h2 className=" tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4  md:mt-0 inter-font ">Address</h2>
-                                    <p className='pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Discover our diverse Jobs locations, where your dreams find their perfect match</p>
+                                    <p className='pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Discover our diverse locations, where you find products with perfect match</p>
                                     <div className="card-actions ">
                                         <button className="btn btn-lg btn-outline hover:bg-[#192a60]">DETAILS</button>
                                     </div>
@@ -231,7 +231,7 @@ export default function ContactForm() {
                                 <div className="card-body items-center text-center -mt-3">
                                     <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4   md:mt-0 inter-font ">Email
                                     </h2>
-                                    <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Discover diverse income strategies in our guides, ensuring financial security and success.</p>
+                                    <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Reach Out via Call, Email, or Visit – We're Here to Assist with Your Needs!</p>
                                     <div className="card-actions ">
                                         <button className="btn btn-lg btn-outline  hover:bg-[#192a60]">DETAILS</button>
                                     </div>

@@ -44,7 +44,7 @@ const Footer = () => {
                     </nav>
                 </div>
             </footer>
-            <div className='my-0 lg:my-20 mb-8 -mt-4 md:mt-0 md:mb-0'>
+            <div className='my-0 lg:my-10 mb-8 -mt-4 md:mt-0 md:mb-0 '>
                 <div className='flex justify-center md:justify-start gap-5 md:gap-3 lg:gap-5'>
                     <button className=" bg-[#F48B54] hover:bg-[#F26B24] lg:w-[58px] md:w-[40px] md:h-[40px] lg:h-[58px] w-[30px] h-[30px] rounded-full flex justify-center items-center  ">
                         <FiFacebook className='text-white md:text-[30px]' />

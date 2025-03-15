@@ -31,7 +31,7 @@ const AboutUs = () => {
                                 About <span className='text-[#F26B24] md:leading-relaxed'>Us </span>
                             </h2>
                             <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
-                                One-stop destination for high-quality wholesale products at unbeatable prices.
+                            Learn About Us – Our Story, Values, and Commitment to Providing the Best Products and Services!
                             </p>
 
 

@@ -291,13 +291,13 @@ const PartneredBrands = () => {
     //         .then(data => setItems(data))
     // }, [])
     return (
-        <div className='max-w-[380px] md:max-w-[850px] lg:max-w-[1550px] mx-auto '>
+        <div className='max-w-[380px]  md:max-w-[750px] lg:max-w-[1550px] mx-auto '>
             <div className='text-center inter-font'>
                 <h5 className='text-[20px] font-bold text-[#FF6868]'>Our Partnered Brands</h5>
-                <h1 className='text-3xl md:mt-7 mt-0 md:text-[60px] font-bold'>Trusted Brands, Premium Quality</h1>
+                <h1 className='text-3xl md:text-4xl md:mt-7 mt-0 lg:text-[60px] font-bold'>Trusted Brands, Premium Quality</h1>
 
             </div>
-            <div className='mt-8 md:mt-16 mb-20 md:mb-0 pl-6 py-6'>
+            <div className='mt-8 md:mt-16 mb-20 md:mb-0 pl-6 md:py-6 '>
             {/* flex flex-col md:flex-row justify-center items-center gap-6 md:gap-16 mt-8 md:mt-16 mb-20 md:mb-0 pl-6 py-6 */}
                 {/* <div className="card bg-base-100 w-[326px] h-[306px] shadow-2xl">
                     <figure className="px-10 pt-16">
@@ -353,9 +353,9 @@ const PartneredBrands = () => {
                             slidesPerView: 1,
                             spaceBetween: 10,
                         },
-                        768: {
-                            slidesPerView: 3,
-                            spaceBetween: 20,
+                        750: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
                         },
                         1024: {
                             slidesPerView: 4,

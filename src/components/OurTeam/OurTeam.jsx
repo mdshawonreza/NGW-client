@@ -33,7 +33,7 @@ const OurTeam = () => {
                                 Our <span className='text-[#F26B24] md:leading-relaxed'>Team </span>
                             </h2>
                             <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
-                                One-stop destination for high-quality wholesale products at unbeatable prices.
+                            Meet Our Dedicated Team – Experts Ready to Assist You with Your Product and Service Needs!
                             </p>
 
 
