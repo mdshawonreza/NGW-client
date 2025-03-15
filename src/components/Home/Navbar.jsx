@@ -4,6 +4,7 @@ import { BsTelephoneInbound } from 'react-icons/bs';
 import { FaChevronDown, FaSearch } from 'react-icons/fa';
 import { BiShoppingBag } from 'react-icons/bi';
 import { NavLink } from 'react-router-dom';
+import navLogo from '../../assets/NGW.png'
 
 
 const Navbar = () => {
@@ -34,8 +35,8 @@ const Navbar = () => {
         <li><NavLink to="/ourProducts" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Products</NavLink></li>
         <li><NavLink to="/ourTeam" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Our Team</NavLink></li>
         <li><NavLink to="/contactUs" className=" text-black text-lg font-medium  hover:text-[#F26B24]" >Contact US</NavLink></li>
-        
-       
+
+
 
 
     </>
@@ -56,9 +57,12 @@ const Navbar = () => {
                                 {navLinks}
                             </ul>
                         </div>
-                        <h2 className=" text-[32px]  md:text-[34px]  inter-font font-extrabold text-[#000000] ">
+                        {/* <h2 className=" text-[32px]  md:text-[34px]  inter-font font-extrabold text-[#000000] ">
                             <span className='bg-[#F26B24]  rounded-md '>N</span>GW
-                        </h2>
+                        </h2> */}
+                        <div className='w-[60px] md:w-[70px] lg:w-[130px] '>
+                            <img src={navLogo} alt="" />
+                        </div>
                     </div>
                     <div className=" hidden md:w-2/4  lg:flex justify-center items-center ">
                         <ul className="flex justify-between font-normal text-base inter-font gap-12 items-center ">
@@ -93,7 +97,7 @@ const Navbar = () => {
 
                             <div className=" text-black text-lg font-medium hover:text-[#F26B24]"><a href="#roadmap">Our Team </a></div> */}
                             {navLinks}
-                            
+
                         </ul>
                     </div>
                     <div className="mr-5 md:w-1/4   md:mr-0 flex justify-end items-center gap-3 md:gap-8">

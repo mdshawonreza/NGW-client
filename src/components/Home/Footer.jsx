@@ -4,6 +4,7 @@ import { FiFacebook, FiTwitter } from 'react-icons/fi';
 import { FaInstagram } from 'react-icons/fa';
 import { AiOutlineYoutube } from 'react-icons/ai';
 
+import footerLogo from '../../assets/NGW.png' 
 
 const Footer = () => {
     return (
@@ -11,9 +12,12 @@ const Footer = () => {
             <footer className="flex flex-col md:flex-row  justify-between text-base-content  py-10">
                 <div>
                     <aside>
-                        <h2 className=" text-[26px]  md:text-[26px]  inter-font font-extrabold text-[#000000] ">
+                        {/* <h2 className=" text-[26px]  md:text-[26px]  inter-font font-extrabold text-[#000000] ">
                             <span className='bg-[#F26B24]  rounded-md '>N</span>GW
-                        </h2>
+                        </h2> */}
+                        <div className='w-[60px] md:w-[70px] lg:w-[130px] '>
+                                                    <img src={footerLogo} alt="" />
+                                                </div>
                         <p className='lg:text-[24px] mt-3 md:mt-8 font-medium text-[#555555] leading-snug inter-font'>
                             Savor the artistry where <br /> every dish is a culinary <br /> masterpiece
                         </p>
