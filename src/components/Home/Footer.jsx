@@ -19,7 +19,7 @@ const Footer = () => {
                                                     <img src={footerLogo} alt="" />
                                                 </div>
                         <p className='lg:text-[24px] mt-3 md:mt-8 font-medium text-[#555555] leading-snug inter-font'>
-                            Savor the artistry where <br /> every dish is a culinary <br /> masterpiece
+                        Quality wholesale products with fair  <br /> pricing, reliable suppliers, and fast <br />delivery worldwide.
                         </p>
                     </aside>
 

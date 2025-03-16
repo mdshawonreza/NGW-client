@@ -61,8 +61,8 @@ const AboutUs = () => {
 
                     <div className=' flex justify-center  items-center  lg:min-h-[700px] '>
 
-                        <div className="flex flex-col-reverse  lg:flex-row gap-12 lg:gap-0 ">
-                            <div className='md:w-1/2  flex items-center  '>
+                        <div className="flex flex-col-reverse mt-0 md:mt-10 lg:mt-0 lg:flex-row gap-12 lg:gap-0 ">
+                            <div className='lg:w-1/2  flex items-center  '>
                                 <div className=' space-y-3 md:space-y-6'>
                                     <h5 className='text-[20px] inter-font font-bold text-[#FF6868] '>Our Story & Services</h5>
                                     <h1 className="text-3xl text-[#000000] md:text-[60px] font-bold leading-tight inter-font    "> ABout US</h1>
@@ -79,7 +79,7 @@ const AboutUs = () => {
                                 </div>
 
                             </div>
-                            <div className='md:w-1/2 mt-6 md:mt-0 flex justify-end '>
+                            <div className='lg:w-1/2 mt-6 md:mt-0 flex justify-end '>
                                 <div className=' flex gap-3 '>
                                     <div className='flex items-center  '>
 

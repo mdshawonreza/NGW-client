@@ -48,7 +48,7 @@ const Navbar = () => {
 
             <div className='z-[100] max-w-[380px] md:max-w-[750px]  lg:max-w-[1550px]   mx-auto '>
                 <div className='flex justify-between   items-center'>
-                    <div className="flex justify-start items-center  md:w-1/4">
+                    <div className="flex justify-start items-center  md:w-1/6">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -64,7 +64,7 @@ const Navbar = () => {
                             <img src={navLogo} alt="" />
                         </div>
                     </div>
-                    <div className=" hidden md:w-2/4  lg:flex justify-center items-center ">
+                    <div className=" hidden  md:w-4/6  lg:flex justify-center items-center ">
                         <ul className="flex justify-between font-normal text-base inter-font gap-12 items-center ">
                             {/* <NavLink to='/' className=" text-black text-lg font-medium  hover:text-[#F26B24]">Home</NavLink>
                             <div className=" text-black  hover:text-[#F26B24]">
@@ -100,7 +100,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <div className="mr-5 md:w-1/4   md:mr-0 flex justify-end items-center gap-3 md:gap-8">
+                    <div className="mr-5 md:w-1/6  md:mr-0 flex justify-end items-center gap-3 md:gap-8">
                         <FaSearch className='text-black text-[20px]' />
                         <div>
                             <p className='bg-[#F26B24] text-xs rounded-full px-[4px] absolute ml-3 inter-font'>8</p>

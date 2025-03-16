@@ -1,6 +1,10 @@
 import React from 'react';
 import testimonialImg1 from "../../assets/Group 21 (1).png"
 import testimonialImg2 from "../../assets//Group 21.png"
+import testimonialImg3 from "../../assets/image 10.png"
+import testimonialImg4 from "../../assets/image 11.png"
+// import testimonialImg5 from "../../assets/portrait-lovely-blond-female-part-time-employee-talking-manager-customer-support-removebg-preview 1.png"
+import testimonialImg6 from "../../assets/mk.png"
 import { FaStar } from 'react-icons/fa';
 const Testimonial = () => {
     return (
@@ -28,17 +32,17 @@ const Testimonial = () => {
                                 <div className="avatar-group -space-x-6">
                                     <div className="avatar">
                                         <div className="w-[40px] md:w-[80px]">
-                                            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                            <img src={testimonialImg6} />
                                         </div>
                                     </div>
                                     <div className="avatar">
                                         <div className="w-[40px] md:w-[80px]">
-                                            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                            <img src={testimonialImg3} />
                                         </div>
                                     </div>
                                     <div className="avatar">
                                         <div className="w-[40px] md:w-[80px]">
-                                            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                            <img src={testimonialImg4} />
                                         </div>
                                     </div>
 

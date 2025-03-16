@@ -9,9 +9,9 @@ const StoryService = () => {
         <div className='mb-16 md:mb-28 mt-6 md:mt-0 '>
             <div className='max-w-[350px] md:max-w-[750px] lg:max-w-[1550px] mx-auto flex justify-center items-center  md:mb-20 '>
 
-                <div className="flex w-full flex-col lg:flex-row gap-0 lg:gap-20">
+                <div className="flex w-full justify-between flex-col lg:flex-row gap-0 ">
 
-                    <div className='lg:w-4/6 flex items-center  '>
+                    <div className='lg:w-3/6 flex items-center  '>
                         <div className=' space-y-3 lg:space-y-6'>
                             <h5 className='text-[20px] inter-font font-bold text-[#FF6868] '>Our Story & Services</h5>
                             <h1 className="text-3xl  md:text-[36px] lg:text-[60px] text-[#000000]  font-bold leading-tight inter-font    ">Our Culinary Journey <br />And Services</h1>
@@ -28,7 +28,7 @@ const StoryService = () => {
                         </div>
 
                     </div>
-                    <div className='lg:w-3/6 ml-9  mt-10 md:mt-16 lg:mt-0 lg:ml-24'>
+                    <div className=' ml-9  mt-10 md:mt-16 lg:mt-0 lg:ml-0 '>
 
                         <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
                             <div>

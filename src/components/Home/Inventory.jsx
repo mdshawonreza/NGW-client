@@ -105,7 +105,7 @@ const Inventory = () => {
                 {products.map((product) => (
                     <SwiperSlide key={product.id}>
 
-                        < div  className="relative bg-white rounded-3xl  md:rounded-[40px] shadow-xl w-[336px] md:w-[330px] lg:w-[446px] md:mb-20 lg:mb-20  md:mt-6 ">
+                        < div  className="relative bg-white rounded-3xl  md:rounded-[40px] shadow-xl w-[336px] md:w-[330px] lg:w-[435px] md:mb-20 lg:mb-20  md:mt-6 ">
                             <div className="flex justify-end">
                                 <div className="w-[60px] md:w-[83px] h-[50px] md:h-[70px]  right-0 bg-[#F26B24] text-white text-sm font-semibold pl-[14px] py-1 rounded-se-[24px] md:rounded-se-[40px] rounded-es-[24px] md:rounded-es-[40px] flex justify-center items-center">
                                     <FaHeart className="text-[24px] -ml-3 md:-ml-2"></FaHeart>
