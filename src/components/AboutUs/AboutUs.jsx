@@ -26,11 +26,11 @@ const AboutUs = () => {
                         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center ">
                             {/* <h3 className='md:text-[20px] inter-font font-bold text-[#FF6868] text-center'>wholesale & distributor</h3> */}
 
-                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center  inter-font">
+                            <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center  inter-font ">
 
                                 About <span className='text-[#F26B24] md:leading-relaxed'>Us </span>
                             </h2>
-                            <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
+                            <p className=" md:text-[26px] font-medium text-gray-200 text-center  inter-font px-3 md:px-0">
                             Learn About Us – Our Story, Values, and Commitment to Providing the Best Products and Services!
                             </p>
 
@@ -57,11 +57,11 @@ const AboutUs = () => {
 
 
             <div id='aboutID' className=''>
-                <div className='max-w-[350px] md:max-w-[750px] lg:max-w-[1550px] mx-auto flex justify-center items-center   '>
+                <div className='max-w-[350px] md:max-w-[750px] lg:max-w-[1550px] mx-auto flex justify-center items-center  lg:px-10 '>
 
                     <div className=' flex justify-center  items-center  lg:min-h-[700px] '>
 
-                        <div className="flex flex-col-reverse mt-0 md:mt-10 lg:mt-0 lg:flex-row gap-12 lg:gap-0 ">
+                        <div className="flex flex-col-reverse mt-0 md:mt-10 lg:mt-0 lg:flex-row gap-12 lg:gap-10 ">
                             <div className='lg:w-1/2  flex items-center  '>
                                 <div className=' space-y-3 md:space-y-6'>
                                     <h5 className='text-[20px] inter-font font-bold text-[#FF6868] '>Our Story & Services</h5>
@@ -70,7 +70,7 @@ const AboutUs = () => {
                                         It began with a simple vision - to make quality wholesale products accessible and affordable.
                                         As business owners ourselves, we saw the challenges retailers faced in finding reliable suppliers, fair pricing, and fast delivery, determined to bridge this gap, we built NGW.
                                     </p>
-                                    <button className=' h-[26px] md:h-[60px] w-[100px] md:w-[206px]  rounded-full bg-[#F26B24] text-white text-xs md:text-[26px] font-semibold  flex justify-center items-center gap-3 inter-font '>
+                                    <button className='  h-[35px] md:h-[45px] lg:h-[60px] w-[150px] md:w-[206px]  rounded-full bg-[#F26B24] text-white text-xs md:text-[20px] lg:text-[26px] font-semibold  flex justify-center items-center gap-3 inter-font hover:shadow-[#F26B24] hover:shadow-lg'>
 
                                         Know more
 
@@ -80,7 +80,7 @@ const AboutUs = () => {
 
                             </div>
                             <div className='lg:w-1/2 mt-6 md:mt-0 flex justify-end '>
-                                <div className=' flex gap-3 '>
+                                <div className=' flex justify-center items-center gap-3 '>
                                     <div className='flex items-center  '>
 
                                         <div data-aos="zoom-in-up" >

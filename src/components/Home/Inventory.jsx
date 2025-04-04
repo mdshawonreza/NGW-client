@@ -57,7 +57,7 @@ const Inventory = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
     return (
-        <div className="relative  max-w-[350px] md:max-w-[750px] lg:max-w-[1550px] mx-auto  md:pt-20 ">
+        <div className="relative  max-w-[350px] md:max-w-[750px] lg:max-w-[1550px] mx-auto  md:pt-20 lg:px-10 ">
             {/* Title Section */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8">
                 <div className=''>
@@ -82,7 +82,7 @@ const Inventory = () => {
             <Swiper
                 className="flex z-0 justify-between flex-col md:flex-row"
                 modules={[Navigation]}
-                spaceBetween={75}
+                spaceBetween={50}
                 slidesPerView={1}
                 navigation={{
                     prevEl: prevRef.current,
@@ -105,26 +105,26 @@ const Inventory = () => {
                 {products.map((product) => (
                     <SwiperSlide key={product.id}>
 
-                        < div  className="relative bg-white rounded-3xl  md:rounded-[40px] shadow-xl w-[336px] md:w-[330px] lg:w-[435px] md:mb-20 lg:mb-20  md:mt-6 ">
+                        < div  className="relative bg-white rounded-3xl  md:rounded-[40px] shadow-xl md:mb-20 lg:mb-20  md:mt-6 ">
                             <div className="flex justify-end">
                                 <div className="w-[60px] md:w-[83px] h-[50px] md:h-[70px]  right-0 bg-[#F26B24] text-white text-sm font-semibold pl-[14px] py-1 rounded-se-[24px] md:rounded-se-[40px] rounded-es-[24px] md:rounded-es-[40px] flex justify-center items-center">
                                     <FaHeart className="text-[24px] -ml-3 md:-ml-2"></FaHeart>
                                 </div>
                             </div>
-                            <div className=" flex justify-center">
-                                <img className=" w-[250px] md:w-[331px] md:h-[211px]  rounded-lg" src={product.image} alt="" />
+                            <div className=" flex justify-center ">
+                                <img className=" w-full px-10 h-full   rounded-lg" src={product.image} alt="" />
                             </div>
-                            <div className="mt-2 px-8 lg:px-12 pt-5 pb-8">
+                            <div className="mt-2 px-8 lg:px-10 pt-5 pb-8">
                                 <div className='space-y-1 md:space-y-2 lg:space-y-3 '>
-                                    <h3 className="text-2xl inter-font lg:text-[30px] text-[#000000] font-semibold">{product.title}
+                                    <h3 className="text-2xl inter-font lg:text-[28px] text-[#000000] font-semibold">{product.title}
                                         
                                     </h3>
                                     <p className="text-xl lg:text-[22px] font-semibold text-[#555555] inter-font">{product.description}</p>
 
                                     <div className="flex justify-between items-center">
                                         <div className="flex items-center gap-3 inter-font">
-                                            <p className="text-xl lg:text-[24px] font-semibold text-[#FF6868]">Starting at</p>
-                                            <p className="text-2xl lg:text-[30px] font-semibold text-[#000000]">$ {product.price}.00</p>
+                                            <p className="text-xl lg:text-[22px] font-semibold text-[#FF6868]">Starting at</p>
+                                            <p className="text-2xl lg:text-[28px] font-semibold text-[#000000]">$ {product.price}.00</p>
 
                                         </div>
                                         <div className="flex items-center gap-2 md:gap-3">

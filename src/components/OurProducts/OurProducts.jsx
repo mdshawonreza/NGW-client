@@ -1747,7 +1747,7 @@ const OurProducts = () => {
 
                             <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">
 
-                                Our <span className='text-[#F26B24] md:leading-relaxed'> Products</span>
+                                <span className='text-[#F26B24] md:leading-relaxed'> Products</span>
                             </h2>
                             <p className=" md:text-[26px] font-medium text-gray-200 inter-font text-center px-3 md:px-0">
                             Explore Our Premium Products – Find the Perfect Solution to Meet Your Needs and Preferences!
@@ -1775,7 +1775,7 @@ const OurProducts = () => {
                 </div>
             </div>
 
-            <div id='productD' className='max-w-[380px] md:max-w-3xl lg:max-w-[1550px] mx-auto mt-7' >
+            <div id='productD' className='max-w-[380px] md:max-w-3xl lg:max-w-[1550px] mx-auto mt-7 lg:px-10' >
                 {/* <div className="w-1/2 mx-auto mb-10">
                     <div className="text-center mt-8">
                         <h2 className=" font-sans tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-0 inter-font ">Find Your <span className="text-[#F26B24]">Products</span> </h2>
@@ -1790,7 +1790,7 @@ const OurProducts = () => {
                             <a href="#searchP">
                                 <button
                                     type="submit"
-                                    className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-[#F26B24]"
+                                    className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-[#F26B24] hover:shadow-[#F26B24] hover:shadow-md"
                                 >
                                     Search
                                 </button>
@@ -1834,7 +1834,7 @@ const OurProducts = () => {
                 </div>
 
 
-                <div id='searchP' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10  mt-8 md:mb-16 ">
+                <div id='searchP' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5   mt-8 md:mb-16 ">
 
 
                     {

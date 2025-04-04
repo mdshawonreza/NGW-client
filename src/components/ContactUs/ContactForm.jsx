@@ -38,7 +38,7 @@ export default function ContactForm() {
 
                                 </h2>
                                 <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0 mt-3 md:mt-0 text-center">
-                                We're Here to Assist with Orders, Inquiries, and Support for a Seamless Shopping Experience!
+                                    We're Here to Assist with Orders, Inquiries, and Support for a Seamless Shopping Experience!
                                 </p>
 
 
@@ -61,7 +61,7 @@ export default function ContactForm() {
                         </div>
                     </div>
                 </div>
-                <div id="contactF" className=" mx-auto sm:max-w-xl md:max-w-[900px] lg:max-w-[1550px] ">
+                <div id="contactF" className=" mx-auto sm:max-w-xl md:max-w-[900px] lg:max-w-[1550px] lg:px-10">
                     <div className="  flex justify-center items-center " >
                         <div className=" md:w-[800px]   mx-auto p-8 md:p-12 ">
                             <h2 className="text-center text-2xl md:text-4xl font-bold text-[#000000] md:mb-4" >Request Product Portfolio and Pricing</h2>
@@ -165,7 +165,7 @@ export default function ContactForm() {
                                 </div>
 
                                 <div className="flex justify-center items-center">
-                                    <button type="submit" className="btn w-56 text-white text-sm md:text-lg  bg-[#F48B54] hover:bg-[#F26B24] mt-4">Submit</button>
+                                    <button type="submit" className="btn w-56 text-white text-sm md:text-lg  bg-[#F48B54] hover:bg-[#F26B24] mt-4 ">Submit</button>
 
                                 </div>
                             </form>
@@ -189,10 +189,10 @@ export default function ContactForm() {
                                     </div>
                                 </div>
                                 <div className="card-body items-center text-center -mt-3">
-                                    <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4  md:mt-0 inter-font ">Phone</h2>
+                                    <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4  md:mt-0 inter-font text-[#1571B4] ">Phone</h2>
                                     <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Call or Message Us – We're Ready to Assist with Orders, Inquiries, and Customer Support!</p>
                                     <div className=" ">
-                                        <button className="btn btn-lg btn-outline hover:bg-[#192a60] ">DETAILS</button>
+                                        <button className="btn btn-lg btn-outline hover:bg-[#1571B4] ">DETAILS</button>
                                     </div>
                                 </div>
                             </div>
@@ -209,16 +209,16 @@ export default function ContactForm() {
                                     </div>
                                 </div>
                                 <div className="card-body items-center text-center -mt-3">
-                                    <h2 className=" tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4  md:mt-0 inter-font ">Address</h2>
+                                    <h2 className=" tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4  md:mt-0 inter-font text-[#1571B4]">Address</h2>
                                     <p className='pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Discover our diverse locations, where you find products with perfect match</p>
                                     <div className="card-actions ">
-                                        <button className="btn btn-lg btn-outline hover:bg-[#192a60]">DETAILS</button>
+                                        <button className="btn btn-lg btn-outline hover:bg-[#1571B4]">DETAILS</button>
                                     </div>
                                 </div>
                             </div>
                             <div className="card  ">
                                 <div className="px-10 pt-10  flex justify-center items-center">
-                                    <div className="bg-[#F26B24] p-6 rounded-full">
+                                    <div className="bg-[#F26B24] p-6 rounded-full ">
                                         <MdEmail className="text-4xl text-white " />
                                     </div>
 
@@ -229,11 +229,20 @@ export default function ContactForm() {
                                     </div>
                                 </div>
                                 <div className="card-body items-center text-center -mt-3">
-                                    <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4   md:mt-0 inter-font ">Email
+                                    <h2 className="tracking-tight  sm:text-4xl sm:leading-none text-3xl md:text-[36px] font-extrabold text-center mt-4   md:mt-0 inter-font text-[#1571B4]">Email
                                     </h2>
-                                    <p className=' pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center'>Reach Out via Call, Email, or Visit – We're Here to Assist with Your Needs!</p>
+                                    <div className="pt-2 md:pt-0 mb-8 md:text-[26px] font-medium text-[#4A4A4A] text-center">
+                                        <p className=' '>
+                                            {/* Reach Out via Call, Email, or Visit –  */}
+                                            We're Here to Assist with Your Needs!</p>
+                                        <a className="link link-hover">hanif@farzacapitals.com</a>
+                                        <div>
+                                        <a className="link link-hover">hanifkhowja@gmail.com</a>
+                                        </div>
+                                        
+                                    </div>
                                     <div className="card-actions ">
-                                        <button className="btn btn-lg btn-outline  hover:bg-[#192a60]">DETAILS</button>
+                                        <button className="btn btn-lg btn-outline  hover:bg-[#1571B4]">DETAILS</button>
                                     </div>
                                 </div>
                             </div>

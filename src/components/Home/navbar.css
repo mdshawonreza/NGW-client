@@ -5,7 +5,11 @@
 background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(3, 35, 86, 0.4) 100%);
 }
 
-.navbar-button{
+.navbar-button1{
     -webkit-box-shadow: -4px 2px 9px -2px rgba(0,0,0,0.82); 
 box-shadow: -4px 10px 15px -2px rgba(229, 80, 5, 0.82);
+}
+.banner-button1{
+    -webkit-box-shadow: -4px 2px 9px -2px rgba(0,0,0,0.82); 
+box-shadow: -4px 10px 15px -2px rgba(5, 132, 200, 0.82);
 }

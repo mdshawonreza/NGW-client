@@ -291,57 +291,19 @@ const PartneredBrands = () => {
     //         .then(data => setItems(data))
     // }, [])
     return (
-        <div className='max-w-[380px]  md:max-w-[750px] lg:max-w-[1550px] mx-auto '>
+        <div className='max-w-[380px]  md:max-w-[750px] lg:max-w-[1550px] mx-auto lg:px-10 '>
             <div className='text-center inter-font'>
                 <h5 className='text-[20px] font-bold text-[#FF6868]'>Our Partnered Brands</h5>
                 <h1 className='text-3xl md:text-4xl md:mt-7 mt-0 lg:text-[60px] font-bold'>Trusted Brands, Premium Quality</h1>
 
             </div>
-            <div className='mt-8 md:mt-16 mb-20 md:mb-0 pl-6 md:py-6 '>
-            {/* flex flex-col md:flex-row justify-center items-center gap-6 md:gap-16 mt-8 md:mt-16 mb-20 md:mb-0 pl-6 py-6 */}
-                {/* <div className="card bg-base-100 w-[326px] h-[306px] shadow-2xl">
-                    <figure className="px-10 pt-16">
-                        <img
-                            src={bandsImg1}
-                            alt="Shoes"
-                            className="rounded-xl" />
-                    </figure>
-                    <div className="card-body items-center text-center inter-font">
-                        <h2 className="font-semibold text-[#1E1E1E] text-[30px]">Main Dish</h2>
-                        <p className='text-[22px] font-medium text-[#555555]'>(86 varieties)</p>
-                       
-                    </div>
-                </div>
-                <div className="card bg-base-100 w-[326px] h-[306px] shadow-2xl ">
-                    <figure className="px-10 pt-16">
-                        <img
-                            src={bandsImg2}
-                            alt="Shoes"
-                            className="rounded-xl" />
-                    </figure>
-                    <div className="card-body items-center text-center inter-font">
-                        <h2 className="font-semibold text-[#1E1E1E] text-[30px]">Break Fast</h2>
-                        <p className='text-[22px] font-medium text-[#555555]'>(12 varieties)</p>
-                       
-                    </div>
-                </div>
-                <div className="card bg-base-100 w-[326px] h-[306px] shadow-2xl">
-                    <figure className="px-10 pt-16">
-                        <img
-                            src={bandsImg3}
-                            alt="Shoes"
-                            className="rounded-xl" />
-                    </figure>
-                    <div className="card-body items-center text-center inter-font">
-                        <h2 className="font-semibold text-[#1E1E1E] text-[30px]">Snacks</h2>
-                        <p className='text-[22px] font-medium text-[#555555]'>(48 varieties)</p>
-                       
-                    </div>
-                </div> */}
+            <div className='mt-8 md:mt-16 mb-20 md:mb-0 pl-8 md:pl-6 lg:pl-0 md:py-6 '>
+            
+               
                 <Swiper
 
                     modules={[Autoplay]}
-                    spaceBetween={30}
+                    spaceBetween={10}
                     slidesPerView={1}
                     autoplay={{
                         delay: 1000,

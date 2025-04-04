@@ -1,5 +1,12 @@
 import React from 'react';
-
+import teamMember1 from "../../assets/WhatsApp Image 2025-03-19 at 1.18.11 PM.jpeg"
+import teamMember2 from "../../assets/2.png" 
+import teamMember3 from "../../assets/WhatsApp Image 2025-03-26 at 12.13.13 AM.jpeg"
+import teamMember4 from "../../assets/4.png"
+import teamMember5 from "../../assets/5.png"
+import teamMember6 from "../../assets/6.png"
+import teamMember7 from "../../assets/7.png"
+import teamMember8 from "../../assets/8.png"
 const OurTeam = () => {
     return (
         <div className='pt-[50px] md:pt-[98px]'>
@@ -33,7 +40,7 @@ const OurTeam = () => {
                                 Our <span className='text-[#F26B24] md:leading-relaxed'>Team </span>
                             </h2>
                             <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
-                            Meet Our Dedicated Team – Experts Ready to Assist You with Your Product and Service Needs!
+                                Meet Our Dedicated Team – Experts Ready to Assist You with Your Product and Service Needs!
                             </p>
 
 
@@ -57,65 +64,23 @@ const OurTeam = () => {
                 </div>
             </div>
 
-            <div id='ourt' className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1580px] md:px-24 lg:px-8 lg:py-20">
-                {/* <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-5xl md:mb-12">
-                    <div>
-                        <p className="text-[20px] inter-font font-bold text-[#FF6868]">
-                            Core Team
-                        </p>
-                    </div>
-                    <h2 className="max-w-4xl  mb-6 font-sans text-3xl font-bold  text-gray-900 sm:text-4xl md:mx-auto">
-                        <span className="relative inline-block">
-                            <svg
-                                viewBox="0 0 52 24"
-                                fill="currentColor"
-                                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-                            >
-                                <defs>
-                                    <pattern
-                                        id="1d4040f3-9f3e-4ac7-b117-7d4009658ced"
-                                        x="0"
-                                        y="0"
-                                        width=".135"
-                                        height=".30"
-                                    >
-                                        <circle cx="1" cy="1" r=".7" />
-                                    </pattern>
-                                </defs>
-                                <rect
-                                    fill="url(#1d4040f3-9f3e-4ac7-b117-7d4009658ced)"
-                                    width="52"
-                                    height="24"
-                                />
-                            </svg>
+            <div id='ourt' className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1580px] md:px-24 lg:px-10 lg:py-20">
 
-                            <h2 className=" font-sans tracking-tight text-black sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center mt-16  md:mt-8 inter-font "><span className='text-[#F26B24] md:leading-tight'> Welcome</span> our <br /> talented team of professionals
-
-
-
-                            </h2>
-                        </span>
-                    </h2>
-                    <p className="pt-2 md:pt-2 md:text-[26px] font-medium text-[#4A4A4A] inter-font">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
-                    </p>
-                </div> */}
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                     <div>
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                             <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                                src={teamMember1}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100  ">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Oliver Aguilerra
+                                    Hanif Khowja
                                 </p>
-                                <p className="mb-4 text-sm text-white inter-font">Product Manager</p>
+                                <p className="mb-4 text-sm text-white inter-font">Co Founder</p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200 inter-font">
-                                    Vincent Van Gogh’s most popular painting, The Starry Night.
+                                    Co-founder dedicated to quality, affordability, and reliability.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a
@@ -140,18 +105,21 @@ const OurTeam = () => {
                     </div>
                     <div>
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                            <img
+                        <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                                src={teamMember2}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Marta Clermont
+                                    Fred Aliji
+
+
                                 </p>
-                                <p className="mb-4 text-sm text-white inter-font">Design Team Lead</p>
+                                <p className="mb-4 text-sm text-white inter-font">Co Founder
+                                </p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200 inter-font">
-                                    Amet I love liquorice jujubes pudding croissant I love pudding.
+                                    Co-founder dedicated to quality, affordability, and reliability.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a
@@ -178,16 +146,18 @@ const OurTeam = () => {
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                             <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                                src={teamMember3}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Anthony Geek
+                                    Luis Hidalgo Jr.
+
                                 </p>
-                                <p className="mb-4 text-sm inter-font text-white">CTO, Lorem Inc.</p>
+                                <p className="mb-4 text-sm inter-font text-white">COO
+                                </p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200 inter-font">
-                                    Apple pie macaroon toffee jujubes pie tart cookie caramels.
+                                    A strategic and proactive leader, driving efficiency and innovation.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a
@@ -214,17 +184,17 @@ const OurTeam = () => {
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
                             <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                                src={teamMember4}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Alice Melbourne
+                                    Cynthia Ramos
                                 </p>
-                                <p className="mb-4 text-sm text-white">Human Resources</p>
+                                <p className="mb-4 text-sm text-white"> Warehouse Manager/ Logistics Coordinator
+                                </p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200">
-                                    Lorizzle ipsum bling bling sit amizzle, consectetuer adipiscing
-                                    elit.
+                                    A highly organized and efficient leader, ensuring smooth warehouse operations and logistics.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a
@@ -249,19 +219,18 @@ const OurTeam = () => {
                     </div>
                     <div>
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                            <img
+                        <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                                src={teamMember5}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Martin Garix
+                                    Benjamin Levi
                                 </p>
-                                <p className="mb-4 text-sm text-white">Good guy</p>
+                                <p className="mb-4 text-sm text-white">Vendor Relations U.S.A                                </p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200">
-                                    Bacon ipsum dolor sit amet salami jowl corned beef, andouille
-                                    flank.
+                                    A skilled communicator and negotiator, building strong vendor relationships in the U.S.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a
@@ -286,19 +255,19 @@ const OurTeam = () => {
                     </div>
                     <div>
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
-                            <img
+                        <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                                src={teamMember6}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Andrew Larkin
+                                    Salvador Palacios
                                 </p>
-                                <p className="mb-4 text-sm text-white">Backend Developer</p>
+                                <p className="mb-4 text-sm text-white">LATAM Product Specialist
+                                </p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200">
-                                    Moonfish, steelhead, lamprey southern flounder tadpole fish
-                                    bigeye.
+                                    An expert in LATAM markets, optimizing product selection and regional strategies.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a
@@ -323,19 +292,19 @@ const OurTeam = () => {
                     </div>
                     <div>
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                            <img
+                        <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                                src={teamMember7}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Sophie Denmo
+                                    Abraham Levi
                                 </p>
-                                <p className="mb-4 text-sm text-white">Designer</p>
+                                <p className="mb-4 text-sm text-white">Buyer
+                                </p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200">
-                                    Veggies sunt bona vobis, proinde vos postulo esse magis grape
-                                    pea.
+                                    A detail-oriented negotiator, securing quality products at the best prices.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a
@@ -360,19 +329,19 @@ const OurTeam = () => {
                     </div>
                     <div>
                         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-                            <img
+                        <img
                                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                                src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                                src={teamMember8}
                                 alt="Person"
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100 inter-font">
                                 <p className="mb-1 text-lg font-bold inter-font text-[#f26a0f]">
-                                    Benedict Caro
+                                    Olivia Sharp
                                 </p>
-                                <p className="mb-4 text-sm text-white">Frontend Developer</p>
+                                <p className="mb-4 text-sm text-white">Accounting AP/AR
+                                </p>
                                 <p className="mb-4 text-sm tracking-wide text-gray-200">
-                                    I love cheese, especially airedale queso. Cheese and biscuits
-                                    halloumi.
+                                    A meticulous and organized professional, managing accounts payable and receivable with precision.
                                 </p>
                                 <div className="flex items-center justify-center space-x-3">
                                     <a

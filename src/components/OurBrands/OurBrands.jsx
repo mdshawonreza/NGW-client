@@ -308,7 +308,7 @@ const OurBrands = () => {
 
                             <h2 className=" font-sans tracking-tight text-white sm:text-4xl sm:leading-none text-3xl md:text-[62px] font-extrabold text-center  inter-font my-3">
 
-                                Our <span className='text-[#F26B24] md:leading-relaxed'>Brands </span>
+                                <span className='text-[#F26B24] md:leading-relaxed'>Brands </span>
                             </h2>
                             <p className=" md:text-[26px] font-medium text-gray-200 inter-font px-3 md:px-0">
                                 One-stop destination for high-quality wholesale products at unbeatable prices.
